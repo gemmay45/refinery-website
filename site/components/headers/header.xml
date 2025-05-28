@@ -28,7 +28,7 @@
 	<showItemsInline_b>true</showItemsInline_b>
 	<accounts_o item-list="true">	<item>	<network_s>facebook</network_s>
 	<title_s/>
-	<url_s no-default="true"/>
+	<url_s>#</url_s>
 	<icon_s/>
 	<icon_s_alt/>
 	</item>	<item>	<network_s>twitter</network_s>
@@ -44,14 +44,14 @@
 	</item></accounts_o>
 	<createdDate>2022-02-22T19:04:47.646Z</createdDate>
 	<createdDate_dt>2022-02-22T19:04:47.646Z</createdDate_dt>
-	<lastModifiedDate>2025-05-28T06:06:00.023Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-28T06:06:00.023Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-28T06:06:12.143Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-28T06:06:12.143Z</lastModifiedDate_dt>
 </component>
 	</item></socialMediaWidget_o>
 	<createdDate>2017-02-3T23:27:50.000Z</createdDate>
 	<createdDate_dt>2017-02-3T23:27:50.000Z</createdDate_dt>
-	<lastModifiedDate>2025-05-28T06:05:59.761Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-05-28T06:05:59.761Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-05-28T06:06:11.886Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-05-28T06:06:11.886Z</lastModifiedDate_dt>
 	<logo_s>/static-assets/images/1-gear.png</logo_s>
 	<logo_text_t/>
 	<disabled>false</disabled>
