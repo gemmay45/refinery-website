@@ -627,14 +627,14 @@
 						</property>
 						<property>
 							<name>altTextRequired</name>
-							<value></value>
+							<value>true</value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[true]]></value>
+							<value><![CDATA[false]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
