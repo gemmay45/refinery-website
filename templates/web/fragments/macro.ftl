@@ -17,12 +17,12 @@
 
 <#macro renderHeaderItems HeaderItem>
 <#if HeaderItem.header_o?? && HeaderItem.header_o.item??>
-    <#include "/templates/web/components/cx-header.ftl"/>
+    <#include "/templates/web/components/header.ftl"/>
 </#if>
 </#macro>
 
 <#macro renderFooterItems FooterItem>
 <#if FooterItem.footer_o?? && FooterItem.footer_o.item??>
-    <#include "/templates/web/components/cx-footer.ftl"/>
+    <#include "/templates/web/components/footer.ftl"/>
 </#if>
 </#macro>
