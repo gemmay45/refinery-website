@@ -13,8 +13,29 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-03T09:08:09.145Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-03T09:08:09.145Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-03T09:09:27.669Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-03T09:09:27.669Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
-	<components_o item-list="true"/>
+	<components_o item-list="true">	<item inline="true">	<key>96174381-ac4a-2aa7-2d88-b070215ec1d3</key>
+	<value>Hero</value>
+<component id="96174381-ac4a-2aa7-2d88-b070215ec1d3">
+	<content-type>/component/rf-image-full-width</content-type>
+	<display-template>/templates/web/components/refinery/rf-image-full-width.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9617</objectGroupId>
+	<objectId>96174381-ac4a-2aa7-2d88-b070215ec1d3</objectId>
+	<file-name>96174381-ac4a-2aa7-2d88-b070215ec1d3.xml</file-name>
+	<folder-name/>
+	<internal-name>Hero</internal-name>
+	<mediaTitle_s>WELCOME TO THE CLUB</mediaTitle_s>
+	<mediaThumbnail_s/>
+	<mediaThumbnail_s_alt/>
+	<mediaBody_html>&lt;p&gt;Elegance distilled to its purest form.&amp;nbsp;&lt;br&gt;A haven to relax, refuel and reconnect.&lt;/p&gt;</mediaBody_html>
+	<createdDate>2025-06-03T09:09:34.263Z</createdDate>
+	<createdDate_dt>2025-06-03T09:09:34.263Z</createdDate_dt>
+	<lastModifiedDate>2025-06-03T09:09:34.263Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-03T09:09:34.263Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
 </page>
