@@ -326,9 +326,7 @@ The Refinery is a contemporary Members' Club set in the heart of Taikoo Place, a
         gtag('config', 'G-E2K4ZYBYHW');
     </script>
     <script>!function (e) { var t, a = { kitId: "epr3oeu", scriptTimeout: 3e3, async: !0 }, c = e.documentElement, i = setTimeout(function () { c.className = c.className.replace(/\bwf-loading\b/g, "") + " wf-inactive" }, a.scriptTimeout), n = e.createElement("script"), o = !1, s = e.getElementsByTagName("script")[0]; c.className += " wf-loading", n.src = "//use.typekit.net/" + a.kitId + ".js", n.async = !0, n.onload = n.onreadystatechange = function () { if (t = this.readyState, !(o || t && "complete" != t && "loaded" != t)) { o = !0, clearTimeout(i); try { Typekit.load(a) } catch (e) { } } }, s.parentNode.insertBefore(n, s) }(document)</script>
-    <script src="./Home - The Refinery_files/api.js" async="" defer="defer"></script>
-    <script src="./Home - The Refinery_files/plugins.js"></script>
-    <script src="./Home - The Refinery_files/main.js" async="" defer="defer"></script>
+
     
 <@crafter.body_bottom/>
 
