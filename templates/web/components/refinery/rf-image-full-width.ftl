@@ -1,4 +1,6 @@
-<div class="container-fluid">
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
+<@crafter.div class="container-fluid">
     <div class="hero">
             <div class="lazy-wrap lazy-wrap-loaded" data-ratio="50x20">
                     <img alt="" class="img-fluid lazyload" src="./Home - The Refinery_files/s_lounge_05.webp" style="">
@@ -13,4 +15,4 @@ A haven to relax, refuel and reconnect.</span></p>
             <span class="sr-only">Main Content</span>
         </a>
     </div>
-</div>
+</@crafter.div>
