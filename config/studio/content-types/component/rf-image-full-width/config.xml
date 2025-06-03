@@ -1,6 +1,6 @@
-<content-type name="/component/rf-image-full-wifth" is-wcm-type="true">
+<content-type name="/component/rf-image-full-width" is-wcm-type="true">
 	<label>RF-image-full-wifth</label>
-	<form>/component/rf-image-full-wifth</form>
+	<form>/component/rf-image-full-width</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
