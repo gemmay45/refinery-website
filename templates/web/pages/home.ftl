@@ -132,6 +132,7 @@ Virtual Tour                                            </a>
     </div>
     
 
+<#include "/templates/web/fragments/cx-body.ftl"/>
 
 <div id="content">
     
