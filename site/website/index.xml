@@ -13,30 +13,31 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-05T08:58:06.147Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-05T08:58:06.147Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-05T08:59:09.415Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T08:59:09.415Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
-	<components_o item-list="true">	<item inline="true">	<key>96174381-ac4a-2aa7-2d88-b070215ec1d3</key>
+	<components_o item-list="true"/>
+	<topFluidComponents_o item-list="true">	<item inline="true">	<key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
 	<value>Hero</value>
-	<disableFlattening>false</disableFlattening>
-<component id="96174381-ac4a-2aa7-2d88-b070215ec1d3">
+<component id="b996bd82-7b12-0baa-1e07-55f207ce4976">
 	<content-type>/component/rf-image-full-width</content-type>
 	<display-template>/templates/web/components/rf-image-full-width.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>9617</objectGroupId>
-	<objectId>96174381-ac4a-2aa7-2d88-b070215ec1d3</objectId>
-	<file-name>96174381-ac4a-2aa7-2d88-b070215ec1d3.xml</file-name>
+	<objectGroupId>b996</objectGroupId>
+	<objectId>b996bd82-7b12-0baa-1e07-55f207ce4976</objectId>
+	<file-name>b996bd82-7b12-0baa-1e07-55f207ce4976.xml</file-name>
 	<folder-name/>
-	<internal-name>Hero</internal-name>
-	<mediaTitle_s>WELCOME TO THE CLUB</mediaTitle_s>
 	<mediaThumbnail_s>/static-assets/images/refinery/s_lounge_05.webp</mediaThumbnail_s>
 	<mediaThumbnail_s_alt/>
+	<internal-name>Hero</internal-name>
+	<mediaTitle_s>WELCOME TO THE CLUB</mediaTitle_s>
 	<mediaBody_html>&lt;p&gt;Elegance distilled to its purest form.&amp;nbsp;&lt;br&gt;A haven to relax, refuel and reconnect.&lt;/p&gt;</mediaBody_html>
-	<createdDate>2025-06-03T09:09:34.263Z</createdDate>
-	<createdDate_dt>2025-06-03T09:09:34.263Z</createdDate_dt>
-	<lastModifiedDate>2025-06-05T07:05:50.614Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-05T07:05:50.614Z</lastModifiedDate_dt>
+	<createdDate>2025-06-05T08:59:15.062Z</createdDate>
+	<createdDate_dt>2025-06-05T08:59:15.062Z</createdDate_dt>
+	<lastModifiedDate>2025-06-05T08:59:15.062Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T08:59:15.062Z</lastModifiedDate_dt>
 </component>
-	</item></components_o>
+	</item></topFluidComponents_o>
+	<bottomFluidComponents_o item-list="true"/>
 </page>
