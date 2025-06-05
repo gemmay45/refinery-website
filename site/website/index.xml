@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-05T09:06:37.129Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-05T09:06:37.129Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-05T09:19:34.513Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T09:19:34.513Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -30,12 +30,35 @@
 	<internal-name>Row</internal-name>
 	<createdDate>2025-06-05T09:06:43.512Z</createdDate>
 	<createdDate_dt>2025-06-05T09:06:43.512Z</createdDate_dt>
-	<lastModifiedDate>2025-06-05T09:06:43.512Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-05T09:06:43.512Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-05T09:19:40.590Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T09:19:40.590Z</lastModifiedDate_dt>
+	<components_o item-list="true">	<item inline="true">	<key>1a743bbb-716e-0f75-ddf2-749deeb2905e</key>
+	<value>Text</value>
+<component id="1a743bbb-716e-0f75-ddf2-749deeb2905e">
+	<content-type>/component/rf-text-block</content-type>
+	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1a74</objectGroupId>
+	<objectId>1a743bbb-716e-0f75-ddf2-749deeb2905e</objectId>
+	<file-name>1a743bbb-716e-0f75-ddf2-749deeb2905e.xml</file-name>
+	<folder-name/>
+	<internal-name>Text</internal-name>
+	<title_s>ABOUT THE CLUB</title_s>
+	<subtitle_s>AN EXCLUSIVE HUB FOR EXTRAORDINARY MINDS</subtitle_s>
+	<bodyContent_html>&lt;p&gt;The Refinery is a contemporary Members' Club set in the heart of Taikoo Place, a cultured retreat appealing to Hong Kong's remarkable community of modern professionals. Ours is a place where great minds meet &amp;ndash; where forward-thinkers gather and conversations flow.&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-05T09:19:44.314Z</createdDate>
+	<createdDate_dt>2025-06-05T09:19:44.314Z</createdDate_dt>
+	<lastModifiedDate>2025-06-05T09:19:44.314Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T09:19:44.314Z</lastModifiedDate_dt>
 </component>
+	</item></components_o>
+</component>
+	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<topFluidComponents_o item-list="true">	<item inline="true">	<key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
 	<value>Hero</value>
+	<disableFlattening>false</disableFlattening>
 <component id="b996bd82-7b12-0baa-1e07-55f207ce4976">
 	<content-type>/component/rf-image-full-width</content-type>
 	<display-template>/templates/web/components/rf-image-full-width.ftl</display-template>
@@ -55,7 +78,6 @@
 	<lastModifiedDate>2025-06-05T08:59:15.062Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-05T08:59:15.062Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></topFluidComponents_o>
 	<bottomFluidComponents_o item-list="true"/>
 </page>
