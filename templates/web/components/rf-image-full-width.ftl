@@ -6,7 +6,7 @@
                     <img alt="" class="img-fluid lazyload" src="/static-assets/images/refinery/s_lounge_05.webp" style="">
             </div>
         <div class="intro">
-            <h1 class="title">WELCOME TO THE CLUB</h1>
+            <h1 class="title">${contentModel.mediaTitle_s}</h1>
             <p><span>Elegance distilled to its purest form.&nbsp;<br>
 A haven to relax, refuel and reconnect.</span></p>
         </div>
