@@ -1,6 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.div class="container-fluid">
     <div class="hero">
             <div class="lazy-wrap lazy-wrap-loaded" data-ratio="50x20">
                                <@crafter.img alt="" class="img-fluid lazyload" $field="mediaThumbnail_s" src="${contentModel.mediaThumbnail_s}" />
@@ -14,4 +13,3 @@
             <span class="sr-only">Main Content</span>
         </a>
     </div>
-</@crafter.div>
