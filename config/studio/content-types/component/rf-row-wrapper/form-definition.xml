@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/rf-row-wrapper.ftl</value>
+			<value>/templates/web/components/rf-row-wrapper.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -114,7 +114,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>components</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
