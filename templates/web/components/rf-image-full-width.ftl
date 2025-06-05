@@ -3,7 +3,7 @@
 <@crafter.div class="container-fluid">
     <div class="hero">
             <div class="lazy-wrap lazy-wrap-loaded" data-ratio="50x20">
-                    <img alt="" class="img-fluid lazyload" src="${contentModel.mediaThumbnail}">
+                    <img alt="" class="img-fluid lazyload" src="${contentModel.mediaThumbnail}" />
             </div>
         <div class="intro">
             <h1 class="title">${contentModel.mediaTitle_s}</h1>
