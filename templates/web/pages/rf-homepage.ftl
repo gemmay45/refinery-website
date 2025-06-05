@@ -132,12 +132,9 @@ Virtual Tour                                            </a>
     </div>
     
 
-<#include "/templates/web/fragments/rf-homepage-body.ftl"/>
-
 <div id="content">
     
-
-<div class="container" id="main-content">
+<#include "/templates/web/fragments/rf-homepage-body.ftl"/>
 
 <div class="row cards without-shadow d-sm-flex mb-5">
     
@@ -199,7 +196,6 @@ Virtual Tour                                            </a>
             </div>
     </div>
 
-</div>
 </div>
 
 <div class="container-fluid">
