@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-05T10:14:50.203Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-05T10:14:50.203Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-05T10:23:50.685Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T10:23:50.685Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -31,8 +31,8 @@
 	<internal-name>Row</internal-name>
 	<createdDate>2025-06-05T09:06:43.512Z</createdDate>
 	<createdDate_dt>2025-06-05T09:06:43.512Z</createdDate_dt>
-	<lastModifiedDate>2025-06-05T10:14:53.256Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-05T10:14:53.256Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-05T10:23:54.518Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T10:23:54.518Z</lastModifiedDate_dt>
 	<components_o item-list="true">	<item inline="true">	<key>1a743bbb-716e-0f75-ddf2-749deeb2905e</key>
 	<value>Text</value>
 	<disableFlattening>false</disableFlattening>
@@ -56,6 +56,7 @@
 </component>
 	</item>	<item inline="true">	<key>6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30</key>
 	<value>Media Gallery</value>
+	<disableFlattening>false</disableFlattening>
 <component id="6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30">
 	<content-type>/component/rf-media-gallery</content-type>
 	<display-template>/templates/web/components/rf-media-gallery.ftl</display-template>
@@ -78,7 +79,26 @@
 	<lastModifiedDate>2025-06-05T10:14:56.229Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-05T10:14:56.229Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>abe2e956-96a3-cc6e-547a-b1a1a8430f55</key>
+	<value>Text</value>
+<component id="abe2e956-96a3-cc6e-547a-b1a1a8430f55">
+	<content-type>/component/rf-text-block</content-type>
+	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>abe2</objectGroupId>
+	<objectId>abe2e956-96a3-cc6e-547a-b1a1a8430f55</objectId>
+	<file-name>abe2e956-96a3-cc6e-547a-b1a1a8430f55.xml</file-name>
+	<folder-name/>
+	<internal-name>Text</internal-name>
+	<title_s>CLUB FACILITIES</title_s>
+	<subtitle_s>AMENITIES MADE FOR PERSONAL AMBITION</subtitle_s>
+	<bodyContent_html>&lt;p&gt;The Refinery presents our Members with a sense of belonging, through facilities fit for personal indulgence and shared gratification. Our array of amenities allows you to embrace life's many pleasures &amp;ndash; culinary delights in our restaurant, mellow moments within our bar &amp;amp; lounges, as well as physical accomplishments through our fitness centre.&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-05T10:23:59.745Z</createdDate>
+	<createdDate_dt>2025-06-05T10:23:59.745Z</createdDate_dt>
+	<lastModifiedDate>2025-06-05T10:23:59.745Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T10:23:59.745Z</lastModifiedDate_dt>
+</component>
 	</item></components_o>
 </component>
 	</item></components_o>
