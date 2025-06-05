@@ -7,8 +7,7 @@
             </div>
         <div class="intro">
             <h1 class="title">${contentModel.mediaTitle_s}</h1>
-            <p><span>Elegance distilled to its purest form.&nbsp;<br>
-A haven to relax, refuel and reconnect.</span></p>
+            ${contentModel.mediaBody_s}
         </div>
         <a href="https://www.refineryclub.com/en/#main-content" class="move-to-sect">
             <span class="icon sp-arrow-down"></span>
