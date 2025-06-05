@@ -5,10 +5,10 @@
             <div class="lazy-wrap lazy-wrap-loaded" data-ratio="50x20">
                     <@crafter.img alt="" class="img-fluid lazyload" src="${contentModel.mediaThumbnail}" />
             </div>
-        <div class="intro">
+        <@crafter.div class="intro">
             <@crafter.h1 class="title">${contentModel.mediaTitle_s}</@crafter.h1>
             ${contentModel.mediaBody_html}
-        </div>
+        </@crafter.div>
         <a href="https://www.refineryclub.com/en/#main-content" class="move-to-sect">
             <span class="icon sp-arrow-down"></span>
             <span class="sr-only">Main Content</span>
