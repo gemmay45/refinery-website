@@ -1,7 +1,8 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <div class="row">
-     <#if contentModel.components_o?? && contentModel.components_o.item??>
+    <div class="col-12 lead-text">
+    <#if contentModel.components_o?? && contentModel.components_o.item??>
          <@crafter.div class="" $model=ContentModel $field="components_o">
          <@crafter.forEach contentModel.components_o; listItem, index>
              <#--<@crafter.section class="section" $field="components_o" $index=index>-->
@@ -13,8 +14,6 @@
          <@crafter.div class="craftercms-empty-collection" $model=ContentModel $field="components_o"></@crafter.div>
      </#if>
 
-
-    <div class="col-12 lead-text">
         
 
         <div class="col-xs-12 col-md-10 col-lg-8 ml-auto mr-auto">
