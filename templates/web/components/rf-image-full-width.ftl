@@ -3,10 +3,10 @@
 <@crafter.div class="container-fluid">
     <div class="hero">
             <div class="lazy-wrap lazy-wrap-loaded" data-ratio="50x20">
-                    <img alt="" class="img-fluid lazyload" src="${contentModel.mediaThumbnail}" />
+                    <@crafter.img alt="" class="img-fluid lazyload" src="${contentModel.mediaThumbnail}" />
             </div>
         <div class="intro">
-            <h1 class="title">${contentModel.mediaTitle_s}</h1>
+            <@crafter.h1 class="title">${contentModel.mediaTitle_s}</@crafter.h1>
             ${contentModel.mediaBody_html}
         </div>
         <a href="https://www.refineryclub.com/en/#main-content" class="move-to-sect">
