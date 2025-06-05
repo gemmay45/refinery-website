@@ -344,7 +344,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value></value>
+							<value>/component/rf-row-wrapper</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
