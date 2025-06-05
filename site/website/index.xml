@@ -20,7 +20,7 @@
 	<value>Hero</value>
 <component id="96174381-ac4a-2aa7-2d88-b070215ec1d3">
 	<content-type>/component/rf-image-full-width</content-type>
-	<display-template>/templates/web/components/refinery/rf-image-full-width.ftl</display-template>
+	<display-template>/templates/web/components/rf-image-full-width.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>9617</objectGroupId>
