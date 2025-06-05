@@ -1,10 +1,7 @@
 <div class="row">
 
     <div class="col-12 lead-text">
-        <h2 class="title">ABOUT THE CLUB</h2>
-<h3 class="subtitle">AN EXCLUSIVE HUB FOR EXTRAORDINARY MINDS</h3>
-The Refinery is a contemporary Members' Club set in the heart of Taikoo Place, a cultured retreat appealing to Hong Kong's remarkable community of modern professionals. Ours is a place where great minds meet – where forward-thinkers gather and conversations flow.
-
+        
 
         <div class="col-xs-12 col-md-10 col-lg-8 ml-auto mr-auto">
             <div class="d-sm-flex">
