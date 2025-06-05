@@ -2,7 +2,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 <link rel="stylesheet" href="/static-assets/css/font-awesome.min.css?site=${siteContext.siteName}"/>
-<link rel="stylesheet" href="/static-assets/css/main.css?site=${siteContext.siteName}"/>
+<!--<link rel="stylesheet" href="/static-assets/css/main.css?site=${siteContext.siteName}"/>-->
 <link rel="stylesheet" href="/static-assets/css/social-media-widget.css?site=${siteContext.siteName}"/>
 <link rel="stylesheet" href="/static-assets/refinery/main.css?site=${siteContext.siteName}">
 <script type="text/javascript" async="" charset="utf-8" src="/static-assets/refinery/recaptcha__en.js?site=${siteContext.siteName}" crossorigin="anonymous" integrity="sha384-Pgzxh1AwnkDgbWKtYDFLE/r3ApPn/Q8WuDIGgofHUvDRypiXM2Mes4UTV5JTaDp+"></script>
