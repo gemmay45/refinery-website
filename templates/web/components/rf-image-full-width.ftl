@@ -7,7 +7,7 @@
             </div>
         <div class="intro">
             <h1 class="title">${contentModel.mediaTitle_s}</h1>
-            ${contentModel.mediaBody_s}
+            ${contentModel.mediaBody_html}
         </div>
         <a href="https://www.refineryclub.com/en/#main-content" class="move-to-sect">
             <span class="icon sp-arrow-down"></span>
