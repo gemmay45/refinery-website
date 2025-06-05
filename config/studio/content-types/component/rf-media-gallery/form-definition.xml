@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/re-media-gallery.ftl</value>
+			<value>/templates/web/components/rf-media-gallery.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -145,7 +145,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>imagefromRepository</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
