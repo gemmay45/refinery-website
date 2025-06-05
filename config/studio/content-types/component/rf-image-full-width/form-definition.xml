@@ -1,5 +1,5 @@
 <form>
-	<title>RF-image-full-wifth</title>
+	<title>RF-image-full-width</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/rf-image-full-width</content-type>
@@ -26,7 +26,7 @@
 		</property>
 	</properties>
 	<sections>		<section>
-			<title>RF-image-full-wifth Properties</title>
+			<title>RF-image-full-width Properties</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
 			<fields>

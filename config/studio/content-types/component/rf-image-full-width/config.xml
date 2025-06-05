@@ -1,5 +1,5 @@
 <content-type name="/component/rf-image-full-width" is-wcm-type="true">
-	<label>RF-image-full-wifth</label>
+	<label>RF-image-full-width</label>
 	<form>/component/rf-image-full-width</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
