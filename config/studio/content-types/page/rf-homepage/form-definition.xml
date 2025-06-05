@@ -165,7 +165,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>topComponents</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -271,7 +271,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>bottomComponents</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
