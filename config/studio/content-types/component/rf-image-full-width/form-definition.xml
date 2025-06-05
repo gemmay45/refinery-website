@@ -271,7 +271,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/refinery</value>
+							<value>/static-assets/images/refinery</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
