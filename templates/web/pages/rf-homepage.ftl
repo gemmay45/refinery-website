@@ -138,36 +138,8 @@ Virtual Tour                                            </a>
     
 
 <div class="container" id="main-content">
-    <div class="row">
-    <div class="col-12 lead-text">
-        <h2 class="title">ABOUT THE CLUB</h2>
-<h3 class="subtitle">AN EXCLUSIVE HUB FOR EXTRAORDINARY MINDS</h3>
-The Refinery is a contemporary Members' Club set in the heart of Taikoo Place, a cultured retreat appealing to Hong Kong's remarkable community of modern professionals. Ours is a place where great minds meet – where forward-thinkers gather and conversations flow.
 
-
-        <div class="col-xs-12 col-md-10 col-lg-8 ml-auto mr-auto">
-            <div class="d-sm-flex">
-                            <div class="col mt-5">
-                <img src="./Home - The Refinery_files/home-1.webp" alt="" class="img-fluid lazyload" style="">
-            </div>
-            <div class="col mt-5">
-                <img src="./Home - The Refinery_files/home-2.webp" alt="" class="img-fluid lazyload" style="">
-            </div>
-            <div class="col mt-5">
-                <img src="./Home - The Refinery_files/home-3.webp" alt="" class="img-fluid lazyload" style="">
-            </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="col-12 lead-text">
-        <h2 class="title">CLUB FACILITIES</h2>
-<h3 class="subtitle">AMENITIES MADE FOR PERSONAL AMBITION</h3>
-<p><span>The Refinery presents our Members with a sense of belonging, through facilities fit for personal indulgence and shared gratification. Our array of amenities allows you to embrace life's many pleasures – culinary delights in our restaurant, mellow moments within our bar &amp; lounges, as well as physical accomplishments through our fitness centre.</span></p>
-
-
-    </div>
-</div><div class="row cards without-shadow d-sm-flex mb-5">
+<div class="row cards without-shadow d-sm-flex mb-5">
     
 
     <div class="col-12 col-md-6 d-sm-flex mb-4">
