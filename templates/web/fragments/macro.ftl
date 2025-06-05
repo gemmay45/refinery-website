@@ -20,7 +20,7 @@
      <div class="container-fluid">
      <#if secItem.topFluidComponents_o?? && secItem.topFluidComponents_o.item??>
          <@crafter.div class="" $model=ContentModel $field="topFluidComponents_o">
-         <@crafter.forEach secItem.components_o; listItem, index>
+         <@crafter.forEach secItem.topFluidComponents_o; listItem, index>
              <@crafter.section class="section" $field="topFluidComponents_o" $index=index>
                 <@renderComponent component=listItem/>
              </@crafter.section>
