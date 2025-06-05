@@ -1,3 +1,5 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
 <div class="row">
 
     <div class="col-12 lead-text">
