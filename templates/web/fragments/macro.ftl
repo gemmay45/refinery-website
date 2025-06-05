@@ -15,6 +15,23 @@
      </#if>
 </#macro>
 
+
+<#macro renderHomepageSectionItems secItem>
+     <div class="container-fluid">
+     <#if secItem.topFluidComponents_o?? && secItem.topFluidComponents_o.item??>
+         <@crafter.div class="" $model=ContentModel $field="topFluidComponents_o">
+         <@crafter.forEach secItem.components_o; listItem, index>
+             <@crafter.section class="section" $field="topFluidComponents_o" $index=index>
+                <@renderComponent component=listItem/>
+             </@crafter.section>
+         </@crafter.forEach>
+         </@crafter.div>
+     <#else>
+         <@crafter.div class="craftercms-empty-collection" $model=ContentModel $field="topFluidComponents_o"></@crafter.div>
+     </#if>
+     </div>
+</#macro>
+
 <#macro renderHeaderItems HeaderItem>
 <#if HeaderItem.header_o?? && HeaderItem.header_o.item??>
     <#include "/templates/web/components/header.ftl"/>
