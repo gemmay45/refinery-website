@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-05T06:38:58.990Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-05T06:38:58.990Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-05T07:05:47.969Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T07:05:47.969Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>96174381-ac4a-2aa7-2d88-b070215ec1d3</key>
 	<value>Hero</value>
@@ -30,13 +30,13 @@
 	<folder-name/>
 	<internal-name>Hero</internal-name>
 	<mediaTitle_s>WELCOME TO THE CLUB</mediaTitle_s>
-	<mediaThumbnail_s/>
+	<mediaThumbnail_s>/static-assets/images/refinery/s_lounge_05.webp</mediaThumbnail_s>
 	<mediaThumbnail_s_alt/>
 	<mediaBody_html>&lt;p&gt;Elegance distilled to its purest form.&amp;nbsp;&lt;br&gt;A haven to relax, refuel and reconnect.&lt;/p&gt;</mediaBody_html>
 	<createdDate>2025-06-03T09:09:34.263Z</createdDate>
 	<createdDate_dt>2025-06-03T09:09:34.263Z</createdDate_dt>
-	<lastModifiedDate>2025-06-05T06:39:02.917Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-05T06:39:02.917Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-05T07:05:50.614Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T07:05:50.614Z</lastModifiedDate_dt>
 </component>
 	</item></components_o>
 </page>
