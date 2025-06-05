@@ -3,6 +3,6 @@
 
 <@macro.renderHeaderItems contentModel />
 <main>
-<@macro.renderSectionItems contentModel />
+<@macro.renderHomepageSectionItems contentModel />
 </main>
 <@macro.renderFooterItems contentModel />
