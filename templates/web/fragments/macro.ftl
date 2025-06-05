@@ -2,16 +2,16 @@
 <#include "/templates/web/fragments/constant.ftl"/>
 
 <#macro renderSectionItems secItem>
-     <#if secItem.sections_o?? && secItem.sections_o.item??>
-         <@crafter.div class="" $model=ContentModel $field="sections_o">
-         <@crafter.forEach secItem.sections_o; listItem, index>
-             <@crafter.section class="section" $field="sections_o" $index=index>
+     <#if secItem.components_o?? && secItem.components_o.item??>
+         <@crafter.div class="" $model=ContentModel $field="components_o">
+         <@crafter.forEach secItem.components_o; listItem, index>
+             <@crafter.section class="section" $field="components_o" $index=index>
                 <@renderComponent component=listItem/>
              </@crafter.section>
          </@crafter.forEach>
          </@crafter.div>
      <#else>
-         <@crafter.div class="craftercms-empty-collection" $model=ContentModel $field="sections_o"></@crafter.div>
+         <@crafter.div class="craftercms-empty-collection" $model=ContentModel $field="components_o"></@crafter.div>
      </#if>
 </#macro>
 
