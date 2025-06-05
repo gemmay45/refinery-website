@@ -13,10 +13,27 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-05T08:59:09.415Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-05T08:59:09.415Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-05T09:06:37.129Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T09:06:37.129Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
-	<components_o item-list="true"/>
+	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
+	<value>Row</value>
+<component id="0bab49fc-8e57-5302-96bc-c4fe5b0945db">
+	<content-type>/component/rf-row-wrapper</content-type>
+	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>0bab</objectGroupId>
+	<objectId>0bab49fc-8e57-5302-96bc-c4fe5b0945db</objectId>
+	<file-name>0bab49fc-8e57-5302-96bc-c4fe5b0945db.xml</file-name>
+	<folder-name/>
+	<internal-name>Row</internal-name>
+	<createdDate>2025-06-05T09:06:43.512Z</createdDate>
+	<createdDate_dt>2025-06-05T09:06:43.512Z</createdDate_dt>
+	<lastModifiedDate>2025-06-05T09:06:43.512Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-05T09:06:43.512Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
 	<topFluidComponents_o item-list="true">	<item inline="true">	<key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
 	<value>Hero</value>
 <component id="b996bd82-7b12-0baa-1e07-55f207ce4976">
@@ -38,6 +55,7 @@
 	<lastModifiedDate>2025-06-05T08:59:15.062Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-05T08:59:15.062Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></topFluidComponents_o>
 	<bottomFluidComponents_o item-list="true"/>
 </page>
