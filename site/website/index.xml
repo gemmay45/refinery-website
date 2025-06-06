@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T02:26:20.442Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T02:26:20.442Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T02:46:35.376Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T02:46:35.376Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -119,6 +119,7 @@
       </component>
 	</item>	<item inline="true">	<key>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</key>
 	<value>Card Group</value>
+	<disableFlattening>false</disableFlattening>
 <component id="a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb">
         <content-type>/component/rf-card-group</content-type>
         <display-template>/templates/web/components/rf-card-group.ftl</display-template>
@@ -160,7 +161,6 @@
         <lastModifiedDate>2025-06-06T02:09:15.443Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-06T02:09:15.443Z</lastModifiedDate_dt>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<topFluidComponents_o item-list="true">	<item inline="true">	<key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
 	<value>Hero</value>
@@ -185,5 +185,24 @@
         <lastModifiedDate_dt>2025-06-05T08:59:15.062Z</lastModifiedDate_dt>
       </component>
 	</item></topFluidComponents_o>
-	<bottomFluidComponents_o item-list="true"/>
+	<bottomFluidComponents_o item-list="true">	<item inline="true">	<key>499c9339-2014-2a26-98b0-ded2952505d0</key>
+	<value>Join the Club</value>
+<component id="499c9339-2014-2a26-98b0-ded2952505d0">
+	<content-type>/component/rf-join-the-club</content-type>
+	<display-template>/templates/web/components/rf-join-the-club.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>499c</objectGroupId>
+	<objectId>499c9339-2014-2a26-98b0-ded2952505d0</objectId>
+	<file-name>499c9339-2014-2a26-98b0-ded2952505d0.xml</file-name>
+	<folder-name/>
+	<internal-name>Join the Club</internal-name>
+	<title_s>JOIN THE CLUB</title_s>
+	<bodyContent_html>&lt;p&gt;The Refinery offers its Members exclusive entry to our set of inimitable facilities. But membership here is about more than simple conveniences &amp;ndash; it grants access to an array of opportunities, to connections with fellow individuals and the stimulating chance to consort with prime movers through select events.&amp;nbsp;&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-06T02:46:39.564Z</createdDate>
+	<createdDate_dt>2025-06-06T02:46:39.564Z</createdDate_dt>
+	<lastModifiedDate>2025-06-06T02:46:39.564Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T02:46:39.564Z</lastModifiedDate_dt>
+</component>
+	</item></bottomFluidComponents_o>
 </page>
