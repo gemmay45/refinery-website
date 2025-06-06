@@ -6,14 +6,13 @@
             <div class="col-12 col-md-6 d-sm-flex mb-4">
                     <div class="card" id="main-dining">
                             <div class="card-img">
-                    <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            
-                        <div class="lazy-wrap" data-ratio="16x6">
-                                        <img alt="" class="img-fluid lazyload" src="/static-assets/images/refinery/ssxt0891.webp">
+        <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            <div class="lazy-wrap lazy-wrap-loaded" data-ratio="16x6">
+                                        <img alt="" class="img-fluid lazyload" src="./Home - The Refinery_files/SSXT0891.webp" style="">
                                     </div>
         </a>                    </div>
         
                         <div class="card-desc">
-                            <@crafter.h5 $field="title_s">${contentModel.title_s}</@crafter.h5>
+                            <h5>MAIN DINING</h5>
                             <p>Relish our authentic Cantonese cuisine with a contemporary twist, served while socialising with the city's finest in the elegant Main Dining Room, or alongside intimate groups in the discreet Private Dining Room.</p>
                         </div>
                     </div>
