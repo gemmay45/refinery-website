@@ -2,7 +2,7 @@
 <#import "/templates/web/fragments/macro.ftl" as macro />
 
 <@macro.renderHeaderItems contentModel />
-<main>
+<div id="content">
 <@macro.renderHomepageSectionItems contentModel />
-</main>
+</div>
 <@macro.renderFooterItems contentModel />
