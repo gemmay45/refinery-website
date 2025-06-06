@@ -261,5 +261,31 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources>				<datasource>
+					<type>file-browse-repo</type>
+					<id>pageSource</id>
+					<title>Page Source</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/site/website</value>
+								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>file-browse-repo</type>
+					<id>fileSource</id>
+					<title>File Source</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets</value>
+								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
