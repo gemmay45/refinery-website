@@ -2,7 +2,8 @@
 
 cardItems_o
 <div class="row cards without-shadow d-sm-flex mb-5">
-    
+    <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
+                                                        <#list contentModel.cardItems_o.item as cardItem>
     <div class="col-12 col-md-6 d-sm-flex mb-4">
             <div class="card" id="main-dining">
                     <div class="card-img">
@@ -17,6 +18,8 @@ cardItems_o
                 </div>
             </div>
     </div>
+    </#list>
+    </#if>
 </div>
 
                                                         <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
