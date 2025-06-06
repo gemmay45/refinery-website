@@ -440,7 +440,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/rf-join-the-club</value>
+							<value>/component/rf-join-the-club,/component/rf-text-block</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
