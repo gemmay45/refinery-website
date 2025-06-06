@@ -148,6 +148,18 @@
                     </icon>
                 </control>
                 <control>
+                    <plugin>
+                        <pluginId>org.craftercms.plugin.excontrol</pluginId>
+                        <type>control</type>
+                        <name>link</name>
+                        <filename>main.js</filename>
+                    </plugin>
+                    <icon>
+                        <class>fa-link</class>
+                    </icon>
+                </control>
+
+                <control>
                     <name>file-name</name>
                     <icon>
                         <class>fa-file-o</class>
