@@ -5,7 +5,7 @@
         <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
             <#list contentModel.imageItems_o.item as imageItem>
                 <div class="col mt-5" style="margin-top:0 !important">
-                    <img src="imageItem.thumbnail_s" alt="" class="img-fluid lazyload" style="" $field="imageItem.thumbnail_s">
+                    <img src="${imageItem.thumbnail_s}" alt="" class="img-fluid lazyload" style="" $field="imageItem.thumbnail_s" $index=imageItem?index>
                 </div>
              </#list>
         </#if>
