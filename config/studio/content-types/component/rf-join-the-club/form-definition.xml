@@ -206,7 +206,7 @@
 				</field>
 				<field>
 					<type>link</type>
-					<id>link</id>
+					<id>link_o</id>
 					<iceId></iceId>
 					<title>Link</title>
 					<description></description>
