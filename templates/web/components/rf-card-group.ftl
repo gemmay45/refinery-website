@@ -17,47 +17,49 @@ cardItems_o
                 </div>
             </div>
     </div>
-    <div class="col-12 col-md-6 d-sm-flex mb-4">
-            <div class="card" id="bar-&amp;-lounges">
-                    <div class="card-img">
-<a href="https://www.refineryclub.com/en/main-dining/bar-and-lounges/" class="cta">                            <div class="lazy-wrap" data-ratio="16x6">
-                                <img data-src="/-/media/swire/refineryclub/home/20180716/therefinery0509-087.ashx" alt="" class="img-fluid lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
-                            </div>
-</a>                    </div>
-
-                <div class="card-desc">
-                    <h5>BAR &amp; LOUNGES</h5>
-                    <p>Pull up a stool or slip into a quiet booth, in one of our chic Bar &amp; Lounges. Choose from a selection of fine wines, seasonal craft beers and signature cocktails, paired with comforting Asian-influenced dishes served throughout the day.</p>
-                </div>
-            </div>
-    </div>
-    <div class="col-12 col-md-6 d-sm-flex mb-4">
-            <div class="card" id="terrace">
-                    <div class="card-img">
-<a href="https://www.refineryclub.com/en/main-dining/terrace/" class="cta">                            <div class="lazy-wrap" data-ratio="16x6">
-                                <img data-src="/-/media/swire/refineryclub/home/20180716/the-refinery-terrance.ashx" alt="" class="img-fluid lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
-                            </div>
-</a>                    </div>
-
-                <div class="card-desc">
-                    <h5>TERRACE</h5>
-                    <p>Escape onto the terrace for an alfresco sanctuary overlooking bustling Tong Chong Street. Strike up a chat with your fellow Members and enjoy an assortment of food &amp; drinks while surrounded by the city's spirited sense of commerce.</p>
-                </div>
-            </div>
-    </div>
-    <div class="col-12 col-md-6 d-sm-flex mb-4">
-            <div class="card" id="fitness-centre">
-                    <div class="card-img">
-<a href="https://www.refineryclub.com/en/fitness/" class="cta">                            <div class="lazy-wrap" data-ratio="16x6">
-                                <img data-src="/-/media/swire/refineryclub/home/20180716/ssxt0762.ashx" alt="" class="img-fluid lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
-                            </div>
-</a>                    </div>
-
-                <div class="card-desc">
-                    <h5>FITNESS CENTRE</h5>
-                    <p>Step into the Fitness Centre, for advanced wellness facilities to work out or unwind. Exercise alongside a dedicated personal trainer in our fully-equipped gym and reinvigorate after a hard day's work in our spacious saunas.</p>
-                </div>
-            </div>
-    </div>
-
 </div>
+
+                                                        <#list contentModel.cardItems_o.item as cardItem>
+                                                            <@crafter.div class="col-4 col-m-card-4 col-l-3" $field="cardItems_o" $index=cardItem?index>
+                                                                <div class="basicCard -withColorHex" style="--card-bg-color: #F9F9F9; --ribbon-color-rgb: 135, 122, 92;">
+                                                                    <span>
+                                                                        <@crafter.div class="basicCard__image">
+                                                                            <div class="responsiveImage -withRatio" style="--imageWidth: 450; --imageHeight: 450; --imageWidthMD: 450; --imageHeightMD: 450; --imageWidthLG: 450; --imageHeightLG: 450;">
+                                                                                <div vid_id="1885">
+                                                                                    <picture>
+                                                                                        <source class="responsiveImage__img" media="(min-width: 905px)" srcset="${cardItem.badgeImage_s}">
+                                                                                        <source class="responsiveImage__img" media="(min-width: 600px) and (max-width: 904.98px)" srcset="${cardItem.badgeImage_s}">
+                                                                                        <@crafter.img $field="cardItems_o.badgeImage_s" $index=cardItem?index class="responsiveImage__img" style="margin-top:-105px;left:15%;width:70%" src="${cardItem.badgeImage_s}" alt="" />
+                                                                                    </picture>
+                                                                                </div>
+                                                                            </div>
+                                                                        </@crafter.div>
+                                                                        <div class="basicCard__textbox" style="margin-top:-160px">
+                                                                            <div>
+                                                                                <div class="equal-height-JlocK" style="transition-duration: 0.25s; height: 170px;">
+                                                                                    <div class="basicCardContent">
+                                                                                        <div>
+                                                                                            <@crafter.h4 $field="cardItems_o.cardTitle_s" $index=cardItem?index>${cardItem.cardTitle_s}</@crafter.h4>
+                                                                                            <@crafter.div class="basicCardContent__description" $field="cardItems_o.cardDescription_html" $index=cardItem?index>
+                                                                                                ${cardItem.cardDescription_html}
+                                                                                            </@crafter.div>
+                                                                                        </div><div></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </span>
+                                                                </div>
+                                                            </@crafter.div>
+                                                            
+
+                                                            <#--
+                                                            <@crafter.a class="link card col" href="https://www.cathaypacific.com/en_HK/wellness/insurance.html?cxsource=WELLNESS_HOME_PARTNERS" role="link" tabindex="0" $field="cardItems_o" $index=cardItem?index>
+                                                                <div class="cardLink" id="Cigna Healthcare0.5952917193555887" style="height: 196px;">
+                                                                    <@crafter.img $field="cardItems_o.image_s" $index=cardItem?index alt="" class="imageWithFallback" src="${cardItem.image_s}" />
+                                                                </div>
+                                                                <@crafter.p class="cardText" $field="cardItems_o.name_s" $index=cardItem?index>${cardItem.name_s}</@crafter.p>
+                                                            </@crafter.a>
+                                                            -->
+                                                        </#list>
+                                                    </#if>
