@@ -1,6 +1,7 @@
-<div class="cards without-shadow d-sm-flex mb-5">
-    
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
+<div class="row cards without-shadow d-sm-flex mb-5">
+    
     <div class="col-12 col-md-6 d-sm-flex mb-4">
             <div class="card" id="main-dining">
                     <div class="card-img">
@@ -10,7 +11,7 @@
 </a>                    </div>
 
                 <div class="card-desc">
-                    <h5>MAIN DINING</h5>
+                    <@crafter.h5 $field="title_s">${contentModel.title_s}</@crafter.h5>
                     <p>Relish our authentic Cantonese cuisine with a contemporary twist, served while socialising with the city's finest in the elegant Main Dining Room, or alongside intimate groups in the discreet Private Dining Room.</p>
                 </div>
             </div>
