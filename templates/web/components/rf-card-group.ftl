@@ -3,11 +3,12 @@
 cardItems_o
 <div class="row cards without-shadow d-sm-flex mb-5">
     <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
-                                                        <#list contentModel.cardItems_o.item as cardItem>
+        <#list contentModel.cardItems_o.item as cardItem>
     <div class="col-12 col-md-6 d-sm-flex mb-4">
             <div class="card" id="main-dining">
                     <div class="card-img">
-<a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            <div class="lazy-wrap" data-ratio="16x6">
+            <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            
+                <div class="lazy-wrap" data-ratio="16x6">
                                 <img data-src="/static-assets/images/refinery/ssxt0891.webp" alt="" class="img-fluid lazyload" src="/static-assets/images/refinery/ssxt0891.webp">
                             </div>
 </a>                    </div>
@@ -22,6 +23,7 @@ cardItems_o
     </#if>
 </div>
 
+                                                        <#--
                                                         <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
                                                         <#list contentModel.cardItems_o.item as cardItem>
                                                             <@crafter.div class="col-4 col-m-card-4 col-l-3" $field="cardItems_o" $index=cardItem?index>
@@ -56,14 +58,6 @@ cardItems_o
                                                                 </div>
                                                             </@crafter.div>
                                                             
-
-                                                            <#--
-                                                            <@crafter.a class="link card col" href="https://www.cathaypacific.com/en_HK/wellness/insurance.html?cxsource=WELLNESS_HOME_PARTNERS" role="link" tabindex="0" $field="cardItems_o" $index=cardItem?index>
-                                                                <div class="cardLink" id="Cigna Healthcare0.5952917193555887" style="height: 196px;">
-                                                                    <@crafter.img $field="cardItems_o.image_s" $index=cardItem?index alt="" class="imageWithFallback" src="${cardItem.image_s}" />
-                                                                </div>
-                                                                <@crafter.p class="cardText" $field="cardItems_o.name_s" $index=cardItem?index>${cardItem.name_s}</@crafter.p>
-                                                            </@crafter.a>
-                                                            -->
                                                         </#list>
                                                     </#if>
+                                                    -->
