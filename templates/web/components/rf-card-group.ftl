@@ -5,7 +5,7 @@
             <div class="card" id="main-dining">
                     <div class="card-img">
 <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            <div class="lazy-wrap" data-ratio="16x6">
-                                <img data-src="/-/media/swire/refineryclub/home/20180724/ssxt0891.ashx" alt="" class="img-fluid lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+                                <img data-src="/static-assets/images/refinery/ssxt0891.ashx" alt="" class="img-fluid lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
                             </div>
 </a>                    </div>
 
