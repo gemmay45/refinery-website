@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/footer</content-type>
+	<display-template>/templates/web/footer.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>74f7</objectGroupId>
+	<objectId>74f703ea-1d77-1623-2444-99990d47fbb3</objectId>
+	<file-name>74f703ea-1d77-1623-2444-99990d47fbb3.xml</file-name>
+	<folder-name/>
+	<internal-name>footer</internal-name>
+	<createdDate>2025-06-06T08:51:15.450Z</createdDate>
+	<createdDate_dt>2025-06-06T08:51:15.450Z</createdDate_dt>
+	<lastModifiedDate>2025-06-06T08:51:15.450Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T08:51:15.450Z</lastModifiedDate_dt>
+</component>
