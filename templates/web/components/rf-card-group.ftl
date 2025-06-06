@@ -7,7 +7,7 @@
                     <div class="card" id="main-dining">
                             <div class="card-img">
         <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            <div class="lazy-wrap lazy-wrap-loaded" data-ratio="16x6">
-                                        <img alt="" class="img-fluid lazyload" src="/static-assets/images/refinery/SSXT0891.webp" style="">
+                                        <img alt="" class="img-fluid lazyload" src="${cardItem.image_s}" style="">
                                     </div>
         </a>                    </div>
         
