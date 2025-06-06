@@ -136,9 +136,6 @@ Virtual Tour                                            </a>
     
 <#include "/templates/web/fragments/rf-homepage-body.ftl"/>
 
-<div class="container-fluid">
-
-</div>
 </div>
 
     <div class="footer">
