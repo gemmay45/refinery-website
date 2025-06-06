@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T03:05:55.120Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T03:05:55.120Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T03:14:24.320Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T03:14:24.320Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -187,6 +187,7 @@
 	</item></topFluidComponents_o>
 	<bottomFluidComponents_o item-list="true">	<item inline="true">	<key>499c9339-2014-2a26-98b0-ded2952505d0</key>
 	<value>Join the Club</value>
+	<disableFlattening>false</disableFlattening>
 <component id="499c9339-2014-2a26-98b0-ded2952505d0">
 	<content-type>/component/rf-join-the-club</content-type>
 	<display-template>/templates/web/components/rf-join-the-club.ftl</display-template>
@@ -201,9 +202,8 @@
 	<bodyContent_html>&lt;p&gt;The Refinery offers its Members exclusive entry to our set of inimitable facilities. But membership here is about more than simple conveniences &amp;ndash; it grants access to an array of opportunities, to connections with fellow individuals and the stimulating chance to consort with prime movers through select events.&amp;nbsp;&lt;/p&gt;</bodyContent_html>
 	<createdDate>2025-06-06T02:46:39.564Z</createdDate>
 	<createdDate_dt>2025-06-06T02:46:39.564Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T03:05:55.404Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T03:05:55.404Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T03:14:24.614Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T03:14:24.614Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></bottomFluidComponents_o>
 </page>
