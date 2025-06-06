@@ -3,15 +3,11 @@
 <div class="col-xs-12 col-md-10 col-lg-8 ml-auto mr-auto">
     <div class="d-sm-flex">
         <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
-        <div class="col mt-5" style="margin-top:0 !important">
-            <img src="/static-assets/images/refinery/home-1.webp" alt="" class="img-fluid lazyload" style="">
-        </div>
-        <div class="col mt-5" style="margin-top:0 !important">
-            <img src="/static-assets/images/refinery/home-2.webp" alt="" class="img-fluid lazyload" style="">
-        </div>
-        <div class="col mt-5" style="margin-top:0 !important">
-            <img src="/static-assets/images/refinery/home-3.webp" alt="" class="img-fluid lazyload" style="">
-        </div>
+            <#list contentModel.imageItems_o.item as imageItem>
+                <div class="col mt-5" style="margin-top:0 !important">
+                    <img src="imageItem.thumbnail_s" alt="" class="img-fluid lazyload" style="" $field="imageItem.thumbnail_s">
+                </div>
+             </#list>
         </#if>
     </div>
 </div>
