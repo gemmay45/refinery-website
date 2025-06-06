@@ -241,7 +241,7 @@
 						</property>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>pageSource,fileSource</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
