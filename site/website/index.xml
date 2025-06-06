@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T03:41:17.377Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T03:41:17.377Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T03:54:51.770Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T03:54:51.770Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -187,6 +187,7 @@
 	</item></topFluidComponents_o>
 	<bottomFluidComponents_o item-list="true">	<item inline="true">	<key>915a9d24-17ca-3c28-85b9-62f782d4862a</key>
 	<value>Test</value>
+	<disableFlattening>false</disableFlattening>
 <component id="915a9d24-17ca-3c28-85b9-62f782d4862a">
 	<content-type>/component/rf-text-block</content-type>
 	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
@@ -204,26 +205,6 @@
 	<createdDate_dt>2025-06-06T03:20:14.204Z</createdDate_dt>
 	<lastModifiedDate>2025-06-06T03:20:14.204Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-06T03:20:14.204Z</lastModifiedDate_dt>
-</component>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item inline="true">	<key>c1dd9a80-0632-2221-d903-20560ccccc3f</key>
-	<value>Join the Club</value>
-<component id="c1dd9a80-0632-2221-d903-20560ccccc3f">
-	<content-type>/component/rf-join-the-club</content-type>
-	<display-template>/templates/web/components/rf-join-the-club.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>c1dd</objectGroupId>
-	<objectId>c1dd9a80-0632-2221-d903-20560ccccc3f</objectId>
-	<internal-name>Join the Club</internal-name>
-	<title_s>test</title_s>
-	<file-name>c1dd9a80-0632-2221-d903-20560ccccc3f.xml</file-name>
-	<folder-name/>
-	<bodyContent_html>&lt;p&gt;test&lt;/p&gt;</bodyContent_html>
-	<createdDate>2025-06-06T03:41:25.911Z</createdDate>
-	<createdDate_dt>2025-06-06T03:41:25.911Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T03:41:25.911Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T03:41:25.911Z</lastModifiedDate_dt>
 </component>
 	</item></bottomFluidComponents_o>
 </page>
