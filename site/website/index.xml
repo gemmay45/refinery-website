@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T07:19:40.349Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T07:19:40.349Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T07:21:50.881Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T07:21:50.881Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -201,8 +201,8 @@
 	<folder-name/>
 	<createdDate>2025-06-06T03:59:19.263Z</createdDate>
 	<createdDate_dt>2025-06-06T03:59:19.263Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T07:19:44.911Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T07:19:44.911Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T07:21:54.060Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T07:21:54.060Z</lastModifiedDate_dt>
 	<bodyContent_html>&lt;p&gt;The Refinery offers its Members exclusive entry to our set of inimitable facilities. But membership here is about more than simple conveniences &amp;ndash; it grants access to an array of opportunities, to connections with fellow individuals and the stimulating chance to consort with prime movers through select events.&amp;nbsp;&lt;/p&gt;</bodyContent_html>
 	<link>	<item>	<url>https://www.google.com</url>
 	<linkText>JOIN US</linkText>
@@ -213,7 +213,7 @@
 	</item></link>
 	<link_o>	<item>	<url>https://www.google.com</url>
 	<linkText>JOIN US</linkText>
-	<linkTitle/>
+	<linkTitle>JOIN US</linkTitle>
 	<linkTarget>_blank</linkTarget>
 	<taxKey/>
 	<taxValue/>
