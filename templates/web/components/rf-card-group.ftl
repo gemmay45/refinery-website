@@ -4,7 +4,7 @@
     <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
         <#list contentModel.cardItems_o.item as cardItem>
             <@crafter.div class="col-12 col-md-6 d-sm-flex mb-4" $field="cardItems_o" $index=cardItem?index>
-                    <div class="card">
+                    <div class="card" id=${cardItem.title_s?lower_case}>
                             <div class="card-img">
                                 <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            
                                     <div class="lazy-wrap lazy-wrap-loaded" data-ratio="16x6">
