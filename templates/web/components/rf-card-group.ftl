@@ -2,7 +2,7 @@
 
 <div class="row cards without-shadow d-sm-flex mb-5">
     <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
-        <#list contentModel.cardItems_o.item as cardItem>
+        <#list contentModel.cardItems_o.item as cardItem $field="cardItems_o" $index=cardItem?index>
             <div class="col-12 col-md-6 d-sm-flex mb-4">
                     <div class="card" id="main-dining">
                             <div class="card-img">
