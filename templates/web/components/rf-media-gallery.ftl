@@ -4,9 +4,9 @@
     <div class="d-sm-flex">
         <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
             <#list contentModel.imageItems_o.item as imageItem>
-                <div class="col mt-5" style="margin-top:0 !important">
+                <@crafter.div class="col mt-5" style="margin-top:0 !important" $field="imageItems_o" $index=imageItem?index>
                     <@crafter.img src="${imageItem.thumbnail_s}" alt="" class="img-fluid lazyload" style="" $field="imageItem.thumbnail_s" $index=imageItem?index />
-                </div>
+                </@crafter.div>
              </#list>
         </#if>
     </div>
