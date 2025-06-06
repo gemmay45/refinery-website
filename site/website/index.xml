@@ -13,55 +13,10 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-06T02:24:35.203Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-06T02:24:35.203Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-06T02:24:41.519Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-06T02:24:41.519Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
-    <item inline="true">
-      <key>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</key>
-      <value>Card Group</value>
-      <component id="a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb">
-        <content-type>/component/rf-card-group</content-type>
-        <display-template>/templates/web/components/rf-card-group.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <objectGroupId>a016</objectGroupId>
-        <objectId>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</objectId>
-        <cardItems_o item-list="true">
-          <item>
-            <title_s>MAIN DINING</title_s>
-            <summary_t>Relish our authentic Cantonese cuisine with a contemporary twist, served while socialising with the city's finest in the elegant Main Dining Room, or alongside intimate groups in the discreet Private Dining Room.</summary_t>
-            <image_s>/static-assets/images/refinery/ssxt0891.webp</image_s>
-            <image_s_alt/>
-          </item>
-          <item>
-            <title_s>BAR &amp; LOUNGES</title_s>
-            <summary_t>Pull up a stool or slip into a quiet booth, in one of our chic Bar &amp; Lounges. Choose from a selection of fine wines, seasonal craft beers and signature cocktails, paired with comforting Asian-influenced dishes served throughout the day.</summary_t>
-            <image_s>/static-assets/images/refinery/therefinery0509-087.webp</image_s>
-            <image_s_alt/>
-          </item>
-          <item>
-            <title_s>TERRACE</title_s>
-            <summary_t>Escape onto the terrace for an alfresco sanctuary overlooking bustling Tong Chong Street. Strike up a chat with your fellow Members and enjoy an assortment of food &amp; drinks while surrounded by the city's spirited sense of commerce.</summary_t>
-            <image_s>/static-assets/images/refinery/the-refinery-terrance.webp</image_s>
-            <image_s_alt/>
-          </item>
-          <item>
-            <title_s>FITNESS CENTRE</title_s>
-            <summary_t>Step into the Fitness Centre, for advanced wellness facilities to work out or unwind. Exercise alongside a dedicated personal trainer in our fully-equipped gym and reinvigorate after a hard day's work in our spacious saunas.</summary_t>
-            <image_s>/static-assets/images/refinery/ssxt0762.webp</image_s>
-            <image_s_alt/>
-          </item>
-        </cardItems_o>
-        <internal-name>Card Group</internal-name>
-        <file-name>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb.xml</file-name>
-        <folder-name/>
-        <createdDate>2025-06-06T02:09:15.443Z</createdDate>
-        <createdDate_dt>2025-06-06T02:09:15.443Z</createdDate_dt>
-        <lastModifiedDate>2025-06-06T02:09:15.443Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-06T02:09:15.443Z</lastModifiedDate_dt>
-      </component>
-    </item>
     <item inline="true">
       <key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
       <value>Row</value>
@@ -163,6 +118,51 @@
             <disableFlattening>false</disableFlattening>
           </item>
         </components_o>
+      </component>
+    </item>
+    <item inline="true">
+      <key>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</key>
+      <value>Card Group</value>
+      <component id="a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb">
+        <content-type>/component/rf-card-group</content-type>
+        <display-template>/templates/web/components/rf-card-group.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <objectGroupId>a016</objectGroupId>
+        <objectId>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</objectId>
+        <cardItems_o item-list="true">
+          <item>
+            <title_s>MAIN DINING</title_s>
+            <summary_t>Relish our authentic Cantonese cuisine with a contemporary twist, served while socialising with the city's finest in the elegant Main Dining Room, or alongside intimate groups in the discreet Private Dining Room.</summary_t>
+            <image_s>/static-assets/images/refinery/ssxt0891.webp</image_s>
+            <image_s_alt/>
+          </item>
+          <item>
+            <title_s>BAR &amp; LOUNGES</title_s>
+            <summary_t>Pull up a stool or slip into a quiet booth, in one of our chic Bar &amp; Lounges. Choose from a selection of fine wines, seasonal craft beers and signature cocktails, paired with comforting Asian-influenced dishes served throughout the day.</summary_t>
+            <image_s>/static-assets/images/refinery/therefinery0509-087.webp</image_s>
+            <image_s_alt/>
+          </item>
+          <item>
+            <title_s>TERRACE</title_s>
+            <summary_t>Escape onto the terrace for an alfresco sanctuary overlooking bustling Tong Chong Street. Strike up a chat with your fellow Members and enjoy an assortment of food &amp; drinks while surrounded by the city's spirited sense of commerce.</summary_t>
+            <image_s>/static-assets/images/refinery/the-refinery-terrance.webp</image_s>
+            <image_s_alt/>
+          </item>
+          <item>
+            <title_s>FITNESS CENTRE</title_s>
+            <summary_t>Step into the Fitness Centre, for advanced wellness facilities to work out or unwind. Exercise alongside a dedicated personal trainer in our fully-equipped gym and reinvigorate after a hard day's work in our spacious saunas.</summary_t>
+            <image_s>/static-assets/images/refinery/ssxt0762.webp</image_s>
+            <image_s_alt/>
+          </item>
+        </cardItems_o>
+        <internal-name>Card Group</internal-name>
+        <file-name>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb.xml</file-name>
+        <folder-name/>
+        <createdDate>2025-06-06T02:09:15.443Z</createdDate>
+        <createdDate_dt>2025-06-06T02:09:15.443Z</createdDate_dt>
+        <lastModifiedDate>2025-06-06T02:09:15.443Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-06T02:09:15.443Z</lastModifiedDate_dt>
       </component>
     </item>
   </components_o>
