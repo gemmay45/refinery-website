@@ -13,8 +13,8 @@
                             </a>                    </div>
         
                         <div class="card-desc">
-                            <@crafter.h5>${cardItem.title_s}</@crafter.h5>
-                            <p>Relish our authentic Cantonese cuisine with a contemporary twist, served while socialising with the city's finest in the elegant Main Dining Room, or alongside intimate groups in the discreet Private Dining Room.</p>
+                            <@crafter.h5 $field="title_s">${cardItem.title_s}</@crafter.h5>
+                            <@crafter.p $field="summary_t">${cardItem.summary_t}</@crafter.p>
                         </div>
                     </div>
             </div>
