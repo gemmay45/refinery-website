@@ -5,7 +5,7 @@
     <@crafter.div $field="bodyContent_html">${contentModel.bodyContent_html}</@crafter.div>
     <#if contentModel.link_o?? && contentModel.link_o.item??>
         <p>
-            <@crafter.a href="${crafterCommon.pathToUrl('${contentModel.link_o.item.url}', '')}" class="btn btn-large cta" target="${contentModel.link_o.item.linkTarget}">${contentModel.link_o.item.linkText}</@crafter.a>
+            <@crafter.a href="${crafterCommon.pathToUrl('${contentModel.link_o.item.url}', '')}" class="btn btn-large cta" target="${contentModel.link_o.item.linkTarget}">${contentModel.link_o.item.linkText!}</@crafter.a>
         </p>
     </#if>
 </div>
