@@ -1,25 +1,24 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-cardItems_o
 <div class="row cards without-shadow d-sm-flex mb-5">
     <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
         <#list contentModel.cardItems_o.item as cardItem>
-    <div class="col-12 col-md-6 d-sm-flex mb-4">
-            <div class="card" id="main-dining">
-                    <div class="card-img">
-            <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            
-                <div class="lazy-wrap" data-ratio="16x6">
-                                <img data-src="/static-assets/images/refinery/ssxt0891.webp" alt="" class="img-fluid lazyload" src="/static-assets/images/refinery/ssxt0891.webp">
-                            </div>
-</a>                    </div>
-
-                <div class="card-desc">
-                    <@crafter.h5 $field="title_s">${contentModel.title_s}</@crafter.h5>
-                    <p>Relish our authentic Cantonese cuisine with a contemporary twist, served while socialising with the city's finest in the elegant Main Dining Room, or alongside intimate groups in the discreet Private Dining Room.</p>
-                </div>
+            <div class="col-12 col-md-6 d-sm-flex mb-4">
+                    <div class="card" id="main-dining">
+                            <div class="card-img">
+                    <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            
+                        <div class="lazy-wrap" data-ratio="16x6">
+                                        <img alt="" class="img-fluid lazyload" src="/static-assets/images/refinery/ssxt0891.webp">
+                                    </div>
+        </a>                    </div>
+        
+                        <div class="card-desc">
+                            <@crafter.h5 $field="title_s">${contentModel.title_s}</@crafter.h5>
+                            <p>Relish our authentic Cantonese cuisine with a contemporary twist, served while socialising with the city's finest in the elegant Main Dining Room, or alongside intimate groups in the discreet Private Dining Room.</p>
+                        </div>
+                    </div>
             </div>
-    </div>
-    </#list>
+        </#list>
     </#if>
 </div>
 
