@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T01:24:34.836Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T01:24:34.836Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T02:08:21.282Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T02:08:21.282Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -109,60 +109,6 @@
             </component>
 	<disableFlattening>false</disableFlattening>
 	</item></components_o>
-</component>
-	</item>	<item inline="true">	<key>e9c7714f-82a6-ccb1-4efe-8081853fb712</key>
-	<value>Row</value>
-	<disableFlattening>false</disableFlattening>
-<component id="e9c7714f-82a6-ccb1-4efe-8081853fb712">
-	<content-type>/component/rf-row-wrapper</content-type>
-	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>e9c7</objectGroupId>
-	<objectId>e9c7714f-82a6-ccb1-4efe-8081853fb712</objectId>
-	<file-name>e9c7714f-82a6-ccb1-4efe-8081853fb712.xml</file-name>
-	<folder-name/>
-	<internal-name>Row</internal-name>
-	<components_o item-list="true">	<item inline="true">	<key>97598164-00b7-ae64-a0e7-d47f6a0fd15b</key>
-	<value>Card Group</value>
-	<disableFlattening>false</disableFlattening>
-<component id="97598164-00b7-ae64-a0e7-d47f6a0fd15b">
-	<content-type>/component/rf-card-group</content-type>
-	<display-template>/templates/web/components/rf-card-group.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>9759</objectGroupId>
-	<objectId>97598164-00b7-ae64-a0e7-d47f6a0fd15b</objectId>
-	<cardItems_o item-list="true">	<item>	<title_s>MAIN DINING</title_s>
-	<summary_t>Relish our authentic Cantonese cuisine with a contemporary twist, served while socialising with the city's finest in the elegant Main Dining Room, or alongside intimate groups in the discreet Private Dining Room.</summary_t>
-	<image_s>/static-assets/images/refinery/ssxt0891.webp</image_s>
-	<image_s_alt/>
-	</item>	<item>	<title_s>BAR &amp; LOUNGES</title_s>
-	<summary_t>Pull up a stool or slip into a quiet booth, in one of our chic Bar &amp; Lounges. Choose from a selection of fine wines, seasonal craft beers and signature cocktails, paired with comforting Asian-influenced dishes served throughout the day.</summary_t>
-	<image_s>/static-assets/images/refinery/therefinery0509-087.webp</image_s>
-	<image_s_alt/>
-	</item>	<item>	<title_s>TERRACE</title_s>
-	<summary_t>Escape onto the terrace for an alfresco sanctuary overlooking bustling Tong Chong Street. Strike up a chat with your fellow Members and enjoy an assortment of food &amp; drinks while surrounded by the city's spirited sense of commerce.</summary_t>
-	<image_s>/static-assets/images/refinery/s_lounge_05.webp</image_s>
-	<image_s_alt/>
-	</item>	<item>	<title_s>FITNESS CENTRE</title_s>
-	<summary_t>Step into the Fitness Centre, for advanced wellness facilities to work out or unwind. Exercise alongside a dedicated personal trainer in our fully-equipped gym and reinvigorate after a hard day's work in our spacious saunas.</summary_t>
-	<image_s>/static-assets/images/refinery/ssxt0762.webp</image_s>
-	<image_s_alt/>
-	</item></cardItems_o>
-	<file-name>97598164-00b7-ae64-a0e7-d47f6a0fd15b.xml</file-name>
-	<folder-name/>
-	<internal-name>Card Group</internal-name>
-	<createdDate>2025-06-06T01:20:55.485Z</createdDate>
-	<createdDate_dt>2025-06-06T01:20:55.485Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T01:24:55.155Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T01:24:55.155Z</lastModifiedDate_dt>
-</component>
-	</item></components_o>
-	<createdDate>2025-06-06T01:17:34.943Z</createdDate>
-	<createdDate_dt>2025-06-06T01:17:34.943Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T01:24:37.452Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T01:24:37.452Z</lastModifiedDate_dt>
 </component>
 	</item></components_o>
 	<topFluidComponents_o item-list="true">	<item inline="true">	<key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
