@@ -3,7 +3,9 @@
 <div class="col-12 lead-text light-on-dark">
     <@crafter.h2 class="title" $field="title_s">${contentModel.title_s}</@crafter.h2>
     <@crafter.div $field="bodyContent_html">${contentModel.bodyContent_html}</@crafter.div>
-    <p>
-        <a href="/en/membership/membership-fee/" class="btn btn-large cta" target="|Custom">Join Us</a>
-    </p>
+    <#if contentModel.link_o?? && contentModel.link_o.item??>
+        <p>
+            <@crafter.a href="${crafterCommon.pathToUrl('${contentModel.link_o.item.url}', '')}" class="btn btn-large cta" target="${contentModel.link_o.item.linkTarget}">${contentModel.link_o.item.linkText}</@crafter.a>
+        </p>
+    </#if>
 </div>
