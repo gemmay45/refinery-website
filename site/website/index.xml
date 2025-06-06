@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-06T00:56:01.260Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-06T00:56:01.260Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-06T00:56:06.391Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-06T00:56:06.391Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -33,8 +33,8 @@
         <internal-name>Row</internal-name>
         <createdDate>2025-06-05T09:06:43.512Z</createdDate>
         <createdDate_dt>2025-06-05T09:06:43.512Z</createdDate_dt>
-        <lastModifiedDate>2025-06-06T00:56:01.260Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-06T00:56:01.260Z</lastModifiedDate_dt>
+        <lastModifiedDate>2025-06-06T00:56:06.391Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-06T00:56:06.391Z</lastModifiedDate_dt>
         <components_o item-list="true">
           <item inline="true">
             <key>6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30</key>
@@ -71,29 +71,6 @@
               <lastModifiedDate_dt>2025-06-06T00:55:52.831Z</lastModifiedDate_dt>
             </component>
           </item>
-          <item inline="true">
-            <key>1a743bbb-716e-0f75-ddf2-749deeb2905e</key>
-            <value>Text</value>
-            <disableFlattening>false</disableFlattening>
-            <component id="1a743bbb-716e-0f75-ddf2-749deeb2905e">
-              <content-type>/component/rf-text-block</content-type>
-              <display-template>/templates/web/components/rf-text-block.ftl</display-template>
-              <no-template-required/>
-              <merge-strategy>inherit-levels</merge-strategy>
-              <objectGroupId>1a74</objectGroupId>
-              <objectId>1a743bbb-716e-0f75-ddf2-749deeb2905e</objectId>
-              <file-name>1a743bbb-716e-0f75-ddf2-749deeb2905e.xml</file-name>
-              <folder-name/>
-              <internal-name>Text</internal-name>
-              <title_s>ABOUT THE CLUB</title_s>
-              <subtitle_s>AN EXCLUSIVE HUB FOR EXTRAORDINARY MINDS</subtitle_s>
-              <bodyContent_html>&lt;p&gt;The Refinery is a contemporary Members' Club set in the heart of Taikoo Place, a cultured retreat appealing to Hong Kong's remarkable community of modern professionals. Ours is a place where great minds meet &amp;ndash; where forward-thinkers gather and conversations flow.&lt;/p&gt;</bodyContent_html>
-              <createdDate>2025-06-05T09:19:44.314Z</createdDate>
-              <createdDate_dt>2025-06-05T09:19:44.314Z</createdDate_dt>
-              <lastModifiedDate>2025-06-05T09:19:44.314Z</lastModifiedDate>
-              <lastModifiedDate_dt>2025-06-05T09:19:44.314Z</lastModifiedDate_dt>
-            </component>
-          </item>
 
           <item inline="true">
             <key>abe2e956-96a3-cc6e-547a-b1a1a8430f55</key>
@@ -115,6 +92,29 @@
               <createdDate_dt>2025-06-05T10:23:59.745Z</createdDate_dt>
               <lastModifiedDate>2025-06-05T10:23:59.745Z</lastModifiedDate>
               <lastModifiedDate_dt>2025-06-05T10:23:59.745Z</lastModifiedDate_dt>
+            </component>
+          </item>
+          <item inline="true">
+            <key>1a743bbb-716e-0f75-ddf2-749deeb2905e</key>
+            <value>Text</value>
+            <disableFlattening>false</disableFlattening>
+            <component id="1a743bbb-716e-0f75-ddf2-749deeb2905e">
+              <content-type>/component/rf-text-block</content-type>
+              <display-template>/templates/web/components/rf-text-block.ftl</display-template>
+              <no-template-required/>
+              <merge-strategy>inherit-levels</merge-strategy>
+              <objectGroupId>1a74</objectGroupId>
+              <objectId>1a743bbb-716e-0f75-ddf2-749deeb2905e</objectId>
+              <file-name>1a743bbb-716e-0f75-ddf2-749deeb2905e.xml</file-name>
+              <folder-name/>
+              <internal-name>Text</internal-name>
+              <title_s>ABOUT THE CLUB</title_s>
+              <subtitle_s>AN EXCLUSIVE HUB FOR EXTRAORDINARY MINDS</subtitle_s>
+              <bodyContent_html>&lt;p&gt;The Refinery is a contemporary Members' Club set in the heart of Taikoo Place, a cultured retreat appealing to Hong Kong's remarkable community of modern professionals. Ours is a place where great minds meet &amp;ndash; where forward-thinkers gather and conversations flow.&lt;/p&gt;</bodyContent_html>
+              <createdDate>2025-06-05T09:19:44.314Z</createdDate>
+              <createdDate_dt>2025-06-05T09:19:44.314Z</createdDate_dt>
+              <lastModifiedDate>2025-06-05T09:19:44.314Z</lastModifiedDate>
+              <lastModifiedDate_dt>2025-06-05T09:19:44.314Z</lastModifiedDate_dt>
             </component>
           </item>
         </components_o>
