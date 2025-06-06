@@ -3,8 +3,8 @@
 <div class="row cards without-shadow d-sm-flex mb-5">
     <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
         <#list contentModel.cardItems_o.item as cardItem>
-            <div class="col-12 col-md-6 d-sm-flex mb-4">
-                    <div class="card" $field="cardItems_o" $index=cardItem?index>
+            <@crafter.div class="col-12 col-md-6 d-sm-flex mb-4" $field="cardItems_o" $index=cardItem?index>
+                    <div class="card">
                             <div class="card-img">
                                 <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            
                                     <div class="lazy-wrap lazy-wrap-loaded" data-ratio="16x6">
@@ -17,7 +17,7 @@
                             <@crafter.p $field="cardItems_o.summary_t" $index=cardItem?index>${cardItem.summary_t}</@crafter.p>
                         </div>
                     </div>
-            </div>
+            </@crafter.div>
         </#list>
     </#if>
 </div>
