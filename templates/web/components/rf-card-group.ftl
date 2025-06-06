@@ -19,6 +19,7 @@ cardItems_o
     </div>
 </div>
 
+                                                        <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
                                                         <#list contentModel.cardItems_o.item as cardItem>
                                                             <@crafter.div class="col-4 col-m-card-4 col-l-3" $field="cardItems_o" $index=cardItem?index>
                                                                 <div class="basicCard -withColorHex" style="--card-bg-color: #F9F9F9; --ribbon-color-rgb: 135, 122, 92;">
