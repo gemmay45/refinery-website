@@ -14,7 +14,7 @@
 <body class="is-preload">
     <@crafter.body_top/>
         
-        <#include "/templates/web/fragments/rf-homepage-body.ftl"/>
+        <#include "/templates/web/fragments/rf-body.ftl"/>
         
     <@crafter.body_bottom/>
 </body>
