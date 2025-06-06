@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/rf-dining.ftl</value>
+			<value>/templates/web/pages/rf-dining.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
