@@ -13,8 +13,8 @@
                             </a>                    </div>
         
                         <div class="card-desc">
-                            <@crafter.h5 $field="title_s">${cardItem.title_s}</@crafter.h5>
-                            <@crafter.p $field="summary_t">${cardItem.summary_t}</@crafter.p>
+                            <@crafter.h5 $field="cardItems_o.title_s">${cardItem.title_s}</@crafter.h5>
+                            <@crafter.p $field="cardItems_o.summary_t">${cardItem.summary_t}</@crafter.p>
                         </div>
                     </div>
             </div>
