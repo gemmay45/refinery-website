@@ -17,7 +17,7 @@
 
 
 <#macro renderHomepageSectionItems secItem>
-    <#if secItem.topFluidComponents_o?? && secItem.topFluidComponents_o.item??>
+    <#--<#if secItem.topFluidComponents_o?? && secItem.topFluidComponents_o.item??>
         <div class="container-fluid">
             <@crafter.div class="" $model=ContentModel $field="topFluidComponents_o">
             <@crafter.forEach secItem.topFluidComponents_o; listItem, index>
@@ -31,7 +31,7 @@
          <@crafter.div class="craftercms-empty-collection" $model=ContentModel $field="topFluidComponents_o"></@crafter.div>
     </#if>
 
-    <#--<#if secItem.components_o?? && secItem.components_o.item??>
+    <#if secItem.components_o?? && secItem.components_o.item??>
         <div class="container" id="main-content">
             <@crafter.div class="" $model=ContentModel $field="components_o">
             <@crafter.forEach secItem.components_o; listItem, index>
