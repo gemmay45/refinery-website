@@ -187,7 +187,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/rf-text-block,/component/rf-media-gallery,/component/rf-card-group</value>
+							<value>/component/rf-text-block,/component/rf-media-gallery</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
