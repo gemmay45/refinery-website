@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T03:59:14.672Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T03:59:14.672Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T03:59:45.518Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T03:59:45.518Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -185,28 +185,7 @@
         <lastModifiedDate_dt>2025-06-05T08:59:15.062Z</lastModifiedDate_dt>
       </component>
 	</item></topFluidComponents_o>
-	<bottomFluidComponents_o item-list="true">	<item inline="true">	<key>915a9d24-17ca-3c28-85b9-62f782d4862a</key>
-	<value>Test</value>
-	<disableFlattening>false</disableFlattening>
-<component id="915a9d24-17ca-3c28-85b9-62f782d4862a">
-	<content-type>/component/rf-text-block</content-type>
-	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>915a</objectGroupId>
-	<objectId>915a9d24-17ca-3c28-85b9-62f782d4862a</objectId>
-	<file-name>915a9d24-17ca-3c28-85b9-62f782d4862a.xml</file-name>
-	<folder-name/>
-	<internal-name>Test</internal-name>
-	<title_s>Test</title_s>
-	<subtitle_s>test</subtitle_s>
-	<bodyContent_html>&lt;p&gt;testing&lt;/p&gt;</bodyContent_html>
-	<createdDate>2025-06-06T03:20:14.204Z</createdDate>
-	<createdDate_dt>2025-06-06T03:20:14.204Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T03:20:14.204Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T03:20:14.204Z</lastModifiedDate_dt>
-</component>
-	</item>	<item inline="true">	<key>871bffca-4ccc-739a-8ca1-a96308411c7f</key>
+	<bottomFluidComponents_o item-list="true">	<item inline="true">	<key>871bffca-4ccc-739a-8ca1-a96308411c7f</key>
 	<value>Join the Club</value>
 <component id="871bffca-4ccc-739a-8ca1-a96308411c7f">
 	<content-type>/component/rf-join-the-club</content-type>
@@ -216,13 +195,14 @@
 	<objectGroupId>871b</objectGroupId>
 	<objectId>871bffca-4ccc-739a-8ca1-a96308411c7f</objectId>
 	<internal-name>Join the Club</internal-name>
-	<title_s>test</title_s>
+	<title_s>JOIN THE CLUB</title_s>
 	<file-name>871bffca-4ccc-739a-8ca1-a96308411c7f.xml</file-name>
 	<folder-name/>
 	<createdDate>2025-06-06T03:59:19.263Z</createdDate>
 	<createdDate_dt>2025-06-06T03:59:19.263Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T03:59:19.263Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T03:59:19.263Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T03:59:51.413Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T03:59:51.413Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></bottomFluidComponents_o>
 </page>
