@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/rf-text-block.ftl</value>
+			<value>/templates/web/components/rf-text-block.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -91,7 +91,7 @@
 		<section>
 			<title>Content</title>
 			<description></description>
-			<defaultOpen>false</defaultOpen>
+			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>input</type>
