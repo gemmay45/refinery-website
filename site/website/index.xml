@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T04:17:34.767Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T04:17:34.767Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-06T05:24:01.088Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T05:24:01.088Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -204,26 +204,6 @@
 	<lastModifiedDate>2025-06-06T04:16:49.388Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-06T04:16:49.388Z</lastModifiedDate_dt>
 	<bodyContent_html>&lt;p&gt;The Refinery offers its Members exclusive entry to our set of inimitable facilities. But membership here is about more than simple conveniences &amp;ndash; it grants access to an array of opportunities, to connections with fellow individuals and the stimulating chance to consort with prime movers through select events.&amp;nbsp;&lt;/p&gt;</bodyContent_html>
-</component>
-	</item>	<item inline="true">	<key>a4abdf05-0f3b-b281-9c7c-450082b3cc8c</key>
-	<value>Text Block</value>
-<component id="a4abdf05-0f3b-b281-9c7c-450082b3cc8c">
-	<content-type>/component/rf-text-block</content-type>
-	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>a4ab</objectGroupId>
-	<objectId>a4abdf05-0f3b-b281-9c7c-450082b3cc8c</objectId>
-	<file-name>a4abdf05-0f3b-b281-9c7c-450082b3cc8c.xml</file-name>
-	<folder-name/>
-	<internal-name>Text Block</internal-name>
-	<title_s>JOIN THE CLUB</title_s>
-	<subtitle_s/>
-	<bodyContent_html>&lt;p&gt;The Refinery offers its Members exclusive entry to our set of inimitable facilities. But membership here is about more than simple conveniences &amp;ndash; it grants access to an array of opportunities, to connections with fellow individuals and the stimulating chance to consort with prime movers through select events.&amp;nbsp;&lt;/p&gt;</bodyContent_html>
-	<createdDate>2025-06-06T04:17:40.150Z</createdDate>
-	<createdDate_dt>2025-06-06T04:17:40.150Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T04:17:40.150Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T04:17:40.150Z</lastModifiedDate_dt>
 </component>
 	</item></bottomFluidComponents_o>
 </page>
