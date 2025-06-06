@@ -1,4 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
+<#import "/templates/system/common/craftercms-common.ftl" as crafterCommon />
 
 <div class="col-12 lead-text light-on-dark">
     <@crafter.h2 class="title" $field="title_s">${contentModel.title_s}</@crafter.h2>
