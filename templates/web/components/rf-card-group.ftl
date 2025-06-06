@@ -1,5 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+cardItems_o
 <div class="row cards without-shadow d-sm-flex mb-5">
     
     <div class="col-12 col-md-6 d-sm-flex mb-4">
