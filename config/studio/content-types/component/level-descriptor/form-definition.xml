@@ -127,7 +127,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>componentsFooter</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -223,7 +223,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/site/</value>
+							<value>/site/components/footers/</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
