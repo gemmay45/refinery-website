@@ -14,11 +14,8 @@
 <body class="is-preload">
 <@crafter.body_top/>
     
-<div id="content">
-    
 <#include "/templates/web/fragments/rf-homepage-body.ftl"/>
 
-</div>
 
     <div class="footer">
         
