@@ -5,7 +5,7 @@
                                <@crafter.img alt="" class="img-fluid lazyload" $field="mediaThumbnail_s" src="${contentModel.mediaThumbnail_s}" />
             </div>
         <@crafter.div class="intro">
-            <@crafter.h1 class="title">${contentModel.mediaTitle_s}</@crafter.h1>
+            <@crafter.h1 class="title" $field="mediaTitle_s">${contentModel.mediaTitle_s}</@crafter.h1>
             <@crafter.div $field="mediaBody_html">${contentModel.mediaBody_html}</@crafter.div>
         </@crafter.div>
         <a href="https://www.refineryclub.com/en/#main-content" class="move-to-sect">
