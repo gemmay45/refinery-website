@@ -8,7 +8,7 @@
                             <div class="card-img">
                                 <a href="https://www.refineryclub.com/en/main-dining/" class="cta">                            
                                     <div class="lazy-wrap lazy-wrap-loaded" data-ratio="16x6">
-                                        <img alt="" class="img-fluid lazyload" src="${cardItem.image_s}" style="">
+                                        <@crafter.img alt="" class="img-fluid lazyload" $field="cardItems_o.image_s" $index=cardItem?index src="${cardItem.image_s}" style="" />
                                     </div>
                                 </a>                    
                             </div>
