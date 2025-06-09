@@ -10,7 +10,7 @@
                     <#if imageItem?index == 0>
                         <#assign cssClass = "swiper-slide swiper-slide-active" />
                     <#else>
-                        <#if imageItem?index == imageItems_o?size - 1>
+                        <#if imageItem?index == imageItems_o??size - 1>
                             <#assign cssClass = "swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next" />
                             <#assign cssFirstClass = "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" />
                         <#else>
@@ -26,7 +26,7 @@
                             </@crafter.div>
                     </@crafter.div>
                     
-                    <#if imageItem?index == imageItems_o?size - 1>
+                    <#if imageItem?index == imageItems_o??size - 1>
                         <@crafter.div class="${cssFirstClass}"
                     $index=0 style="width: 1110px;" $attributes={'data-swiper-slide-index':0}>
                             <div class="slider-title">${imageItem.title_s}</div>
