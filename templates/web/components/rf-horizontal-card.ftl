@@ -51,7 +51,7 @@
                     View Menu
                 </button>
                 <div class="dropdown-menu" style="">
-                    <#--    <#list contentModel.cTALinkItems_o.item as linkItem>
+                    <#list contentModel.cTALinkItems_o.item as linkItem>
                           <a href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
                                 class="dropdown-item">
                                 <font style="vertical-align: inherit;">
@@ -60,8 +60,8 @@
                                     </font>
                                 </font>
                             </a>
-                        </#list>
-                    -->
+                    </#list>
+                    
                     <#--<a
                         href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
                         class="dropdown-item">
