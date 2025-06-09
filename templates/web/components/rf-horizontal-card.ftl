@@ -29,9 +29,7 @@
     <#if contentModel.cTALinkItems_o?? &&contentModel.cTALinkItems_o.item??>
     <div class="info d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
         <div class="text-center">
-            <h5 class="underbar-short">
-                xxx
-            </h5>
+            <@crafter.h5 class="underbar-short" $field="title_s">contentModel.title_s</@crafter.h5>
             <p>-
                 <br> <strong>Opening Hours:</strong> <br>
                 Monday to Saturday
