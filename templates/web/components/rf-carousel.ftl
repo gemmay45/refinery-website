@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#--
+
 <div class="col-12">
     <div data-sliders="default" class="swiper-container mt-4 swiper-container-initialized swiper-container-horizontal"
         style="cursor: grab;">
@@ -9,7 +9,6 @@
                 <#list contentModel.imageItems_o.item as imageItem>
                     <@crafter.div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
                 data-swiper-slide-index="${imageItem?index}" style="width: 1110px;">
-                    <@crafter.div class="col mt-5" style="margin-top:0 !important" $field="imageItems_o" $index=imageItem?index>
                         <div class="slider-title">SEMI-PRIVATE DINING</div>
                         <div data-ratio="111x55" class="img-box"><img
                                 $field="imageItems_o.image_s" data-src="${imageItem.image_s}"
@@ -61,4 +60,3 @@
             class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
 </div>
--->
