@@ -44,7 +44,7 @@
                                 class="dropdown-item">
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">
-                                        A la carte Menu
+                                        ${linkItem.title_s}
                                     </font>
                                 </font>
                             </a>
