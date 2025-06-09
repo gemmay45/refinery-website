@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
 	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-	<lastModifiedDate>2025-06-09T06:46:49.633Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-09T06:46:49.633Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-09T06:50:20.165Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-09T06:50:20.165Z</lastModifiedDate_dt>
 	<components_o item-list="true">	<item inline="true">	<key>74059c01-feed-d63b-8282-2fef340c4a45</key>
 	<value>Row</value>
 	<disableFlattening>false</disableFlattening>
@@ -111,12 +111,27 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>1da5</objectGroupId>
 	<objectId>1da53724-6777-8229-7017-8482d5f9c45c</objectId>
-	<imageItems_o item-list="true">	<item>	<image_s/>
+	<imageItems_o item-list="true">	<item>	<image_s>/static-assets/images/refinery/therefinery0509-001.webp</image_s>
 	<image_s_alt/>
-	</item>	<item>	<image_s/>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-007.webp</image_s>
+	<image_s_alt/>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-040.webp</image_s>
+	<image_s_alt/>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-057.webp</image_s>
+	<image_s_alt/>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-050.webp</image_s>
 	<image_s_alt/>
 	</item></imageItems_o>
-	<cTALinkItems_o item-list="true">	<item>	<title_s/>
+	<cTALinkItems_o item-list="true">	<item>	<title_s>A la carte Menu</title_s>
+	</item>	<item>	<title_s>Dim Sum</title_s>
+	</item>	<item>	<title_s>Tasting Menu</title_s>
+	</item>	<item>	<title_s>Breakfast Meeting Packages</title_s>
+	</item>	<item>	<title_s>Half Day Meeting Packages</title_s>
+	</item>	<item>	<title_s>Banquet Set Lunch</title_s>
+	</item>	<item>	<title_s>Banquet Set Dinner</title_s>
+	</item>	<item>	<title_s>Office Catering</title_s>
+	</item>	<item>	<title_s>Master Wine list</title_s>
+	</item>	<item>	<title_s>Takeaway Menu</title_s>
 	</item></cTALinkItems_o>
 	<internal-name>Horizontal Card</internal-name>
 	<title_s>Main Dining</title_s>
@@ -126,8 +141,9 @@
 	<bodyContent_html>&lt;p&gt;- &lt;br&gt;&lt;strong&gt;Opening Hours:&lt;/strong&gt; &lt;br&gt;Monday to Saturday &lt;br&gt;(except Public Holidays) &lt;br&gt;&lt;strong&gt;Lunch:&lt;/strong&gt; noon to 3pm &lt;br&gt;&lt;strong&gt;Dinner:&lt;/strong&gt; 6pm to 10:30pm &lt;br&gt;- &lt;br&gt;&lt;strong&gt;&lt;em&gt;Reservations are highly recommended&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</bodyContent_html>
 	<createdDate>2025-06-09T06:46:55.312Z</createdDate>
 	<createdDate_dt>2025-06-09T06:46:55.312Z</createdDate_dt>
-	<lastModifiedDate>2025-06-09T06:48:09.657Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-09T06:48:09.657Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-09T06:50:23.540Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-09T06:50:23.540Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 </page>
