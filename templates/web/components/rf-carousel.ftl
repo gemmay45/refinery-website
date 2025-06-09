@@ -21,7 +21,7 @@
                 $index=imageItem?index style="width: 1110px;" $attributes={'data-swiper-slide-index':'${imageItem?index}'}>
                             <div class="slider-title">${imageItem.title_s}</div>
                             <div data-ratio="111x55" class="img-box">
-                                <@crafter.img data-src="${imageItem.image_s!}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy swiper-lazy-loaded" />
+                                <@crafter.img data-src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy swiper-lazy-loaded" />
                                 <div class="swiper-lazy-preloader"></div>
                             </div>
                     </@crafter.div>
