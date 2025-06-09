@@ -98,10 +98,10 @@
                         class="dropdown-item">
                         Takeaway Menu
                     </a>-->
-                        </#if>
                     </div>
             </div>
             <p></p>
         </div>
     </div>
+    <#/if>
 </div>
