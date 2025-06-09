@@ -17,7 +17,7 @@
             <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 1110px;">
                 <div class="slider-title">MAIN DINING</div>
                 <div data-ratio="111x55" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
-                        src="/-/media/swire/refineryclub/dining/hero/main-dining-hero.ashx"> </div>
+                        src="/static-assets/images/refinery/main-dining-hero.webp"> </div>
             </div>
             <div class="swiper-slide swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="1"
                 style="width: 1110px;">
@@ -32,7 +32,7 @@
                 style="width: 1110px;">
                 <div class="slider-title">MAIN DINING</div>
                 <div data-ratio="111x55" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
-                        src="/-/media/swire/refineryclub/dining/hero/main-dining-hero.ashx"> </div>
+                        src="/static-assets/images/refinery/main-dining-hero.webp"> </div>
             </div>
         </div>
         <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
