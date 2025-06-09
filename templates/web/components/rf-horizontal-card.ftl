@@ -61,7 +61,7 @@
                                 </font>
                             </a>
                         </#list>
-                    <a
+                    <#--<a
                         href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
                         class="dropdown-item">
                         <font style="vertical-align: inherit;">
@@ -96,7 +96,7 @@
                     </a> <a href="/-/media/swire/refineryclub/dining/menus/takeaway-menu.ashx" target="_blank"
                         class="dropdown-item">
                         Takeaway Menu
-                    </a>
+                    </a>-->
                     </div>
             </div>
             <p></p>
