@@ -31,9 +31,7 @@
         <div class="text-center">
             <@crafter.h5 class="underbar-short" $field="title_s">${contentModel.title_s}</@crafter.h5>
             <@crafter.div>${contentModel.bodyContent_html}</@crafter.div>
-            <div class="speciality"><strong>Offer:</strong> <br>
-                Contemporary Chinese cuisine</div>
-            <p>&nbsp;</p>
+
             <div class="btn-group dropdown-btn"><button type="button" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false" class="btn cta dropdown-toggle">
                     View Menu
