@@ -49,7 +49,7 @@
                             </@crafter.div>
                         </@crafter.div>
                         
-                    </#if>-->
+                    </#if>
                  </#list>
             </#if>
 
