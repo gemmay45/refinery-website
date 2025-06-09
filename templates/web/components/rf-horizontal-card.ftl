@@ -38,16 +38,16 @@
                     aria-expanded="false" class="btn cta dropdown-toggle">
                     View Menu
                 </button>
-                <div class="dropdown-menu" style="">
+                <div class="dropdown-menu">
                     <#list contentModel.cTALinkItems_o.item as linkItem>
-                          <a href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
-                                class="dropdown-item">
+                          <@crafter.a href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
+                                class="dropdown-item" $index=linkItem?index>
                                 <font style="vertical-align: inherit;">
                                     <font style="vertical-align: inherit;">
                                         ${linkItem.title_s}
                                     </font>
                                 </font>
-                            </a>
+                            </@crafter.a>
                     </#list>
                     
                     <#--<a
