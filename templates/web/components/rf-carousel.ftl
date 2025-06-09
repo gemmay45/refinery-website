@@ -9,7 +9,7 @@
                 <#list contentModel.imageItems_o.item as imageItem>
                     <@crafter.div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
                 $index=imageItem?index style="width: 1110px;" $attributes={'data-swiper-slide-index':'${imageItem?index}'}>
-                        <div class="slider-title">SEMI-PRIVATE DINING</div>
+                        <div class="slider-title">${imageItem.title_s}</div>
                     <#--<@crafter.div class="col mt-5" style="margin-top:0 !important" $field="imageItems_o" $index=imageItem?index>-->
                         <@crafter.div data-ratio="111x55" class="img-box">
                             <@crafter.img data-src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />
