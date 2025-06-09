@@ -6,7 +6,7 @@
             <div class="swiper-wrapper">
                 <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
                     <#list contentModel.imageItems_o.item as imageItem>
-                        <@crafter.div class="swiper-slide" $index=imageItem?index style="width: 1110px;">
+                        <@crafter.div class="swiper-slide" $index=imageItem?index style="width: 710px;">
                                 <div data-ratio="38x26" class="img-box">
                                     <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />
                                     <div class="swiper-lazy-preloader"></div>
