@@ -29,18 +29,8 @@
     <#if contentModel.cTALinkItems_o?? &&contentModel.cTALinkItems_o.item??>
     <div class="info d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
         <div class="text-center">
-            <@crafter.h5 class="underbar-short" $field="title_s">contentModel.title_s</@crafter.h5>
-            <p>-
-                <br> <strong>Opening Hours:</strong> <br>
-                Monday to Saturday
-                <br>
-                (except Public Holidays)
-                <br> <strong>Lunch:</strong> noon to 3pm
-                <br> <strong>Dinner:</strong> 6pm to 10:30pm
-                <br>
-                -
-                <br> <strong><em>Reservations are highly recommended</em></strong>
-            </p>
+            <@crafter.h5 class="underbar-short" $field="title_s">${contentModel.title_s}</@crafter.h5>
+            <@crafter.div>${contentModel.bodyContent_html}</@crafter.div>
             <div class="speciality"><strong>Offer:</strong> <br>
                 Contemporary Chinese cuisine</div>
             <p>&nbsp;</p>
