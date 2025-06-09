@@ -39,12 +39,12 @@
                             </div>
                     </@crafter.div>
                     
-                    <#--<#if imageItem?index == imageItems_o??size-1>
+                    <#if imageItem?index == contentModel.imageItems_o.item?size-1>
                         <@crafter.div class="${cssFirstClass}"
                     $index=0 style="width: 1110px;" $attributes={'data-swiper-slide-index':0}>
                             <div class="slider-title">${imageItem.title_s}</div>
                             <@crafter.div data-ratio="111x55" class="img-box">
-                                <@crafter.img $attributes={'data-src':'${imageItem.image_s}'} $field="imageItems_o.image_s" $index=imageItem?index alt="" class="${cssFirstClass}" />
+                                <@crafter.img $attributes={'data-src':'${imageItem.image_s}'} $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy swiper-lazy-loaded" />
                                 <div class="swiper-lazy-preloader"></div>
                             </@crafter.div>
                         </@crafter.div>
