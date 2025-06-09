@@ -4,7 +4,18 @@
     <div class="slider-wrapper">
         <div data-sliders="inpage" class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
+                    <#list contentModel.imageItems_o.item as imageItem>
+                        <@crafter.div class="swiper-slide" $index=imageItem?index style="width: 1110px;">
+                                <div data-ratio="38x26" class="img-box">
+                                    <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />
+                                    <div class="swiper-lazy-preloader"></div>
+                                </div>
+                        </@crafter.div>
+                     </#list>
+                </#if>
+
+                <#--<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
                     data-swiper-slide-index="4" style="width: 710px;">
                     <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
                             src="/-/media/swire/refineryclub/dining/main-dining/therefinery0509-050.ashx"> </div>
@@ -34,6 +45,7 @@
                     <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
                             src="/-/media/swire/refineryclub/dining/main-dining/therefinery0509-001.ashx"> </div>
                 </div>
+                -->
             </div>
             <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
                     class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span
