@@ -7,6 +7,10 @@
         <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1110px, 0px, 0px);">
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
                 <#list contentModel.imageItems_o.item as imageItem>
+                    <#assign cssClass = "swiper-slide swiper-slide-next" />
+                    <#if imageItem?index == 0>
+                        <#assign cssClass = "swiper-slide swiper-slide-active" />
+                    </#if>
                     <#--<#if imageItem?index == 0>
                         <#assign cssClass = "swiper-slide swiper-slide-active" />
                     <#else>
@@ -17,7 +21,7 @@
                             <#assign cssClass = "swiper-slide swiper-slide-next" />
                         </#if>
                     </#if>-->
-                    <@crafter.div class="swiper-slide swiper-slide-active"
+                    <@crafter.div class="${cssClass}"
                 $index=imageItem?index style="width: 1110px;" $attributes={'data-swiper-slide-index':'${imageItem?index}'}>
                             <div class="slider-title">${imageItem.title_s}</div>
                             <div data-ratio="111x55" class="img-box">
