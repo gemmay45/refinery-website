@@ -23,7 +23,7 @@
                             <div data-ratio="111x55" class="img-box">
                                 <#--<@crafter.img src="${imageItem.image_s}" $attributes={'data-src':'${imageItem.image_s}'} alt="" class="img-fluid lazyload" style="" $field="imageItems_o.image_s" $index=imageItem?index />-->
 
-                                <@crafter.img $attributes={'data-src':'${imageItem.image_s}'} $field="imageItems_o.image_s" $index=imageItem?index alt="" class="${cssClass}" />
+                                <@crafter.img $attributes={'data-src':'${imageItem.image_s}'} $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-slide swiper-slide-active" />
                                 <div class="swiper-lazy-preloader"></div>
                             </div>
                     </@crafter.div>
