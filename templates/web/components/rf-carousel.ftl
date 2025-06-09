@@ -12,7 +12,7 @@
                         <div class="slider-title">SEMI-PRIVATE DINING</div>
                     <#--<@crafter.div class="col mt-5" style="margin-top:0 !important" $field="imageItems_o" $index=imageItem?index>-->
                         <div data-ratio="111x55" class="img-box">
-                            <@crafter.img src="${imageItem.image_s}" alt="" class="img-fluid lazyload" style="" $field="imageItems_o.image_s" $index=imageItem?index />
+                            <@crafter.img src="${imageItem.image_s}" alt="" class="img-fluid lazyload" $field="imageItems_o.image_s" $index=imageItem?index />
                             <div class="swiper-lazy-preloader"></div>
                         </@crafter.div>
                     </@crafter.div>
