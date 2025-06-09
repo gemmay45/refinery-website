@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/compoonents/rf-carousel.ftl</value>
+			<value>/templates/web/components/rf-carousel.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
