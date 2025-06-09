@@ -2,6 +2,22 @@
     <div data-sliders="default" class="swiper-container mt-4 swiper-container-initialized swiper-container-horizontal"
         style="cursor: grab;">
         <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1110px, 0px, 0px);">
+            <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
+                <#list contentModel.imageItems_o.item as imageItem>
+                    <@crafter.div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
+                data-swiper-slide-index="1" style="width: 1110px;">
+                    <@crafter.div class="col mt-5" style="margin-top:0 !important" $field="imageItems_o" $index=imageItem?index>
+                        <div class="slider-title">SEMI-PRIVATE DINING</div>
+                        <div data-ratio="111x55" class="img-box"><img
+                                $field="imageItems_o.image_s" data-src="${imageItem.image_s}"
+                                alt="" class="swiper-lazy" $index=imageItem?index>
+                            <div class="swiper-lazy-preloader"></div>
+                        </div>
+                        <#--<@crafter.img src="${imageItem.thumbnail_s}" alt="" class="img-fluid lazyload" style="" $field="imageItems_o.thumbnail_s" $index=imageItem?index />-->
+                    </@crafter.div>
+                 </#list>
+            </#if>
+
             <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
                 data-swiper-slide-index="1" style="width: 1110px;">
                 <div class="slider-title">SEMI-PRIVATE DINING</div>
