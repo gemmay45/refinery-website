@@ -28,7 +28,7 @@
     <div class="info d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
         <div class="text-center">
             <h5 class="underbar-short">
-                Main Dining
+                ${}
             </h5>
             <p>-
                 <br> <strong>Opening Hours:</strong> <br>
