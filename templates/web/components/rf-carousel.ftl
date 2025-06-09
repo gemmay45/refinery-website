@@ -6,6 +6,14 @@
         style="cursor: grab;">
         <div class="swiper-wrapper">
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
+				    <@crafter.renderRepeatGroup $field="imageItems_o" 
+    				    $containerTag="div" $containerAttributes={ "class" : "swiper-slide" } 
+    				    $itemTag="div" $itemAttributes={"class" : "img-box"};
+    				    slideItem, index>
+
+					    <@crafter.div  $index="${index}"  $field="imageItems_o">
+						</@crafter.div>
+					</@crafter.renderRepeatGroup>
 					
                 <#list contentModel.imageItems_o.item as imageItem>
                     <#assign cssClass = "swiper-slide swiper-slide-next" />
