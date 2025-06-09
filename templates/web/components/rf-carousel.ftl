@@ -9,7 +9,7 @@
                 data-swiper-slide-index="1" style="width: 1110px;">
                 <div class="slider-title">SEMI-PRIVATE DINING</div>
                 <div data-ratio="111x55" class="img-box"><img
-                        data-src="/-/media/swire/refineryclub/dining/main-dining/semi-private-dining_retouched-update_7-aug.ashx"
+                        data-src="/static-assets/images/refinery/semi-private-dining_retouched-update_7-aug.webp"
                         alt="" class="swiper-lazy">
                     <div class="swiper-lazy-preloader"></div>
                 </div>
@@ -23,7 +23,7 @@
                 style="width: 1110px;">
                 <div class="slider-title">SEMI-PRIVATE DINING</div>
                 <div data-ratio="111x55" class="img-box"><img
-                        data-src="/-/media/swire/refineryclub/dining/main-dining/semi-private-dining_retouched-update_7-aug.ashx"
+                        data-src="/static-assets/images/refinery/semi-private-dining_retouched-update_7-aug.webp"
                         alt="" class="swiper-lazy">
                     <div class="swiper-lazy-preloader"></div>
                 </div>
