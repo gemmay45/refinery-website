@@ -26,17 +26,16 @@
                             </@crafter.div>
                     </@crafter.div>
                     
-                    <#if imageItem?index == imageItems_o??size-1>
+                    <#--<#if imageItem?index == imageItems_o??size-1>
                         <@crafter.div class="${cssFirstClass}"
                     $index=0 style="width: 1110px;" $attributes={'data-swiper-slide-index':0}>
                             <div class="slider-title">${imageItem.title_s}</div>
                             <@crafter.div data-ratio="111x55" class="img-box">
-                                <#--<@crafter.img data-src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=0 alt="" class="swiper-lazy" />-->
                                 <div class="swiper-lazy-preloader"></div>
                             </@crafter.div>
                         </@crafter.div>
                         
-                    </#if>
+                    </#if>-->
                  </#list>
             </#if>
 
