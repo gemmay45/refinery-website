@@ -5,7 +5,21 @@
     <div data-sliders="default" class="swiper-container mt-4 swiper-container-initialized swiper-container-horizontal"
         style="cursor: grab;">
         <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1110px, 0px, 0px);">
-            <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
+            <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
+                <#list contentModel.imageItems_o.item as imageItem>
+                    <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
+                data-swiper-slide-index="1" style="width: 1110px;" $index=imageItem?index>
+                        <div class="slider-title">SEMI-PRIVATE DINING</div>
+                    <#--<@crafter.div class="col mt-5" style="margin-top:0 !important" $field="imageItems_o" $index=imageItem?index>-->
+                        <div data-ratio="111x55" class="img-box">
+                            <@crafter.img src="${imageItem.image_s}" alt="" class="img-fluid lazyload" style="" $field="imageItems_o.image_s" $index=imageItem?index />
+                            <div class="swiper-lazy-preloader"></div>
+                        </@crafter.div>
+                    </div>
+                 </#list>
+            </#if>
+
+            <#--<div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
                 data-swiper-slide-index="1" style="width: 1110px;">
                 <div class="slider-title">SEMI-PRIVATE DINING</div>
                 <div data-ratio="111x55" class="img-box"><img
@@ -34,6 +48,7 @@
                 <div data-ratio="111x55" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
                         src="/static-assets/images/refinery/main-dining-hero.webp"> </div>
             </div>
+            -->
         </div>
         <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
                 class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
