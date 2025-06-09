@@ -1,5 +1,4 @@
-<div
-    class="dining-intro d-md-flex flex-md-row justify-content-md-start align-items-md-stretch d-lg-flex flex-lg-row justify-content-lg-start align-items-lg-stretch">
+<div class="dining-intro d-md-flex flex-md-row justify-content-md-start align-items-md-stretch d-lg-flex flex-lg-row justify-content-lg-start align-items-lg-stretch">
     <div class="slider-wrapper">
         <div data-sliders="inpage" class="swiper-container swiper-container-initialized swiper-container-horizontal"
             style="cursor: grab;">
