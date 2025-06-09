@@ -12,6 +12,7 @@
     				    slideItem, index>
 
 					    <@crafter.div  $index="${index}"  $field="imageItems_o">
+					        ccc
 						</@crafter.div>
 					</@crafter.renderRepeatGroup>
 					
@@ -39,7 +40,7 @@
                             <#assign cssClass = "swiper-slide swiper-slide-next" />
                         </#if>
                     </#if>-->
-                    <@crafter.div class="swiper-slide" $index=imageItem?index>
+                    <@crafter.div class="swiper-slide" $index=imageItem?index style="width: 1110px;">
                             <div class="slider-title">${imageItem.title_s}</div>
                             <div data-ratio="111x55" class="img-box">
                                 <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />
