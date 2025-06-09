@@ -238,7 +238,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/rf-row-wrapper</value>
+							<value>/component/rf-row-wrapper,/component/rf-horizontal-card</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
