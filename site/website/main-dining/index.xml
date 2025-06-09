@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
 	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-	<lastModifiedDate>2025-06-09T03:18:58.566Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-09T03:18:58.566Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-09T06:46:49.633Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-09T06:46:49.633Z</lastModifiedDate_dt>
 	<components_o item-list="true">	<item inline="true">	<key>74059c01-feed-d63b-8282-2fef340c4a45</key>
 	<value>Row</value>
 	<disableFlattening>false</disableFlattening>
@@ -102,5 +102,32 @@
         <lastModifiedDate>2025-06-06T09:07:32.810Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-06T09:07:32.810Z</lastModifiedDate_dt>
       </component>
+	</item>	<item inline="true">	<key>1da53724-6777-8229-7017-8482d5f9c45c</key>
+	<value>Horizontal Card</value>
+<component id="1da53724-6777-8229-7017-8482d5f9c45c">
+	<content-type>/component/rf-horizontal-card</content-type>
+	<display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1da5</objectGroupId>
+	<objectId>1da53724-6777-8229-7017-8482d5f9c45c</objectId>
+	<imageItems_o item-list="true">	<item>	<image_s/>
+	<image_s_alt/>
+	</item>	<item>	<image_s/>
+	<image_s_alt/>
+	</item></imageItems_o>
+	<cTALinkItems_o item-list="true">	<item>	<title_s/>
+	</item></cTALinkItems_o>
+	<internal-name>Horizontal Card</internal-name>
+	<title_s>Main Dining</title_s>
+	<subtitle_s/>
+	<file-name>1da53724-6777-8229-7017-8482d5f9c45c.xml</file-name>
+	<folder-name/>
+	<bodyContent_html>&lt;p&gt;- &lt;br&gt;&lt;strong&gt;Opening Hours:&lt;/strong&gt; &lt;br&gt;Monday to Saturday &lt;br&gt;(except Public Holidays) &lt;br&gt;&lt;strong&gt;Lunch:&lt;/strong&gt; noon to 3pm &lt;br&gt;&lt;strong&gt;Dinner:&lt;/strong&gt; 6pm to 10:30pm &lt;br&gt;- &lt;br&gt;&lt;strong&gt;&lt;em&gt;Reservations are highly recommended&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-09T06:46:55.312Z</createdDate>
+	<createdDate_dt>2025-06-09T06:46:55.312Z</createdDate_dt>
+	<lastModifiedDate>2025-06-09T06:48:09.657Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-09T06:48:09.657Z</lastModifiedDate_dt>
+</component>
 	</item></components_o>
 </page>
