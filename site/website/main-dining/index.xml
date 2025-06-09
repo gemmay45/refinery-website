@@ -14,10 +14,11 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
 	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-	<lastModifiedDate>2025-06-09T01:00:03.647Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-09T01:00:03.647Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-09T01:05:25.979Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-09T01:05:25.979Z</lastModifiedDate_dt>
 	<components_o item-list="true">	<item inline="true">	<key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
 	<value>Row</value>
+	<disableFlattening>false</disableFlattening>
 <component id="b74651bb-590f-4174-9b88-ef041c75b54f">
 	<content-type>/component/rf-row-wrapper</content-type>
 	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
@@ -54,7 +55,6 @@
 	<lastModifiedDate>2025-06-06T09:07:32.810Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-06T09:07:32.810Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>74059c01-feed-d63b-8282-2fef340c4a45</key>
 	<value>Row</value>
 <component id="74059c01-feed-d63b-8282-2fef340c4a45">
@@ -71,13 +71,13 @@
 	<value>Carousel</value>
 <component id="00217304-e546-ed2c-d27e-ee2d5dc8eb0d">
 	<content-type>/component/rd-carousel</content-type>
-	<display-template>/templates/web/compoonents/rf-carousel.ftl</display-template>
+	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>0021</objectGroupId>
 	<objectId>00217304-e546-ed2c-d27e-ee2d5dc8eb0d</objectId>
-	<imageItems_o item-list="true">	<item>	<title_s/>
-	<image_s/>
+	<imageItems_o item-list="true">	<item>	<title_s>MAIN DINING</title_s>
+	<image_s>/static-assets/images/refinery/main-dining-hero.webp</image_s>
 	<image_s_alt/>
 	</item></imageItems_o>
 	<file-name>00217304-e546-ed2c-d27e-ee2d5dc8eb0d.xml</file-name>
@@ -85,14 +85,16 @@
 	<internal-name>Carousel</internal-name>
 	<createdDate>2025-06-09T01:00:30.127Z</createdDate>
 	<createdDate_dt>2025-06-09T01:00:30.127Z</createdDate_dt>
-	<lastModifiedDate>2025-06-09T01:00:30.127Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-09T01:00:30.127Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-09T01:05:32.021Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-09T01:05:32.021Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<createdDate>2025-06-09T01:00:17.131Z</createdDate>
 	<createdDate_dt>2025-06-09T01:00:17.131Z</createdDate_dt>
-	<lastModifiedDate>2025-06-09T01:00:17.131Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-09T01:00:17.131Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-09T01:05:29.632Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-09T01:05:29.632Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 </page>
