@@ -25,10 +25,12 @@
             </div>
         </div>
     </div>
+    
+    <#if contentModel.cTALinkItems_o?? &&contentModel.cTALinkItems_o.item??>
     <div class="info d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
         <div class="text-center">
             <h5 class="underbar-short">
-                ${}
+                ${contentModel.title_s}
             </h5>
             <p>-
                 <br> <strong>Opening Hours:</strong> <br>
@@ -48,7 +50,19 @@
                     aria-expanded="false" class="btn cta dropdown-toggle">
                     View Menu
                 </button>
-                <div class="dropdown-menu" style=""><a
+                <div class="dropdown-menu" style="">
+                    <#if contentModel.cTALinkItems_o?? &&contentModel.cTALinkItems_o.item??>
+                        <#list contentModel.cTALinkItems_o.item as linkItem>
+                          <a href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
+                                class="dropdown-item">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        A la carte Menu
+                                    </font>
+                                </font>
+                            </a>
+                        </#list>
+                    <#--<a
                         href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
                         class="dropdown-item">
                         <font style="vertical-align: inherit;">
@@ -83,7 +97,9 @@
                     </a> <a href="/-/media/swire/refineryclub/dining/menus/takeaway-menu.ashx" target="_blank"
                         class="dropdown-item">
                         Takeaway Menu
-                    </a></div>
+                    </a>-->
+                        </#if>
+                    </div>
             </div>
             <p></p>
         </div>
