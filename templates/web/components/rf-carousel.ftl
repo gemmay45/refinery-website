@@ -4,8 +4,9 @@
 <div class="col-12">
     <div data-sliders="default" class="swiper-container mt-4 swiper-container-initialized swiper-container-horizontal"
         style="cursor: grab;">
-        <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1110px, 0px, 0px);">
+        <div class="swiper-wrapper">
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
+					
                 <#list contentModel.imageItems_o.item as imageItem>
                     <#assign cssClass = "swiper-slide swiper-slide-next" />
                     <#assign cssFirstClass = "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" />
@@ -30,7 +31,7 @@
                             <#assign cssClass = "swiper-slide swiper-slide-next" />
                         </#if>
                     </#if>-->
-                    <@crafter.div class="swiper-slide" $index=imageItem?index style="width: 1110px;">
+                    <@crafter.div class="swiper-slide" $index=imageItem?index>
                             <div class="slider-title">${imageItem.title_s}</div>
                             <div data-ratio="111x55" class="img-box">
                                 <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />
