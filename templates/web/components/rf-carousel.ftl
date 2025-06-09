@@ -17,7 +17,7 @@
                             <#assign cssClass = "swiper-slide swiper-slide-next" />
                         </#if>
                     </#if>-->
-                    <@crafter.div class="${cssClass}"
+                    <@crafter.div class="swiper-slide swiper-slide-active"
                 $index=imageItem?index style="width: 1110px;" $attributes={'data-swiper-slide-index':'${imageItem?index}'}>
                             <div class="slider-title">${imageItem.title_s}</div>
                             <div data-ratio="111x55" class="img-box">
