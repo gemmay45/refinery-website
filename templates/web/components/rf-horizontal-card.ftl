@@ -14,58 +14,15 @@
                         </@crafter.div>
                      </#list>
                 </#if>
-
-                <#--<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
-                    data-swiper-slide-index="4" style="width: 710px;">
-                    <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
-                            src="/-/media/swire/refineryclub/dining/main-dining/therefinery0509-050.ashx"> </div>
-                </div>
-                <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 710px;">
-                    <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
-                            src="/-/media/swire/refineryclub/dining/main-dining/therefinery0509-001.ashx"> </div>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="1" style="width: 710px;">
-                    <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
-                            src="/-/media/swire/refineryclub/dining/main-dining/therefinery0509-007.ashx"> </div>
-                </div>
-                <div class="swiper-slide" data-swiper-slide-index="2" style="width: 710px;">
-                    <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
-                            src="/-/media/swire/refineryclub/dining/main-dining/therefinery0509-040.ashx"> </div>
-                </div>
-                <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="3" style="width: 710px;">
-                    <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
-                            src="/-/media/swire/refineryclub/dining/main-dining/therefinery0509-057.ashx"> </div>
-                </div>
-                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="4" style="width: 710px;">
-                    <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
-                            src="/-/media/swire/refineryclub/dining/main-dining/therefinery0509-050.ashx"> </div>
-                </div>
-                <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0"
-                    style="width: 710px;">
-                    <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
-                            src="/-/media/swire/refineryclub/dining/main-dining/therefinery0509-001.ashx"> </div>
-                </div>
-                -->
             </div>
-            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
-                    class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span
-                    class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span
-                    class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span
-                    class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span
-                    class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
-                    aria-label="Go to slide 5"></span></div>
-            <div class="carousel-nav-button button-prev" tabindex="0" role="button" aria-label="Previous slide"><span
-                    class="icon sp-arrow-prev"></span> <span class="sr-only">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Previous</font>
-                    </font>
-                </span></div>
-            <div class="carousel-nav-button button-next" tabindex="0" role="button" aria-label="Next slide"><span
-                    class="icon sp-arrow-next"></span> <span class="sr-only">
-                    <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Next</font>
-                    </font>
-                </span></div><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            <div class="swiper-pagination></div>
+            <div class="carousel-nav-button button-prev">
+                <span class="icon sp-arrow-prev"></span>
+                <span class="sr-only">Previous</span></div>
+            <div class="carousel-nav-button button-next">
+                <span class="icon sp-arrow-next"></span>
+                <span class="sr-only">Next</span>
+            </div>
         </div>
     </div>
     <div class="info d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
