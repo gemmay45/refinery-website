@@ -26,7 +26,7 @@
         </div>
     </div>
     
-    <#--<#if contentModel.cTALinkItems_o?? &&contentModel.cTALinkItems_o.item??>
+    <#if contentModel.cTALinkItems_o?? &&contentModel.cTALinkItems_o.item??>
     <div class="info d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
         <div class="text-center">
             <h5 class="underbar-short">
@@ -51,7 +51,6 @@
                     View Menu
                 </button>
                 <div class="dropdown-menu" style="">
-                                        <#if contentModel.cTALinkItems_o?? &&contentModel.cTALinkItems_o.item??>
                         <#list contentModel.cTALinkItems_o.item as linkItem>
                           <a href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
                                 class="dropdown-item">
@@ -104,5 +103,4 @@
         </div>
     </div>
     <#/if>
-    -->
 </div>
