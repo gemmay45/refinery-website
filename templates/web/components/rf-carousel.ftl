@@ -45,10 +45,10 @@
                         <@crafter.div class="${cssFirstClass}"
                     $index=0 style="width: 1110px;" $attributes={'data-swiper-slide-index':0}>
                             <div class="slider-title">${imageItem.title_s}</div>
-                            <@crafter.div data-ratio="111x55" class="img-box">
+                            <div data-ratio="111x55" class="img-box">
                                 <@crafter.img src="${imageItem.image_s}" $attributes={'data-src':'${imageItem.image_s}'} $field="imageItems_o.image_s" $index=imageItem?index alt="" class="" />
                                 <div class="swiper-lazy-preloader"></div>
-                            </@crafter.div>
+                            </div>
                         </@crafter.div>
                         
                     </#if>
