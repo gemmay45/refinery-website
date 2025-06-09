@@ -30,7 +30,7 @@
     <div class="info d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
         <div class="text-center">
             <@crafter.h5 class="underbar-short" $field="title_s">${contentModel.title_s}</@crafter.h5>
-            <@crafter.div>${contentModel.bodyContent_html}</@crafter.div>
+            <@crafter.div $field="bodyContent_html">${contentModel.bodyContent_html}</@crafter.div>
 
             <div class="btn-group dropdown-btn"><button type="button" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false" class="btn cta dropdown-toggle">
