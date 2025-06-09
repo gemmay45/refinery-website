@@ -9,6 +9,8 @@
                 <#list contentModel.imageItems_o.item as imageItem>
                     <#assign cssClass = "swiper-slide swiper-slide-next" />
                     <#assign cssFirstClass = "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" />
+                    <#assign cssLodedClass = "swiper-lazy-preloader" />
+                    <#assign cssPreloadedClass = "swiper-lazy-preloader" />
                     <#if imageItem?index == 0>
                         <#assign cssClass = "swiper-slide swiper-slide-active" />
                     <#else>
@@ -34,7 +36,7 @@
                             <div data-ratio="111x55" class="img-box">
                                 <#--<@crafter.img src="${imageItem.image_s}" $attributes={'data-src':'${imageItem.image_s}'} alt="" class="img-fluid lazyload" style="" $field="imageItems_o.image_s" $index=imageItem?index />-->
 
-                                <@crafter.img $attributes={'data-src':'${imageItem.image_s}'} $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy swiper-lazy-loaded" />
+                                <@crafter.img $attributes={'data-src':'${imageItem.image_s}'} $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy-preloader" />
                                 <div class="swiper-lazy-preloader"></div>
                             </div>
                     </@crafter.div>
@@ -44,7 +46,7 @@
                     $index=0 style="width: 1110px;" $attributes={'data-swiper-slide-index':0}>
                             <div class="slider-title">${imageItem.title_s}</div>
                             <@crafter.div data-ratio="111x55" class="img-box">
-                                <@crafter.img $attributes={'data-src':'${imageItem.image_s}'} $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy swiper-lazy-loaded" />
+                                <@crafter.img $attributes={'data-src':'${imageItem.image_s}'} $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy-preloader" />
                                 <div class="swiper-lazy-preloader"></div>
                             </@crafter.div>
                         </@crafter.div>
