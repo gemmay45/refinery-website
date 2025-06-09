@@ -1,8 +1,7 @@
 <div class="dining-intro d-md-flex flex-md-row justify-content-md-start align-items-md-stretch d-lg-flex flex-lg-row justify-content-lg-start align-items-lg-stretch">
     <div class="slider-wrapper">
-        <div data-sliders="inpage" class="swiper-container swiper-container-initialized swiper-container-horizontal"
-            style="cursor: grab;">
-            <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-3550px, 0px, 0px);">
+        <div data-sliders="inpage" class="swiper-container">
+            <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
                     data-swiper-slide-index="4" style="width: 710px;">
                     <div data-ratio="38x26" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
