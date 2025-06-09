@@ -14,49 +14,11 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
 	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-	<lastModifiedDate>2025-06-09T01:05:25.979Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-09T01:05:25.979Z</lastModifiedDate_dt>
-	<components_o item-list="true">	<item inline="true">	<key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
+	<lastModifiedDate>2025-06-09T01:06:33.587Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-09T01:06:33.587Z</lastModifiedDate_dt>
+	<components_o item-list="true">	<item inline="true">	<key>74059c01-feed-d63b-8282-2fef340c4a45</key>
 	<value>Row</value>
 	<disableFlattening>false</disableFlattening>
-<component id="b74651bb-590f-4174-9b88-ef041c75b54f">
-	<content-type>/component/rf-row-wrapper</content-type>
-	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>b746</objectGroupId>
-	<objectId>b74651bb-590f-4174-9b88-ef041c75b54f</objectId>
-	<file-name>b74651bb-590f-4174-9b88-ef041c75b54f.xml</file-name>
-	<folder-name/>
-	<internal-name>Row</internal-name>
-	<components_o item-list="true">	<item inline="true">	<key>56057f4e-42e4-7ba7-106d-3f051b7259ce</key>
-	<value>Text Block</value>
-<component id="56057f4e-42e4-7ba7-106d-3f051b7259ce">
-	<content-type>/component/rf-text-block</content-type>
-	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>5605</objectGroupId>
-	<objectId>56057f4e-42e4-7ba7-106d-3f051b7259ce</objectId>
-	<internal-name>Text Block</internal-name>
-	<title_s>MAIN DINING</title_s>
-	<subtitle_s/>
-	<file-name>56057f4e-42e4-7ba7-106d-3f051b7259ce.xml</file-name>
-	<folder-name/>
-	<bodyContent_html>&lt;p&gt;Presenting an innovative, ever-changing menu, our Main Dining Room proudly serves sophisticated Cantonese cuisine. The offerings are delicate and refined, comforting yet wholesome, with a focus on sustainable, natural and the freshest ingredients. &amp;nbsp;Semi-private rooms and a private dining room are also available.&lt;/p&gt;</bodyContent_html>
-	<createdDate>2025-06-06T09:07:41.623Z</createdDate>
-	<createdDate_dt>2025-06-06T09:07:41.623Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T09:07:41.623Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T09:07:41.623Z</lastModifiedDate_dt>
-</component>
-	</item></components_o>
-	<createdDate>2025-06-06T09:07:32.810Z</createdDate>
-	<createdDate_dt>2025-06-06T09:07:32.810Z</createdDate_dt>
-	<lastModifiedDate>2025-06-06T09:07:32.810Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-06T09:07:32.810Z</lastModifiedDate_dt>
-</component>
-	</item>	<item inline="true">	<key>74059c01-feed-d63b-8282-2fef340c4a45</key>
-	<value>Row</value>
 <component id="74059c01-feed-d63b-8282-2fef340c4a45">
 	<content-type>/component/rf-row-wrapper</content-type>
 	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
@@ -95,6 +57,44 @@
 	<lastModifiedDate>2025-06-09T01:05:29.632Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-09T01:05:29.632Z</lastModifiedDate_dt>
 </component>
+	</item>	<item inline="true">	<key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
+	<value>Row</value>
 	<disableFlattening>false</disableFlattening>
+<component id="b74651bb-590f-4174-9b88-ef041c75b54f">
+	<content-type>/component/rf-row-wrapper</content-type>
+	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b746</objectGroupId>
+	<objectId>b74651bb-590f-4174-9b88-ef041c75b54f</objectId>
+	<file-name>b74651bb-590f-4174-9b88-ef041c75b54f.xml</file-name>
+	<folder-name/>
+	<internal-name>Row</internal-name>
+	<components_o item-list="true">	<item inline="true">	<key>56057f4e-42e4-7ba7-106d-3f051b7259ce</key>
+	<value>Text Block</value>
+<component id="56057f4e-42e4-7ba7-106d-3f051b7259ce">
+	<content-type>/component/rf-text-block</content-type>
+	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5605</objectGroupId>
+	<objectId>56057f4e-42e4-7ba7-106d-3f051b7259ce</objectId>
+	<internal-name>Text Block</internal-name>
+	<title_s>MAIN DINING</title_s>
+	<subtitle_s/>
+	<file-name>56057f4e-42e4-7ba7-106d-3f051b7259ce.xml</file-name>
+	<folder-name/>
+	<bodyContent_html>&lt;p&gt;Presenting an innovative, ever-changing menu, our Main Dining Room proudly serves sophisticated Cantonese cuisine. The offerings are delicate and refined, comforting yet wholesome, with a focus on sustainable, natural and the freshest ingredients. &amp;nbsp;Semi-private rooms and a private dining room are also available.&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-06T09:07:41.623Z</createdDate>
+	<createdDate_dt>2025-06-06T09:07:41.623Z</createdDate_dt>
+	<lastModifiedDate>2025-06-06T09:07:41.623Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T09:07:41.623Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
+	<createdDate>2025-06-06T09:07:32.810Z</createdDate>
+	<createdDate_dt>2025-06-06T09:07:32.810Z</createdDate_dt>
+	<lastModifiedDate>2025-06-06T09:07:32.810Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-06T09:07:32.810Z</lastModifiedDate_dt>
+</component>
 	</item></components_o>
 </page>
