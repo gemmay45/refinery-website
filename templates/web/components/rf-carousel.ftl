@@ -11,7 +11,7 @@
                     <#if imageItem?index == 0>
                         <#assign cssClass = "swiper-slide swiper-slide-active" />
                     <#else>
-                        <#if imageItem?index == imageItems_o??size-1>
+                        <#if imageItem?index == imageItems_o?size-1>
                             <#assign cssClass = "swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next" />
                             <#assign cssFirstClass = "swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" />
                         <#else>
