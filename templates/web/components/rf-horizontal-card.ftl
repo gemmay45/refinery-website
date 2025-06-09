@@ -51,54 +51,7 @@
                     View Menu
                 </button>
                 <div class="dropdown-menu" style="">
-                    <#if contentModel.cTALinkItems_o?? &&contentModel.cTALinkItems_o.item??>
-                        <#list contentModel.cTALinkItems_o.item as linkItem>
-                          <a href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
-                                class="dropdown-item">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">
-                                        A la carte Menu
-                                    </font>
-                                </font>
-                            </a>
-                        </#list>
-                    <#--<a
-                        href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
-                        class="dropdown-item">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">
-                                A la carte Menu
-                            </font>
-                        </font>
-                    </a> <a href="/-/media/swire/refineryclub/dining/menus/chinese-dim-sum-menu.ashx" target="_blank"
-                        class="dropdown-item">
-                        Dim Sum
-                    </a> <a href="/-/media/swire/refineryclub/dining/menus/tasting-menu.ashx" target="_blank"
-                        class="dropdown-item">
-                        Tasting Menu
-                    </a> <a href="/-/media/swire/refineryclub/dining/menus/breakfast-meeting-packages.ashx"
-                        target="_blank" class="dropdown-item">
-                        Breakfast Meeting Packages
-                    </a> <a href="/-/media/swire/refineryclub/dining/menus/meeting-packages.ashx" target="_blank"
-                        class="dropdown-item">
-                        Half Day Meeting Packages
-                    </a> <a href="/-/media/swire/refineryclub/dining/menus/banquet-set-lunch-menu.ashx" target="_blank"
-                        class="dropdown-item">
-                        Banquet Set Lunch
-                    </a> <a href="/-/media/swire/refineryclub/dining/menus/banquet-set-dinner-menu.ashx" target="_blank"
-                        class="dropdown-item">
-                        Banquet Set Dinner
-                    </a> <a href="/-/media/swire/refineryclub/dining/menus/office-catering-menu.ashx" target="_blank"
-                        class="dropdown-item">
-                        Office Catering
-                    </a> <a href="/-/media/swire/refineryclub/dining/menus/master-wine-list.ashx" target="_blank"
-                        class="dropdown-item">
-                        Master Wine list
-                    </a> <a href="/-/media/swire/refineryclub/dining/menus/takeaway-menu.ashx" target="_blank"
-                        class="dropdown-item">
-                        Takeaway Menu
-                    </a>-->
-                        </#if>
+
                     </div>
             </div>
             <p></p>
