@@ -1,5 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#--
 <div class="col-12">
     <div data-sliders="default" class="swiper-container mt-4 swiper-container-initialized swiper-container-horizontal"
         style="cursor: grab;">
@@ -15,12 +16,11 @@
                                 alt="" class="swiper-lazy" $index=imageItem?index>
                             <div class="swiper-lazy-preloader"></div>
                         </div>
-                        <#--<@crafter.img src="${imageItem.thumbnail_s}" alt="" class="img-fluid lazyload" style="" $field="imageItems_o.thumbnail_s" $index=imageItem?index />-->
                     </@crafter.div>
                  </#list>
             </#if>
 
-            <#--<div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
+            <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
                 data-swiper-slide-index="1" style="width: 1110px;">
                 <div class="slider-title">SEMI-PRIVATE DINING</div>
                 <div data-ratio="111x55" class="img-box"><img
@@ -49,7 +49,6 @@
                 <div data-ratio="111x55" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
                         src="/-/media/swire/refineryclub/dining/hero/main-dining-hero.ashx"> </div>
             </div>
-            -->
         </div>
         <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
                 class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
@@ -62,3 +61,4 @@
             class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
 </div>
+-->
