@@ -7,7 +7,7 @@
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
                 <#list contentModel.imageItems_o.item as imageItem>
                     <@crafter.div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
-                data-swiper-slide-index="1" style="width: 1110px;">
+                data-swiper-slide-index="${imageItem?index}" style="width: 1110px;">
                     <@crafter.div class="col mt-5" style="margin-top:0 !important" $field="imageItems_o" $index=imageItem?index>
                         <div class="slider-title">SEMI-PRIVATE DINING</div>
                         <div data-ratio="111x55" class="img-box"><img
@@ -20,7 +20,7 @@
                  </#list>
             </#if>
 
-            <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
+            <#--<div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next"
                 data-swiper-slide-index="1" style="width: 1110px;">
                 <div class="slider-title">SEMI-PRIVATE DINING</div>
                 <div data-ratio="111x55" class="img-box"><img
@@ -49,6 +49,7 @@
                 <div data-ratio="111x55" class="img-box"><img alt="" class="swiper-lazy swiper-lazy-loaded"
                         src="/-/media/swire/refineryclub/dining/hero/main-dining-hero.ashx"> </div>
             </div>
+            -->
         </div>
         <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
                 class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
