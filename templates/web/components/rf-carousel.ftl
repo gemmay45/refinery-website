@@ -8,6 +8,7 @@
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
                 <#list contentModel.imageItems_o.item as imageItem>
                     <#assign cssClass = "swiper-slide swiper-slide-next" />
+                    <#assign cssFirstClass = "" />
                     <#if imageItem?index == 0>
                         <#assign cssClass = "swiper-slide swiper-slide-active" />
                     <#else>
