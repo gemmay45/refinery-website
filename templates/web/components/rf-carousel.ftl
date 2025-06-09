@@ -7,7 +7,7 @@
         <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1110px, 0px, 0px);">
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
                 <#list contentModel.imageItems_o.item as imageItem>
-                    <#if imageItem?index == 0>
+                    <#--<#if imageItem?index == 0>
                         <#assign cssClass = "swiper-slide swiper-slide-active" />
                     <#else>
                         <#if imageItem?index == imageItems_o??size-1>
@@ -16,17 +16,17 @@
                         <#else>
                             <#assign cssClass = "swiper-slide swiper-slide-next" />
                         </#if>
-                    </#if>
-                    <@crafter.div class="${cssClass}"
+                    </#if>-->
+                    <@crafter.div class=""
                 $index=imageItem?index style="width: 1110px;" $attributes={'data-swiper-slide-index':'${imageItem?index}'}>
                             <div class="slider-title">${imageItem.title_s}</div>
                             <@crafter.div data-ratio="111x55" class="img-box">
-                                <#--<@crafter.img data-src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />-->
+                                <@crafter.img data-src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />
                                 <div class="swiper-lazy-preloader"></div>
                             </@crafter.div>
                     </@crafter.div>
-                    
-                    <#--<#if imageItem?index == imageItems_o??size-1>
+                    <#--
+                    <#if imageItem?index == imageItems_o??size-1>
                         <@crafter.div class="${cssFirstClass}"
                     $index=0 style="width: 1110px;" $attributes={'data-swiper-slide-index':0}>
                             <div class="slider-title">${imageItem.title_s}</div>
