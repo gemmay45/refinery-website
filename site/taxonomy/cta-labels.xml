@@ -6,7 +6,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>1b54</objectGroupId>
 	<objectId>1b54434d-b11d-706a-c968-1cf7ea3ba546</objectId>
-	<items item-list="true">	<item>	<key>view-menu</key>
+	<items item-list="true">	<item>	<key>VIEW MENU</key>
 	<value>View Menu</value>
 	</item></items>
 	<internal-name>CTA Labels</internal-name>
@@ -14,6 +14,6 @@
 	<folder-name/>
 	<createdDate>2025-06-10T00:13:17.576Z</createdDate>
 	<createdDate_dt>2025-06-10T00:13:17.576Z</createdDate_dt>
-	<lastModifiedDate>2025-06-10T00:13:17.576Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-10T00:13:17.576Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-10T00:50:58.829Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-10T00:50:58.829Z</lastModifiedDate_dt>
 </component>
