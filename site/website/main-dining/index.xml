@@ -14,9 +14,33 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
 	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-	<lastModifiedDate>2025-06-10T00:52:08.622Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-10T00:52:08.622Z</lastModifiedDate_dt>
-	<components_o item-list="true">	<item inline="true">	<key>74059c01-feed-d63b-8282-2fef340c4a45</key>
+	<lastModifiedDate>2025-06-10T01:19:01.544Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-10T01:19:01.544Z</lastModifiedDate_dt>
+	<components_o item-list="true">	<item inline="true">	<key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
+	<value>Carousel</value>
+<component id="c3ef4875-acd2-2c29-c719-99ef93feba74">
+	<content-type>/component/rd-carousel</content-type>
+	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c3ef</objectGroupId>
+	<objectId>c3ef4875-acd2-2c29-c719-99ef93feba74</objectId>
+	<imageItems_o item-list="true">	<item>	<title_s>MAIN DINING</title_s>
+	<image_s>/static-assets/images/refinery/main-dining-hero.webp</image_s>
+	<image_s_alt/>
+	</item>	<item>	<title_s>SEMI-PRIVATE DINING</title_s>
+	<image_s>/static-assets/images/refinery/semi-private-dining_retouched-update_7-aug.webp</image_s>
+	<image_s_alt/>
+	</item></imageItems_o>
+	<file-name>c3ef4875-acd2-2c29-c719-99ef93feba74.xml</file-name>
+	<folder-name/>
+	<internal-name>Carousel</internal-name>
+	<createdDate>2025-06-10T01:19:07.614Z</createdDate>
+	<createdDate_dt>2025-06-10T01:19:07.614Z</createdDate_dt>
+	<lastModifiedDate>2025-06-10T01:19:07.614Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-10T01:19:07.614Z</lastModifiedDate_dt>
+</component>
+	</item>	<item inline="true">	<key>74059c01-feed-d63b-8282-2fef340c4a45</key>
 	<value>Row</value>
 	<disableFlattening>false</disableFlattening>
 <component id="74059c01-feed-d63b-8282-2fef340c4a45">
