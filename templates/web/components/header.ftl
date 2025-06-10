@@ -116,7 +116,7 @@ Virtual Tour                                            </a>
                         <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
                             <div class="collapse navbar-collapse justify-content-lg-center">
                                 <ul class="navbar-nav">
-                                    <li class="nav-item"><a href="/en/main-dining/" class="nav-link">Main Dining</a></li>
+                                    <li class="nav-item"><a href="/en/main-dining/" class="nav-link">${contentModel.navLabel}</a></li>
                                     <li class="nav-item"><a href="/en/main-dining/private-dining/" class="nav-link"><span>Private
                                                 Dining</span></a></li>
                                     <li class="nav-item"><a href="/en/main-dining/bar-and-lounges/" class="nav-link"><span>BAR &amp;
