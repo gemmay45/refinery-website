@@ -137,27 +137,14 @@
 						</constraint>
 					</constraints>
 				</field>
-			</fields>
-		</section>
-		<section>
-			<title>Content</title>
-			<description></description>
-			<defaultOpen>true</defaultOpen>
-			<fields>
 				<field>
-					<type>link</type>
-					<id>redirectURL_o</id>
+					<type>input</type>
+					<id>redirect-url</id>
 					<iceId></iceId>
 					<title>Redirect URL</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
-					<plugin>
-						<pluginId>org.craftercms.plugin.excontrol</pluginId>
-						<type>control</type>
-						<name>link</name>
-						<filename>main.js</filename>
-					</plugin>
 					<properties>
 						<property>
 							<name>size</name>
@@ -180,9 +167,9 @@
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>datasource</name>
-							<value>pageSource</value>
-							<type>datasource:item</type>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
