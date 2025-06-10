@@ -34,7 +34,7 @@
 
             <div class="btn-group dropdown-btn"><button type="button" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false" class="btn cta dropdown-toggle">
-                    View Menu
+                    ${contentModel.cTALabel_s}
                 </button>
                 <div class="dropdown-menu">
                     <#list contentModel.cTALinkItems_o.item as linkItem>
