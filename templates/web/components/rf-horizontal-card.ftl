@@ -31,7 +31,7 @@
         <div class="text-center">
             <@crafter.h5 class="underbar-short" $field="title_s">${contentModel.title_s}</@crafter.h5>
             <@crafter.div $field="bodyContent_html">${contentModel.bodyContent_html}</@crafter.div>
-${contentModel.cTALabel_s_options}
+${contentModel.cTALabel_s.key}
 <#--
             <#assign dropdownValue = contentModel.cTALabel_s>
 <#if dropdownValue??>
