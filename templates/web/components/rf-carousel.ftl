@@ -4,7 +4,7 @@
 <div class="col-12">
     <div data-sliders="default" class="swiper-container mt-4 swiper-container-initialized swiper-container-horizontal"
         style="cursor: grab;">
-        <div class="swiper-wrapper">
+        <div data-sliders="inpage" class="swiper-wrapper">
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
                 <#list contentModel.imageItems_o.item as imageItem>
                     <@crafter.div class="swiper-slide" $index=imageItem?index style="width: 1110px;">
