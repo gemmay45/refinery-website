@@ -35,7 +35,7 @@
             <#assign dropdownValue = contentModel.cTALabel_s>
 <#if dropdownValue??>
   <#list contentModel.cTALabel_s_options as option>
-    <#if option.value == dropdownValue>
+    <#if option.value == ${dropdownValue}>
       ${option.label}
     </#if>
   </#list>
