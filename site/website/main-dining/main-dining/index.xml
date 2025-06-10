@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/rf-redirect-page</content-type>
+	<display-template>/templates/web/pages/rf-redirect-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>89dc</objectGroupId>
+	<objectId>89dcf6f0-bc17-c488-482c-86f51970a46c</objectId>
+	<internal-name>Main Dining</internal-name>
+	<navLabel>MAIN DINING</navLabel>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>0</orderDefault_f>
+	<file-name>index.xml</file-name>
+	<folder-name>main-dining</folder-name>
+	<createdDate>2025-06-10T03:41:05.768Z</createdDate>
+	<createdDate_dt>2025-06-10T03:41:05.768Z</createdDate_dt>
+	<lastModifiedDate>2025-06-10T03:41:05.768Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-10T03:41:05.768Z</lastModifiedDate_dt>
+</page>
