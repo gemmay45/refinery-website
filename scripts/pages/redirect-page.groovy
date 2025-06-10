@@ -1,2 +1,2 @@
 response.setStatus(200)
-response.sendRedirect(/site)
+response.sendRedirect("/site/website/main-dining/index.xml")
