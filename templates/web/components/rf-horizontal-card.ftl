@@ -15,7 +15,7 @@
                      </#list>
                 </#if>
             </div>
-            <div class="swiper-pagination></div>
+            <div class="swiper-pagination"></div>
             <div class="carousel-nav-button button-prev">
                 <span class="icon sp-arrow-prev"></span>
                 <span class="sr-only">Previous</span></div>
