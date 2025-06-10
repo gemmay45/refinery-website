@@ -32,6 +32,14 @@
             <@crafter.h5 class="underbar-short" $field="title_s">${contentModel.title_s}</@crafter.h5>
             <@crafter.div $field="bodyContent_html">${contentModel.bodyContent_html}</@crafter.div>
 
+            <#assign dropdownValue = contentModel.cTALabel_s>
+<#if dropdownValue??>
+  <#list contentModel.cTALabel_s_options as option>
+    <#if option.value == dropdownValue>
+      ${option.label}
+    </#if>
+  </#list>
+</#if>
             <div class="btn-group dropdown-btn"><button type="button" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false" class="btn cta dropdown-toggle">
                     ${contentModel.cTALabel_s}
