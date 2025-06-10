@@ -1,8 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <div class="col-12">
-    <div data-sliders="default" class="swiper-container mt-4 swiper-container-initialized swiper-container-horizontal"
-        style="cursor: grab;">
+    <div data-sliders="default" class="swiper-container mt-4">
 
         <div class="swiper-wrapper">
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
