@@ -8,13 +8,13 @@
 	<objectId>0dbcd17f-4ef7-122a-ca52-30d85795497a</objectId>
 	<internal-name>Main Dining</internal-name>
 	<navLabel>MAIN DINING</navLabel>
-	<placeInNav>true</placeInNav>
-	<orderDefault_f>1000</orderDefault_f>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
 	<file-name>index.xml</file-name>
 	<folder-name>main-dining</folder-name>
 	<createdDate>2025-06-10T04:01:53.901Z</createdDate>
 	<createdDate_dt>2025-06-10T04:01:53.901Z</createdDate_dt>
-	<lastModifiedDate>2025-06-10T05:44:21.969Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-10T05:44:21.969Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-10T05:46:06.734Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-10T05:46:06.734Z</lastModifiedDate_dt>
 	<redirectURL_s>/main-dining</redirectURL_s>
 </page>
