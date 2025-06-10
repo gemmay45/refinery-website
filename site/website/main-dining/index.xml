@@ -10,14 +10,15 @@
 	<navLabel>Dining</navLabel>
 	<file-name>index.xml</file-name>
 	<folder-name>main-dining</folder-name>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>8000</orderDefault_f>
 	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
 	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-	<lastModifiedDate>2025-06-10T01:21:37.364Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-10T01:21:37.364Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-10T03:10:14.025Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-10T03:10:14.025Z</lastModifiedDate_dt>
 	<components_o item-list="true">	<item inline="true">	<key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
 	<value>Carousel</value>
+	<disableFlattening>false</disableFlattening>
 <component id="c3ef4875-acd2-2c29-c719-99ef93feba74">
 	<content-type>/component/rd-carousel</content-type>
 	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
@@ -40,7 +41,6 @@
 	<lastModifiedDate>2025-06-10T01:19:07.614Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-10T01:19:07.614Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
 	<value>Row</value>
 	<disableFlattening>false</disableFlattening>
@@ -130,4 +130,5 @@
 	<cTALabel_s>VIEW MENU</cTALabel_s>
 </component>
 	</item></components_o>
+	<placeChildreninNav_b>true</placeChildreninNav_b>
 </page>
