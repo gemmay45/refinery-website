@@ -523,7 +523,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>/taxonomy/cta-labels.xml</value>
+							<value>/site/taxonomy/cta-labels.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
