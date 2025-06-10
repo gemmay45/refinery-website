@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>1b54</objectGroupId>
+	<objectId>1b54434d-b11d-706a-c968-1cf7ea3ba546</objectId>
+	<items item-list="true">	<item>	<key>view-menu</key>
+	<value>View Menu</value>
+	</item></items>
+	<internal-name>CTA Labels</internal-name>
+	<file-name>cta-labels.xml</file-name>
+	<folder-name/>
+	<createdDate>2025-06-10T00:13:17.576Z</createdDate>
+	<createdDate_dt>2025-06-10T00:13:17.576Z</createdDate_dt>
+	<lastModifiedDate>2025-06-10T00:13:17.576Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-10T00:13:17.576Z</lastModifiedDate_dt>
+</component>
