@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/redirect</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3700</objectGroupId>
+	<objectId>3700822c-0437-7cd5-fde9-dddb5e657174</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>main-dining</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<internal-name>Main Dining</internal-name>
+	<navLabel>MAIN DINING</navLabel>
+	<redirect-url>/main-dining</redirect-url>
+	<createdDate>2025-06-10T08:35:29.766Z</createdDate>
+	<createdDate_dt>2025-06-10T08:35:29.766Z</createdDate_dt>
+	<lastModifiedDate>2025-06-10T08:35:29.766Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-10T08:35:29.766Z</lastModifiedDate_dt>
+</page>
