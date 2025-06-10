@@ -2,7 +2,6 @@
 
 <div class="col-12">
     <div data-sliders="default" class="swiper-container">
-
         <div class="swiper-wrapper">
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
                 <#list contentModel.imageItems_o.item as imageItem>
@@ -25,6 +24,5 @@
             <span class="icon sp-arrow-next"></span>
             <span class="sr-only">Next</span>
         </div>
-
     </div>
 </div>
