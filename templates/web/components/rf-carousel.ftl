@@ -4,10 +4,10 @@
 <div class="col-12">
     <div data-sliders="default" class="swiper-container mt-4 swiper-container-initialized swiper-container-horizontal"
         style="cursor: grab;">
-        <div data-sliders="inpage" class="swiper-wrapper">
+        <div class="swiper-wrapper">
             <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
                 <#list contentModel.imageItems_o.item as imageItem>
-                    <@crafter.div class="swiper-slide" $index=imageItem?index style="width: 1110px;">
+                    <@crafter.div class="swiper-slide" $index=imageItem?index style="">
                             <@crafter.div $field="imageItems_o.title_s" $index=imageItem?index class="slider-title">${imageItem.title_s}</@crafter.div>
                             <div data-ratio="111x55" class="img-box">
                                 <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />
