@@ -112,6 +112,9 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
+                    <#if contentModel.placeChildreninNav_b>
+                    </#if>
+                    
                 </div>
             </div>
         </div>
