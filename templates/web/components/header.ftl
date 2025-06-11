@@ -112,7 +112,7 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
+                    <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', "/site/website/main-dining/index.xml")>
                     <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
                     <#assign hasSubItems = ((navItem.subItems)?size > 0) />
                     
