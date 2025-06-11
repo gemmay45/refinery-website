@@ -109,7 +109,8 @@ Virtual Tour                                            </a>
             </li>
     </ul>
 </div>
-                    
+            </nav>
+            
                    <#-- 
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
 
