@@ -124,7 +124,7 @@ Virtual Tour                                            </a>
                                     <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
                                     <#assign itemUrl = storeUrl?replace("site/website/","")?replace("/index.xml", "") />
                                     
-                                    <#if siteItem.redirect-url?>
+                                    <#if siteItem.redirect-url??>
                                         <#assign itemUrl = siteItem.redirect-url />
                                     </#if>
                                     
