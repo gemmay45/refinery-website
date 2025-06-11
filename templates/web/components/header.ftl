@@ -112,8 +112,7 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign shortLocale = contentModel.storeUrl?replace("/site/components/","")?split("/")[0] />
-                    <#assign navTree = navTreeBuilder.getNavTree("/site/website/${shortLocale}", 2, "")/>
+                    <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 1, "")/>
                     ${navTree}
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
