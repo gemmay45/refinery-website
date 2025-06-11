@@ -112,7 +112,7 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign navTree = siteItemService.getSiteTree("/site/website/main-dining", 1)/>
+                    <#assign navTree = siteItemService.getSiteTree("/site/website/main-dining/index.xml", 1)/>
                     <#assign navItems = navTree.childItems />
 
                     <#list navItems as navItem>
