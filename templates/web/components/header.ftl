@@ -165,9 +165,9 @@ Virtual Tour                                            </a>
                             <#assign url = menuLinkItem.storeUrl />
                             
                                      <@crafter.forEach menuLinkItem.linkItems_o; submenulink, index>
+                                     ${submenulink}
              <@crafter.section class="section" $field="menuLinkItem.linkItems_o" $index=index>
                 <#--<@renderComponent component=submenulink/>-->
-                xxx
              </@crafter.section>
          </@crafter.forEach>
 
