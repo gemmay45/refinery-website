@@ -110,42 +110,27 @@ Virtual Tour                                            </a>
     </ul>
 </div>
                     
-                   <#-- start --> 
+                   <#-- 
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
 
-                       <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 1, "")/>
+                        <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 1, "")/>
                         <#assign navItems = navTree.subItems/>
     
                         <nav id="xxx" class="navbar navbar-expand-lg navbar-submenu active">
-                        <div class="collapse navbar-collapse justify-content-lg-center">
-                            <ul class="navbar-nav">
-                        <#list navItems as navItem>
-                            <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
-                            <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                            <#--<#assign hasSubItems = ((navItem.subItems)?size > 0) />
-                            <#assign navSubitems = navItem.subItems/>-->
-                                <#assign itemStoreUrl = urlTransformationService.transform('renderUrlToStoreUrl', siteItem.url)>
-                                <#assign siteSubItem = siteItemService.getSiteItem(itemStoreUrl) />
-                                <li class="nav-item"><a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}">${siteItem.navLabel}</a></li>
-                                <#--    <#if hasSubItems>
-                                        <div class="masthead__nav__section__subitems">
-                                            <div class="masthead__nav__section__subitems__wrapper">
-                                                <a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="" class="masthead__nav__section__subitems__item">${siteItem.navLabel}</a>
-                                                <#list navSubitems as navSubitem>
-                                                    <#assign subItemStoreUrl = urlTransformationService.transform('renderUrlToStoreUrl', navSubitem.url)>
-                                                    <#assign siteSubItem = siteItemService.getSiteItem(subItemStoreUrl) />
-                                                    <a href="${subItemStoreUrl?replace("site/website/","")?replace("/index.xml", "")}" target="" class="masthead__nav__section__subitems__item">${siteSubItem.navLabel}</a>
-                                                </#list>
-                                            </div>
-                                        </div>
-                                        </#if>-->
-                            </#list>
-                            </ul>
+                            <div class="collapse navbar-collapse justify-content-lg-center">
+                                <ul class="navbar-nav">
+                                <#list navItems as navItem>
+                                    <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
+                                    <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
+
+                                    <li class="nav-item"><a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}">${siteItem.navLabel}</a></li>
+                                </#list>
+                                </ul>
                             </div>
                         </nav>
                     </#if>
-
-                    <#--<#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
+                    -->
+                    <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
                         <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
                             <div class="collapse navbar-collapse justify-content-lg-center">
                                 <ul class="navbar-nav">
@@ -159,7 +144,6 @@ Virtual Tour                                            </a>
                             </div>
                         </nav>
                     </#if>
-                    -->
                 </div>
             </div>
         </div>
