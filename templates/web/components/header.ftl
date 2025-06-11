@@ -160,6 +160,13 @@ Virtual Tour                                            </a>
                     </#if>
                     
                     <#if contentModel.submenu_o?? && contentModel.submenu_o.item??>
+                            				<#list contentModel.submenu_o.item as submenu>
+                        <#assign menuLinkItem =  siteItemService.getSiteItem(submenu.key) />
+                        <#assign url = menuLinkItem.storeUrl />
+                        ${url}
+                        </#list>
+                        
+                        <#--
                         <@crafter.forEach contentModel.submenu_o; linkItem, index>
     					    <#assign item =  siteItemService.getSiteItem(linkItem.key)?? />
     					    ${item.storeUrl}
@@ -168,7 +175,7 @@ Virtual Tour                                            </a>
     					        
     					    </#if>
         			    </@crafter.forEach>
-                                        
+                        -->  
                     </#if>
                 </div>
             </div>
