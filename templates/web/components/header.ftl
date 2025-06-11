@@ -122,9 +122,11 @@ Virtual Tour                                            </a>
                         <#list navItems as navItem>
                             <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                             <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                            <#assign hasSubItems = ((navItem.subItems)?size > 0) />
-                            <#assign navSubitems = navItem.subItems/>
-                                <li class="nav-item">${siteItem.navLabel}</li>
+                            <#--<#assign hasSubItems = ((navItem.subItems)?size > 0) />
+                            <#assign navSubitems = navItem.subItems/>-->
+                                <#assign itemStoreUrl = urlTransformationService.transform('renderUrlToStoreUrl', siteItem.url)>
+                                <#assign siteSubItem = siteItemService.getSiteItem(itemStoreUrl) />
+                                <li class="nav-item"><a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}">${siteItem.navLabel}</a></li>
                                 <#--    <#if hasSubItems>
                                         <div class="masthead__nav__section__subitems">
                                             <div class="masthead__nav__section__subitems__wrapper">
