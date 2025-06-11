@@ -160,10 +160,11 @@ Virtual Tour                                            </a>
                     </#if>
                     
                     <#if contentModel.submenu_o?? && contentModel.submenu_o.item??>
+                    ${contentModel.submenu_o?size}
                         <@crafter.forEach contentModel.submenu_o; linkItem, index>
     					    <#assign item =  siteItemService.getSiteItem(linkItem.key)?? />
     					    <#if siteItemService.getSiteItem(linkItem.key)??>
-    					        <@renderComponent component=item />
+    					        ${item.link}
     					    </#if>
         			    </@crafter.forEach>
                                         
