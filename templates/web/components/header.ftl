@@ -160,8 +160,8 @@ Virtual Tour                                            </a>
                     </#if>
                     
                     <#if contentModel.submenu_o?? && contentModel.submenu_o.item??>
-                    ddd
                         <@crafter.forEach contentModel.submenu_o; linkItem, index>
+                                            ddd
         					<#if linkItem.component??>
         						<#assign item = linkItem.component />
         						<@crafter.div $field="submenu_o" $index=index>
