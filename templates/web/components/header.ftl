@@ -60,7 +60,7 @@ Dining                                            </a>
                         <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 1, "")/>
                         <#assign navItems = navTree.subItems/>
     
-                        <nav id="xxx" class="navbar navbar-expand-lg navbar-submenu active">
+                        <nav id="xxx" class="navbar navbar-expand-lg navbar-submenu">
                             <div class="collapse navbar-collapse justify-content-lg-center">
                                 <ul class="navbar-nav">
                                 <#list navItems as navItem>
