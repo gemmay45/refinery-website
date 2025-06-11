@@ -111,43 +111,39 @@ Virtual Tour                                            </a>
 </div>
 
                     </nav>
-                   <#-- start --> 
-                   <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 2, "")/>
-                    <#assign navItems = navTree.subItems/>
-
-                    <div class="masthead__nav">
-            <#list navItems as navItem>
-                <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
-                <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                <#assign hasSubItems = ((navItem.subItems)?size > 0) />
-                <#assign navSubitems = navItem.subItems/>
-                <div class="masthead__nav__section">
-                    <div class="masthead__nav__section__title">${siteItem.navLabel}</div>
-                    <#if hasSubItems>
-                    <div class="masthead__nav__section__subitems">
-                      <div class="masthead__nav__section__subitems__wrapper">
-                        <a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="" class="masthead__nav__section__subitems__item">${siteItem.navLabel}</a>
-                        <#list navSubitems as navSubitem>
-                            <#assign subItemStoreUrl = urlTransformationService.transform('renderUrlToStoreUrl', navSubitem.url)>
-                            <#assign siteSubItem = siteItemService.getSiteItem(subItemStoreUrl) />
-                            <a href="${subItemStoreUrl?replace("site/website/","")?replace("/index.xml", "")}" target="" class="masthead__nav__section__subitems__item">${siteSubItem.navLabel}</a>
-                        </#list>
-                      </div>
-                    </div>
-                    </#if>
-                </div>
-            </#list>
-      </div>
-      <#-- end -->
-                    <#--<#assign navTree = siteItemService.getSiteTree("/site/website/main-dining", 1)/>
-                    <#assign navItems = navTree.childItems />
-${navItems?size}
-                    <#list navItems as navItem>
                     
-                    ${navItem.getStoreUrl()}
+                   <#-- start --> 
+                    <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
 
-                    </#list>
-                    -->
+                       <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 1, "")/>
+                        <#assign navItems = navTree.subItems/>
+    
+                        <div class="masthead__nav">
+                            <#list navItems as navItem>
+                                <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
+                                <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
+                                <#assign hasSubItems = ((navItem.subItems)?size > 0) />
+                                <#assign navSubitems = navItem.subItems/>
+                                <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
+                                    <div class="masthead__nav__section__title">${siteItem.navLabel}</div>
+                                        <#if hasSubItems>
+                                            <div class="masthead__nav__section__subitems">
+                                                <div class="masthead__nav__section__subitems__wrapper">
+                                                    <a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="" class="masthead__nav__section__subitems__item">${siteItem.navLabel}</a>
+                                                    <#list navSubitems as navSubitem>
+                                                        <#assign subItemStoreUrl = urlTransformationService.transform('renderUrlToStoreUrl', navSubitem.url)>
+                                                        <#assign siteSubItem = siteItemService.getSiteItem(subItemStoreUrl) />
+                                                        <a href="${subItemStoreUrl?replace("site/website/","")?replace("/index.xml", "")}" target="" class="masthead__nav__section__subitems__item">${siteSubItem.navLabel}</a>
+                                                    </#list>
+                                                </div>
+                                            </div>
+                                        </#if>
+                                    </div>
+                                </#list>
+                            </nav>
+                      </div>
+                    </#if>
+
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
                         <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
                             <div class="collapse navbar-collapse justify-content-lg-center">
