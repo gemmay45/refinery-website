@@ -1,4 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
+<#import "/templates/web/navigation/navtreebuilder.ftl" as navTreeBuilder>
 
     <!-- Google Tag Manager (noscript) -->
     <noscript>
@@ -111,6 +112,8 @@ Virtual Tour                                            </a>
 </div>
 
                     </nav>
+                    
+                    navTreeBuilder.getNavTree(String url, int depth, String currentPageUrl)
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
                         <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
