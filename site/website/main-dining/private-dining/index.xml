@@ -6,7 +6,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>ca88</objectGroupId>
 	<objectId>ca882a89-8d49-c211-9d02-923596b5b992</objectId>
-	<internal-name>2. Private Dining</internal-name>
+	<internal-name>2 Private Dining</internal-name>
 	<navLabel>PRIVATE DINING</navLabel>
 	<file-name>index.xml</file-name>
 	<folder-name>private-dining</folder-name>
@@ -16,6 +16,6 @@
 	<components_o item-list="true"/>
 	<createdDate>2025-06-11T01:45:40.724Z</createdDate>
 	<createdDate_dt>2025-06-11T01:45:40.724Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T01:50:25.641Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T01:50:25.641Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T01:50:46.863Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T01:50:46.863Z</lastModifiedDate_dt>
 </page>
