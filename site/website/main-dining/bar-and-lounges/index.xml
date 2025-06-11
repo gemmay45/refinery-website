@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/rf-dining</content-type>
+	<display-template>/templates/web/pages/rf-dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>bc05</objectGroupId>
+	<objectId>bc053c36-3adb-69d4-4c93-55186efc93fb</objectId>
+	<internal-name>BAR &amp; LOUNGES</internal-name>
+	<navLabel>BAR &amp; LOUNGES</navLabel>
+	<placeChildreninNav_b>false</placeChildreninNav_b>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>3000</orderDefault_f>
+	<file-name>index.xml</file-name>
+	<folder-name>bar-and-lounges</folder-name>
+	<components_o item-list="true"/>
+	<createdDate>2025-06-11T02:38:26.321Z</createdDate>
+	<createdDate_dt>2025-06-11T02:38:26.321Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T02:38:26.321Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T02:38:26.321Z</lastModifiedDate_dt>
+</page>
