@@ -123,7 +123,7 @@ Virtual Tour                                            </a>
                                     <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                                     <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
 
-                                    <li class="nav-item"><a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" class="class="nav-link">${siteItem.navLabel}</a></li>
+                                    <li class="nav-item"><a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" class="nav-link">${siteItem.navLabel}</a></li>
                                 </#list>
                                 </ul>
                             </div>
