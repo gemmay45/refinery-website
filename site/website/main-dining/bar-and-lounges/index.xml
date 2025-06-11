@@ -79,6 +79,7 @@
 </component>
 	</item>	<item inline="true">	<key>5cbac718-4d64-7e5e-9900-2076e74d104a</key>
 	<value>Horizontal Card</value>
+	<disableFlattening>false</disableFlattening>
 <component id="5cbac718-4d64-7e5e-9900-2076e74d104a">
 	<content-type>/component/rf-horizontal-card</content-type>
 	<display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
@@ -86,7 +87,12 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>5cba</objectGroupId>
 	<objectId>5cbac718-4d64-7e5e-9900-2076e74d104a</objectId>
-	<imageItems_o item-list="true">	<item>	<image_s/>
+	<imageItems_o item-list="true">	<item>	<image_s>/static-assets/images/refinery/therefinery0509-085.webp</image_s>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-073.webp</image_s>
+	</item>	<item>	<image_s>/static-assets/images/refinery/01.gif</image_s>
+	</item>	<item>	<image_s/>
+	</item>	<item>	<image_s/>
+	</item>	<item>	<image_s/>
 	</item></imageItems_o>
 	<cTALinkItems_o item-list="true">	<item>	<title_s/>
 	</item></cTALinkItems_o>
@@ -95,7 +101,7 @@
 	<internal-name>Horizontal Card</internal-name>
 	<title_s>BAR &amp; LOUNGES</title_s>
 	<subtitle_s/>
-	<cTALabel_s/>
+	<cTALabel_s>VIEW MENU</cTALabel_s>
 	<bodyContent_html>&lt;p&gt;- &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Opening Hours:&lt;/strong&gt; &lt;br&gt;Monday to Saturday &lt;br&gt;(except Public Holidays) &lt;br&gt;&lt;strong&gt;Breakfast:&lt;/strong&gt; 7am to 11am &lt;br&gt;&lt;strong&gt;All Day Menu:&lt;/strong&gt;&amp;nbsp;noon to 10:30pm &lt;br&gt;&lt;strong&gt;Happy Hour:&lt;/strong&gt; 5pm to 8pm &lt;br&gt;&lt;strong&gt;Evening Tapas:&lt;/strong&gt; 5pm to 10:30pm &lt;br&gt;- &lt;br&gt;&lt;strong&gt; &lt;em&gt;On a first-come-first-served basis&lt;/em&gt; &lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
@@ -103,15 +109,14 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent_html>
 	<createdDate>2025-06-11T09:04:41.006Z</createdDate>
 	<createdDate_dt>2025-06-11T09:04:41.006Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:06:33.418Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:06:33.418Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:07:03.191Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:07:03.191Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<createdDate>2025-06-11T02:38:26.321Z</createdDate>
 	<createdDate_dt>2025-06-11T02:38:26.321Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:06:29.471Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:06:29.471Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:06:54.597Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:06:54.597Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
