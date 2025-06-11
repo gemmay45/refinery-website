@@ -160,11 +160,11 @@ Virtual Tour                                            </a>
                     </#if>
                     
                     <#if contentModel.submenu_o?? && contentModel.submenu_o.item??>
-                        <@crafter.forEach contentModel.pageSections_o; listItem, index>
-        					<#if listItem.component??>
-        						<#assign item = listItem.component />
-        						<@crafter.div $field="pageSections_o" $index=index>
-        						    <@renderComponent component=listItem />
+                        <@crafter.forEach contentModel.submenu_o; linkItem, index>
+        					<#if linkItem.component??>
+        						<#assign item = linkItem.component />
+        						<@crafter.div $field="submenu_o" $index=index>
+        						    <@renderComponent component=linkItem />
         					    </@crafter.div>
         					</#if>
         			    </@crafter.forEach>
