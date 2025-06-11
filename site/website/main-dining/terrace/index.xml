@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/rf-dining</content-type>
+	<display-template>/templates/web/pages/rf-dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>728d</objectGroupId>
+	<objectId>728d6e22-70f3-86de-9670-fb3baac59e68</objectId>
+	<internal-name>Terrace</internal-name>
+	<navLabel>TERRACE</navLabel>
+	<file-name>index.xml</file-name>
+	<folder-name>terrace</folder-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>7000</orderDefault_f>
+	<placeChildreninNav_b>false</placeChildreninNav_b>
+	<components_o item-list="true"/>
+	<createdDate>2025-06-11T02:46:19.000Z</createdDate>
+	<createdDate_dt>2025-06-11T02:46:19.000Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T02:46:19.000Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T02:46:19.000Z</lastModifiedDate_dt>
+</page>
