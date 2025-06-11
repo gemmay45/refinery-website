@@ -136,9 +136,7 @@ Virtual Tour                                            </a>
                                                 </#list>
                                             </div>
                                         </div>
-                                    </#if>
-                                -->
-                                </div>
+                                        </#if>
                             </#list>
                             </ul>
                             </div>
