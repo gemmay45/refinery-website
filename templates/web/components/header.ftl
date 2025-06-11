@@ -120,10 +120,17 @@ Virtual Tour                                            </a>
                             <div class="collapse navbar-collapse justify-content-lg-center">
                                 <ul class="navbar-nav">
                                 <#list navItems as navItem>
-                                    <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
+                                    <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url) />
                                     <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-
-                                    <li class="nav-item"><a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" class="nav-link">${siteItem.navLabel}</a></li>
+                                    <#assign itemUrl = ${storeUrl?replace("site/website/","")?replace("/index.xml", "")} />
+                                    
+                                    <#if siteItem.redirect-url?>
+                                        <#assign itemUrl = siteItem.redirect-url />
+                                    </#if>
+                                    
+                                    <li class="nav-item">
+                                        <a href="${itemUrl}" class="nav-link">${siteItem.navLabel}</a>
+                                    </li>
                                 </#list>
                                 </ul>
                             </div>
