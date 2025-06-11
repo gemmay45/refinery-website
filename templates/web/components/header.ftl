@@ -111,7 +111,6 @@ Virtual Tour                                            </a>
 </div>
             </nav>
             
-                   <#-- 
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
 
                         <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 1, "")/>
@@ -130,8 +129,8 @@ Virtual Tour                                            </a>
                             </div>
                         </nav>
                     </#if>
-                    -->
-                    <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
+
+                    <#--<#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
                         <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
                             <div class="collapse navbar-collapse justify-content-lg-center">
                                 <ul class="navbar-nav">
@@ -144,7 +143,7 @@ Virtual Tour                                            </a>
                                 </ul>
                             </div>
                         </nav>
-                    </#if>
+                    </#if>-->
                 </div>
             </div>
         </div>
