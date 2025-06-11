@@ -125,7 +125,7 @@ Virtual Tour                                            </a>
                                     <#assign itemUrl = storeUrl?replace("site/website/","")?replace("/index.xml", "") />
                                     
                                     <#if siteItem["redirect-url"]??>
-                                        <#assign itemUrl = siteItem.redirect-url />
+                                        <#assign itemUrl = siteItem["redirect-url"] />
                                     </#if>
                                     
                                     <li class="nav-item">
