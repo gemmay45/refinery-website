@@ -164,6 +164,8 @@ Virtual Tour                                            </a>
                         <#assign menuLinkItem =  siteItemService.getSiteItem(submenu.key) />
                         <#assign url = menuLinkItem.storeUrl />
                         ${url}
+                        
+                        ${menuLinkItem.linkItems_o}
                         </#list>
                         
                         <#--
