@@ -122,7 +122,7 @@ Virtual Tour                                            </a>
                 <#assign hasSubItems = ((navItem.subItems)?size > 0) />
                 <#assign navSubitems = navItem.subItems/>
                 <div class="masthead__nav__section">
-                    <div class="masthead__nav__section__title">${siteItem.primaryNavLabel_s}</div>
+                    <div class="masthead__nav__section__title">${siteItem.navLabel}</div>
                     <#if hasSubItems>
                     <div class="masthead__nav__section__subitems">
                       <div class="masthead__nav__section__subitems__wrapper">
