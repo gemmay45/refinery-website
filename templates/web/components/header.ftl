@@ -160,24 +160,12 @@ Virtual Tour                                            </a>
                     </#if>
                     
                     <#if contentModel.submenu_o?? && contentModel.submenu_o.item??>
-                            				<#list contentModel.submenu_o.item as submenu>
-                        <#assign menuLinkItem =  siteItemService.getSiteItem(submenu.key) />
-                        <#assign url = menuLinkItem.storeUrl />
-                        ${url}
-                        
-                        ${menuLinkItem.linkItems_o.item?size}
+                        <#list contentModel.submenu_o.item as submenu>
+                            <#assign menuLinkItem =  siteItemService.getSiteItem(submenu.key) />
+                            <#assign url = menuLinkItem.storeUrl />
+                            
+                            ${menuLinkItem.linkItems_o.item?size}
                         </#list>
-                        
-                        <#--
-                        <@crafter.forEach contentModel.submenu_o; linkItem, index>
-    					    <#assign item =  siteItemService.getSiteItem(linkItem.key)?? />
-    					    ${item.storeUrl}
-    					    <#if siteItemService.getSiteItem(linkItem.key)??>
-    					        <#assign siteItem = siteItemService.getSiteItem(linkItem.key) />
-    					        
-    					    </#if>
-        			    </@crafter.forEach>
-                        -->  
                     </#if>
                 </div>
             </div>
