@@ -164,7 +164,7 @@ Virtual Tour                                            </a>
     					    <#assign item =  siteItemService.getSiteItem(linkItem.key)?? />
     					    <#if siteItemService.getSiteItem(linkItem.key)??>
     					        <#assign siteItem = siteItemService.getSiteItem(linkItem.key) />
-    					        <@renderComponent component=item />
+    					        <@renderComponent component=siteItem />
     					    </#if>
         			    </@crafter.forEach>
                                         
