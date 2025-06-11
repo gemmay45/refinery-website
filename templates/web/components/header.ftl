@@ -118,7 +118,7 @@ Virtual Tour                                            </a>
                        <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 1, "")/>
                         <#assign navItems = navTree.subItems/>
     
-                            <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
+                            <nav id="xxx" class="navbar navbar-expand-lg navbar-submenu active">
                         <#list navItems as navItem>
                             <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                             <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
