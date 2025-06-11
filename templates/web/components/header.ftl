@@ -151,7 +151,7 @@ Virtual Tour                                            </a>
                                     </#if>
                                     
                                     <li class="nav-item">
-                                        <a href="${itemUrl?replace("site/website/","")?replace("/index.xml", "")}" class="nav-link">${siteItem.navLabel}</a>
+                                        <a href="${itemUrl}" class="nav-link">${siteItem.navLabel}</a>
                                     </li>
                                 </#list>
                                 </ul>
@@ -167,15 +167,15 @@ Virtual Tour                                            </a>
                             <nav id="xxx" class="navbar navbar-expand-lg navbar-submenu active">
                             <div class="collapse navbar-collapse justify-content-lg-center">
                                 <ul class="navbar-nav">
-                            <#list menuLinkItem.linkItems_o.item as linkItem>
-                                <li class="nav-item">
-                                    <a href="${linkItem.link.item.url}" class="nav-link">${linkItem.link.item.linkText}</a>
-                                </li>
-                            </#list>
+                                <#list menuLinkItem.linkItems_o.item as linkItem>
+                                    <li class="nav-item">
+                                        <a href="${linkItem.link.item.url?replace("site/website/","")?replace("/index.xml", "")}" class="nav-link">${linkItem.link.item.linkText}</a>
+                                    </li>
+                                </#list>
+                                </ul>
+                                </div>
+                            </nav>
                         </#list>
-                        </ul>
-                        </div>
-                        </nav>
                     </#if>
                 </div>
             </div>
