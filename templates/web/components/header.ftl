@@ -164,30 +164,17 @@ Virtual Tour                                            </a>
                             <#assign menuLinkItem =  siteItemService.getSiteItem(submenu.key) />
                             <#assign url = menuLinkItem.storeUrl />
                             
-                                     <#--<@crafter.forEach menuLinkItem.linkItems_o; submenulink, index>
-                                     ${index}
-                                     ${submenulink}
-             <@crafter.section class="section" $field="menuLinkItem.linkItems_o" $index=index>
-                <@renderComponent component=submenulink/>
-             </@crafter.section>
-         </@crafter.forEach>
-
-                            ${menuLinkItem.linkItems_o.item?size}
-                            -->
                             <#list menuLinkItem.linkItems_o.item as linkItem>
                                 <@crafter.a href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
                                     class="dropdown-item" $index=linkItem?index>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">
                                             ${linkItem.link.item.url}
+                                            ${linkItem.link.item.linkText}
                                         </font>
                                     </font>
                                 </@crafter.a>
                             </#list>
-                    
-                            <#--<#list menuLinkItem.linkItems_o.item as submenulink>
-                            ${submenulink.url}
-                            </#list>-->
                         </#list>
                     </#if>
                 </div>
