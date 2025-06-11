@@ -112,9 +112,8 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', "/site/website/main-dining/index.xml") />
-                    <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                    <#assign hasSubItems = ((navItem.subItems)?size > 0) />
+                    <#assign shortLocale = contentModel.storeUrl?replace("/site/components/","")?split("/")[0] />
+                    <#assign navTree = navTreeBuilder.getNavTree("/site/website/${shortLocale}", 2, "")/>
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
                         <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
