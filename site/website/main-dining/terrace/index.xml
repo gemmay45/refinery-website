@@ -23,21 +23,60 @@
 	<objectGroupId>8aab</objectGroupId>
 	<objectId>8aabd859-4d24-2bd9-6f4c-a4027a430aa9</objectId>
 	<imageItems_o item-list="true">	<item>	<title_s>Terrace</title_s>
-	<image_s/>
+	<image_s>/static-assets/images/refinery/dining-terrace.webp</image_s>
 	</item></imageItems_o>
 	<internal-name>Carousel</internal-name>
 	<file-name>8aabd859-4d24-2bd9-6f4c-a4027a430aa9.xml</file-name>
 	<folder-name/>
 	<createdDate>2025-06-11T09:17:24.103Z</createdDate>
 	<createdDate_dt>2025-06-11T09:17:24.103Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:17:24.103Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:17:24.103Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:18:36.341Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:18:36.341Z</lastModifiedDate_dt>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>3fa2275d-59da-5b36-bfe1-dc35f8b22012</key>
+	<value>Row</value>
+<component id="3fa2275d-59da-5b36-bfe1-dc35f8b22012">
+	<content-type>/component/rf-row-wrapper</content-type>
+	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3fa2</objectGroupId>
+	<objectId>3fa2275d-59da-5b36-bfe1-dc35f8b22012</objectId>
+	<file-name>3fa2275d-59da-5b36-bfe1-dc35f8b22012.xml</file-name>
+	<folder-name/>
+	<internal-name>Row</internal-name>
+	<components_o item-list="true">	<item inline="true">	<key>c1e40cc9-ae06-b7ce-9d6f-0cf511d7edf4</key>
+	<value>Text Block</value>
+<component id="c1e40cc9-ae06-b7ce-9d6f-0cf511d7edf4">
+	<content-type>/component/rf-text-block</content-type>
+	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c1e4</objectGroupId>
+	<objectId>c1e40cc9-ae06-b7ce-9d6f-0cf511d7edf4</objectId>
+	<file-name>c1e40cc9-ae06-b7ce-9d6f-0cf511d7edf4.xml</file-name>
+	<folder-name/>
+	<internal-name>Text Block</internal-name>
+	<title_s>TERRACE</title_s>
+	<subtitle_s/>
+	<bodyContent_html>&lt;p&gt;A causal and convivial open-air break, our outdoor terrace is an energising escape set high above the buzz of Tong Chong Street.&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-11T09:19:20.082Z</createdDate>
+	<createdDate_dt>2025-06-11T09:19:20.082Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T09:19:20.082Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:19:20.082Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
+	<createdDate>2025-06-11T09:19:14.203Z</createdDate>
+	<createdDate_dt>2025-06-11T09:19:14.203Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T09:19:14.203Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:19:14.203Z</lastModifiedDate_dt>
 </component>
 	</item></components_o>
 	<createdDate>2025-06-11T02:46:19.000Z</createdDate>
 	<createdDate_dt>2025-06-11T02:46:19.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:17:17.365Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:17:17.365Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:18:33.972Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:18:33.972Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
