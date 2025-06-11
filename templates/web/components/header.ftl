@@ -162,9 +162,10 @@ Virtual Tour                                            </a>
                     <#if contentModel.submenu_o?? && contentModel.submenu_o.item??>
                         <@crafter.forEach contentModel.submenu_o; linkItem, index>
     					    <#assign item =  siteItemService.getSiteItem(linkItem.key)?? />
+    					    ${tenantItem.storeUrl}
     					    <#if siteItemService.getSiteItem(linkItem.key)??>
     					        <#assign siteItem = siteItemService.getSiteItem(linkItem.key) />
-    					        <@renderComponent component=item />
+    					        
     					    </#if>
         			    </@crafter.forEach>
                                         
