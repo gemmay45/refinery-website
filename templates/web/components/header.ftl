@@ -76,7 +76,8 @@ Dining                                            </a>
                         </#list>
                         </ul>
                     </#if>
-                    <#if contentModel.submenu_o??>
+                    <#if contentModel.submenu_o?? && contentModel.submenu_o.item??>
+                    ddd
                     </#if>
             </li>
             <li class="nav-item  ">
