@@ -165,7 +165,7 @@ Virtual Tour                                            </a>
                             <#assign url = menuLinkItem.storeUrl />
                             
                             <@crafter.forEach menuLinkItem.linkItems_o; submenuItem, index>
-                                ${submenuItem.url}
+                                ${submenuItem}
                             </@crafter.forEach>
                             ${menuLinkItem.linkItems_o.item?size}
                             
