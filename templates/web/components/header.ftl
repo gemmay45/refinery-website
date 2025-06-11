@@ -114,7 +114,7 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign navTree = renderNavigation(navTreeUrl, 1, "", "", {"*/placeInNav": "true"}) />
+                    <#assign navTree = mainNavMacros.renderNavigation(navTreeUrl, 1, "", "", {"*/placeInNav": "true"}) />
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
                         <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
