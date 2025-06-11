@@ -60,25 +60,21 @@ Dining                                            </a>
                         <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 1, "")/>
                         <#assign navItems = navTree.subItems/>
     
-                        <nav id="xxx" class="navbar navbar-expand-lg navbar-submenu">
-                            <div class="collapse navbar-collapse justify-content-lg-center">
-                                <ul class="navbar-nav">
-                                <#list navItems as navItem>
-                                    <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url) />
-                                    <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                                    <#assign itemUrl = storeUrl?replace("site/website/","")?replace("/index.xml", "") />
-                                    
-                                    <#if siteItem["redirect-url"]??>
-                                        <#assign itemUrl = siteItem["redirect-url"] />
-                                    </#if>
-                                    
-                                    <li class="nav-item">
-                                        <a href="${itemUrl}" class="nav-link">${siteItem.navLabel}</a>
-                                    </li>
-                                </#list>
-                                </ul>
-                            </div>
-                        </nav>
+                        <ul class="navbar-nav">
+                        <#list navItems as navItem>
+                            <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url) />
+                            <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
+                            <#assign itemUrl = storeUrl?replace("site/website/","")?replace("/index.xml", "") />
+                            
+                            <#if siteItem["redirect-url"]??>
+                                <#assign itemUrl = siteItem["redirect-url"] />
+                            </#if>
+                            
+                            <li class="nav-item">
+                                <a href="${itemUrl}" class="nav-link">${siteItem.navLabel}</a>
+                            </li>
+                        </#list>
+                        </ul>
                     </#if>
             </li>
             <li class="nav-item  ">
