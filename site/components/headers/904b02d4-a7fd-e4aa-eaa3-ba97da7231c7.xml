@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/rf-menu-links</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>904b</objectGroupId>
+	<objectId>904b02d4-a7fd-e4aa-eaa3-ba97da7231c7</objectId>
+	<file-name>904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</file-name>
+	<folder-name/>
+	<internal-name>Dining Submenu</internal-name>
+	<linkItems_o item-list="true">	<item>	<link item-list="true">	<item>	<url>/site/website/main-dining/index.xml</url>
+	<linkText>Main Dining</linkText>
+	<linkTitle/>
+	<linkTarget/>
+	<taxKey/>
+	<taxValue/>
+	</item></link>
+	</item>	<item>	<link item-list="true">	<item>	<url>/site/website/main-dining/private-dining/index.xml</url>
+	<linkText>Private Dining</linkText>
+	<linkTitle/>
+	<linkTarget/>
+	<taxKey/>
+	<taxValue/>
+	</item></link>
+	</item>	<item>	<link item-list="true">	<item>	<url>/site/website/main-dining/bar-and-lounges/index.xml</url>
+	<linkText>Bar &amp;amp; Lounges</linkText>
+	<linkTitle/>
+	<linkTarget/>
+	<taxKey/>
+	<taxValue/>
+	</item></link>
+	</item>	<item>	<link item-list="true">	<item>	<url>/site/website/main-dining/terrace/index.xml</url>
+	<linkText>Terrace</linkText>
+	<linkTitle/>
+	<linkTarget/>
+	<taxKey/>
+	<taxValue/>
+	</item></link>
+	</item></linkItems_o>
+	<createdDate>2025-06-11T08:04:52.923Z</createdDate>
+	<createdDate_dt>2025-06-11T08:04:52.923Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T08:04:52.923Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T08:04:52.923Z</lastModifiedDate_dt>
+</component>
