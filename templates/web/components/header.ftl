@@ -164,7 +164,7 @@ Virtual Tour                                            </a>
     					    <#assign item =  siteItemService.getSiteItem(linkItem.key)?? />
     					    <#if siteItemService.getSiteItem(linkItem.key)??>
     					        <#assign siteItem = siteItemService.getSiteItem(linkItem.key) />
-    					        ${item.linkItems_o}
+    					        ${siteItem.linkItems_o}
     					    </#if>
         			    </@crafter.forEach>
                                         
