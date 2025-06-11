@@ -116,6 +116,7 @@ Virtual Tour                                            </a>
                     <#assign navItems = navTree.subItems/>
 
                     <#list navItems as navItem>
+                    ${navItem.label}
                         <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                         <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
                         <a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="">${navItem.label}</a>
