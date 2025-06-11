@@ -116,10 +116,9 @@ Virtual Tour                                            </a>
                     <#assign navItems = navTree.subItems/>
 
                     <#list navItems as navItem>
-                    ${navItem.label}
                         <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                         <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                        ${storeUrl}
+                        <a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="" class="masthead__nav__section__subitems__item">${siteSubItem.navLabel}</a>
                     </#list>
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
