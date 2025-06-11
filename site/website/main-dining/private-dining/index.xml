@@ -13,11 +13,31 @@
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>1000</orderDefault_f>
 	<placeChildreninNav_b>false</placeChildreninNav_b>
-	<components_o item-list="true"/>
+	<components_o item-list="true">	<item inline="true">	<key>6aa1bc61-fb67-3cbe-6e3e-d9aa9d0d4f22</key>
+	<value>Carousel</value>
+<component id="6aa1bc61-fb67-3cbe-6e3e-d9aa9d0d4f22">
+	<content-type>/component/rd-carousel</content-type>
+	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6aa1</objectGroupId>
+	<objectId>6aa1bc61-fb67-3cbe-6e3e-d9aa9d0d4f22</objectId>
+	<imageItems_o item-list="true">	<item>	<title_s>PRIVATE DINING</title_s>
+	<image_s>/static-assets/images/refinery/hero-refinery-room-2s.webp</image_s>
+	</item></imageItems_o>
+	<file-name>6aa1bc61-fb67-3cbe-6e3e-d9aa9d0d4f22.xml</file-name>
+	<folder-name/>
+	<internal-name>Carousel</internal-name>
+	<createdDate>2025-06-11T06:27:13.659Z</createdDate>
+	<createdDate_dt>2025-06-11T06:27:13.659Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T06:27:13.659Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T06:27:13.659Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
 	<createdDate>2025-06-11T01:45:40.724Z</createdDate>
 	<createdDate_dt>2025-06-11T01:45:40.724Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T06:25:39.869Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T06:25:39.869Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T06:27:06.412Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T06:27:06.412Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/43eb2367-f371-3e2b-4c02-dc50a284a079.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/43eb2367-f371-3e2b-4c02-dc50a284a079.xml</include>
