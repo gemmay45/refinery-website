@@ -122,7 +122,7 @@ Virtual Tour                                            </a>
                                 <#list navItems as navItem>
                                     <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url) />
                                     <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                                    <#assign itemUrl = ${storeUrl?replace("site/website/","")?replace("/index.xml", "")} />
+                                    <#assign itemUrl = storeUrl?replace("site/website/","")?replace("/index.xml", "") />
                                     
                                     <#if siteItem.redirect-url?>
                                         <#assign itemUrl = siteItem.redirect-url />
