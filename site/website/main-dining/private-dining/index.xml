@@ -33,11 +33,50 @@
 	<lastModifiedDate>2025-06-11T06:27:13.659Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-11T06:27:13.659Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>24e00c6c-79db-a38d-48f5-f3678de5d316</key>
+	<value>Row</value>
+<component id="24e00c6c-79db-a38d-48f5-f3678de5d316">
+	<content-type>/component/rf-row-wrapper</content-type>
+	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>24e0</objectGroupId>
+	<objectId>24e00c6c-79db-a38d-48f5-f3678de5d316</objectId>
+	<file-name>24e00c6c-79db-a38d-48f5-f3678de5d316.xml</file-name>
+	<folder-name/>
+	<internal-name>Row</internal-name>
+	<components_o item-list="true">	<item inline="true">	<key>2c731509-16ad-9990-403b-3956a50fbddd</key>
+	<value>Text Block</value>
+<component id="2c731509-16ad-9990-403b-3956a50fbddd">
+	<content-type>/component/rf-text-block</content-type>
+	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2c73</objectGroupId>
+	<objectId>2c731509-16ad-9990-403b-3956a50fbddd</objectId>
+	<internal-name>Text Block</internal-name>
+	<title_s>PRIVATE DINING</title_s>
+	<subtitle_s/>
+	<file-name>2c731509-16ad-9990-403b-3956a50fbddd.xml</file-name>
+	<folder-name/>
+	<bodyContent_html>&lt;p&gt;Made for intimate gatherings and discreet events, our Private Dining Room is an exclusive banquet space away from the main restaurant's bustle. Bespoke menus are tailored to occasions, a built-in professional presentation system is easily accessible.&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-11T06:28:38.405Z</createdDate>
+	<createdDate_dt>2025-06-11T06:28:38.405Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T06:28:38.405Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T06:28:38.405Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
+	<createdDate>2025-06-11T06:28:30.498Z</createdDate>
+	<createdDate_dt>2025-06-11T06:28:30.498Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T06:28:30.498Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T06:28:30.498Z</lastModifiedDate_dt>
+</component>
 	</item></components_o>
 	<createdDate>2025-06-11T01:45:40.724Z</createdDate>
 	<createdDate_dt>2025-06-11T01:45:40.724Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T06:27:06.412Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T06:27:06.412Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T06:28:23.644Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T06:28:23.644Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/43eb2367-f371-3e2b-4c02-dc50a284a079.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/43eb2367-f371-3e2b-4c02-dc50a284a079.xml</include>
