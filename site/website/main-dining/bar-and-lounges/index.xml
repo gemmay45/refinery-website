@@ -22,22 +22,65 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>8ac6</objectGroupId>
 	<objectId>8ac60811-3153-f031-dbbe-747371ed75c2</objectId>
-	<imageItems_o item-list="true">	<item>	<title_s/>
-	<image_s/>
+	<imageItems_o item-list="true">	<item>	<title_s>BAR</title_s>
+	<image_s>/static-assets/images/refinery/bar-and-lounge-hero.webp</image_s>
+	</item>	<item>	<title_s>LOUNGE</title_s>
+	<image_s>/static-assets/images/refinery/hero-bar.webp</image_s>
+	</item>	<item>	<title_s>LONG LOUNGE</title_s>
+	<image_s>/static-assets/images/refinery/hero-lounges.webp</image_s>
 	</item></imageItems_o>
 	<file-name>8ac60811-3153-f031-dbbe-747371ed75c2.xml</file-name>
 	<folder-name/>
 	<internal-name>Carousel</internal-name>
 	<createdDate>2025-06-11T09:00:40.535Z</createdDate>
 	<createdDate_dt>2025-06-11T09:00:40.535Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:00:40.535Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:00:40.535Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:01:47.122Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:01:47.122Z</lastModifiedDate_dt>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>44a3f523-b5dc-2b1d-1492-1b9294517e28</key>
+	<value>Row</value>
+<component id="44a3f523-b5dc-2b1d-1492-1b9294517e28">
+	<content-type>/component/rf-row-wrapper</content-type>
+	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>44a3</objectGroupId>
+	<objectId>44a3f523-b5dc-2b1d-1492-1b9294517e28</objectId>
+	<file-name>44a3f523-b5dc-2b1d-1492-1b9294517e28.xml</file-name>
+	<folder-name/>
+	<internal-name>Row</internal-name>
+	<components_o item-list="true">	<item inline="true">	<key>f4903544-c4fc-4601-a086-d858f781e73a</key>
+	<value>BAR &amp;amp; LOUNGES</value>
+<component id="f4903544-c4fc-4601-a086-d858f781e73a">
+	<content-type>/component/rf-text-block</content-type>
+	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f490</objectGroupId>
+	<objectId>f4903544-c4fc-4601-a086-d858f781e73a</objectId>
+	<file-name>f4903544-c4fc-4601-a086-d858f781e73a.xml</file-name>
+	<folder-name/>
+	<internal-name>BAR &amp; LOUNGES</internal-name>
+	<title_s>BAR &amp; LOUNGES</title_s>
+	<subtitle_s/>
+	<bodyContent_html>&lt;p&gt;A range of spaces to network and relax. Take a seat at the lobby bar, where skilled mixologists shake cocktails and pour local craft beers. Settle back in the main lounge, an open-space ideal for after-work drinks and our Asian all-day menu or catch-up on essential personal time in our long lounge, a mellow affair with tucked-away booths.&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-11T09:03:27.791Z</createdDate>
+	<createdDate_dt>2025-06-11T09:03:27.791Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T09:03:27.791Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:03:27.791Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
+	<createdDate>2025-06-11T09:03:20.972Z</createdDate>
+	<createdDate_dt>2025-06-11T09:03:20.972Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T09:03:20.972Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:03:20.972Z</lastModifiedDate_dt>
 </component>
 	</item></components_o>
 	<createdDate>2025-06-11T02:38:26.321Z</createdDate>
 	<createdDate_dt>2025-06-11T02:38:26.321Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:00:34.196Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:00:34.196Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:01:44.762Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:01:44.762Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
