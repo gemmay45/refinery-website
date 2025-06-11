@@ -117,7 +117,7 @@ Virtual Tour                                            </a>
                         <#assign navItems = navTree.subItems/>
     
                         <nav id="xxx" class="navbar navbar-expand-lg navbar-submenu">
-                            <div class="collapse navbar-collapse justify-content-lg-center">
+                            <div class="collapse navbar-collapse justify-content-lg-center active">
                                 <ul class="navbar-nav">
                                 <#list navItems as navItem>
                                     <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url) />
