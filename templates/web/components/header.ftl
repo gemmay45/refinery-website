@@ -164,6 +164,9 @@ Virtual Tour                                            </a>
                             <#assign menuLinkItem =  siteItemService.getSiteItem(submenu.key) />
                             <#assign url = menuLinkItem.storeUrl />
                             
+                            <@crafter.forEach menuLinkItem.linkItems_o; submenuItem, index>
+                                ${submenuItem.url}
+                            </@crafter.forEach>
                             ${menuLinkItem.linkItems_o.item?size}
                             
                             <#--<#list menuLinkItem.linkItems_o.item as submenulink>
