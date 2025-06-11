@@ -9,13 +9,13 @@
 	<internal-name>BAR &amp; LOUNGES</internal-name>
 	<navLabel>BAR &amp; LOUNGES</navLabel>
 	<placeChildreninNav_b>false</placeChildreninNav_b>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>750</orderDefault_f>
 	<file-name>index.xml</file-name>
 	<folder-name>bar-and-lounges</folder-name>
 	<components_o item-list="true"/>
 	<createdDate>2025-06-11T02:38:26.321Z</createdDate>
 	<createdDate_dt>2025-06-11T02:38:26.321Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T02:42:08.023Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T02:42:08.023Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T02:42:21.565Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T02:42:21.565Z</lastModifiedDate_dt>
 </page>
