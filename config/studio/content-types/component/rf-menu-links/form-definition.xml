@@ -151,7 +151,7 @@
 						</property>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>pageSource</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -173,5 +173,18 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources>				<datasource>
+					<type>file-browse-repo</type>
+					<id>pageSource</id>
+					<title>Page Source</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/site/website</value>
+								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
