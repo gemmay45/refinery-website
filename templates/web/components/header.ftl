@@ -165,7 +165,7 @@ Virtual Tour                                            </a>
                             <#assign url = menuLinkItem.storeUrl />
                             
                             ${menuLinkItem.linkItems_o.item?size}
-                            ${menuLinkItem.linkItems_o.item}
+                            ${menuLinkItem.linkItems_o.item.url}
                         </#list>
                     </#if>
                 </div>
