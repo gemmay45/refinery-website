@@ -164,7 +164,7 @@ Virtual Tour                                            </a>
                         <@crafter.forEach contentModel.submenu_o; linkItem, index>
     					    <#assign item =  siteItemService.getSiteItem(linkItem.key)?? />
     					    <#if siteItemService.getSiteItem(linkItem.key)??>
-    					        ${item.link}
+    					        ${item.linkItems_o}
     					    </#if>
         			    </@crafter.forEach>
                                         
