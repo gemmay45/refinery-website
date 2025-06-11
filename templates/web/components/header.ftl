@@ -116,7 +116,8 @@ Virtual Tour                                            </a>
                     <#assign navItems = navTree.childItems />
 ${navItems?size}
                     <#list navItems as navItem>
-                    ${navItem}
+
+                    ${navItem.getStoreUrl()}
                         <#--<#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                         <#assign siteItem = siteItemService.getSiteItem(storeUrl) />-->
                         <#--${navItem.navLabel}-->
