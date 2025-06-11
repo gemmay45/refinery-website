@@ -164,18 +164,18 @@ Virtual Tour                                            </a>
                             <#assign menuLinkItem =  siteItemService.getSiteItem(submenu.key) />
                             <#assign url = menuLinkItem.storeUrl />
                             
+                            <nav id="xxx" class="navbar navbar-expand-lg navbar-submenu active">
+                            <div class="collapse navbar-collapse justify-content-lg-center">
+                                <ul class="navbar-nav">
                             <#list menuLinkItem.linkItems_o.item as linkItem>
-                                <@crafter.a href="/-/media/swire/refineryclub/dining/menus/chinese-a-la-carte-menu.ashx" target="_blank"
-                                    class="dropdown-item" $index=linkItem?index>
-                                    <font style="vertical-align: inherit;">
-                                        <font style="vertical-align: inherit;">
-                                            ${linkItem.link.item.url}
-                                            ${linkItem.link.item.linkText}
-                                        </font>
-                                    </font>
-                                </@crafter.a>
+                                <li class="nav-item">
+                                    <a href="${linkItem.link.item.url}" class="nav-link">${linkItem.link.item.linkText}</a>
+                                </li>
                             </#list>
                         </#list>
+                        </ul>
+                        </div>
+                        </nav>
                     </#if>
                 </div>
             </div>
