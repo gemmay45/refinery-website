@@ -151,7 +151,7 @@ Virtual Tour                                            </a>
                                     </#if>
                                     
                                     <li class="nav-item">
-                                        <a href="${itemUrl}" class="nav-link">${siteItem.navLabel}</a>
+                                        <a href="${itemUrl?replace("site/website/","")?replace("/index.xml", "")}" class="nav-link">${siteItem.navLabel}</a>
                                     </li>
                                 </#list>
                                 </ul>
