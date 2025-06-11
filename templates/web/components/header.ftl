@@ -112,14 +112,13 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 2, "")/>
-                    <#assign navItems = navTree.childItems/>
+                    <#assign navTree = navTreeBuilder.getSiteTree("/site/website/main-dining", 1, "")/>
+                    <#assign navItems = navTree.childItems />
 
                     <#list navItems as navItem>
-                    ${navItem.label}
                         <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                         <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                        <a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="">${navItem.label}</a>
+                        <#--<a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="">${navItem.label}</a>-->
                     </#list>
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
