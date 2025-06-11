@@ -114,6 +114,7 @@ Virtual Tour                                            </a>
                     
                     <#assign shortLocale = contentModel.storeUrl?replace("/site/components/","")?split("/")[0] />
                     <#assign navTree = navTreeBuilder.getNavTree("/site/website/${shortLocale}", 2, "")/>
+                    ${navTree}
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
                         <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
