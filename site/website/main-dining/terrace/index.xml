@@ -83,31 +83,38 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>dace</objectGroupId>
 	<objectId>dace289a-694d-244b-5b6d-61abd9df8093</objectId>
-	<imageItems_o item-list="true">	<item>	<image_s>/static-assets/images/refinery/therefinery0509-084.webp</image_s>
-	</item>	<item>	<image_s/>
+	<imageItems_o item-list="true">	<item>	<image_s>/static-assets/images/refinery/therefinery0509-042.webp</image_s>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-086.webp</image_s>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-078.webp</image_s>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-084.webp</image_s>
 	</item></imageItems_o>
-	<cTALinkItems_o item-list="true">	<item>	<title_s/>
+	<cTALinkItems_o item-list="true">	<item>	<title_s>All Day Menu</title_s>
+	</item>	<item>	<title_s>Snack Menu</title_s>
+	</item>	<item>	<title_s>Master Wine List</title_s>
+	</item>	<item>	<title_s>Drink List</title_s>
+	</item>	<item>	<title_s>Cocktail Packages</title_s>
 	</item></cTALinkItems_o>
 	<file-name>dace289a-694d-244b-5b6d-61abd9df8093.xml</file-name>
 	<folder-name/>
 	<internal-name>Horizontal Card</internal-name>
 	<title_s>Terrace</title_s>
 	<subtitle_s/>
-	<cTALabel_s/>
+	<cTALabel_s>VIEW MENU</cTALabel_s>
 	<bodyContent_html>&lt;p&gt;- &lt;br&gt;&lt;strong&gt;Opening Hours:&lt;/strong&gt; &lt;br&gt;Monday to Friday&lt;br&gt;(except Public Holidays)&lt;br&gt;*dependent on weather conditions&lt;/p&gt;
 &lt;p&gt;10am to 10pm&lt;br&gt;&lt;strong&gt;Happy Hour:&lt;/strong&gt;&amp;nbsp;5pm to 8pm&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;strong&gt;&lt;em&gt;On a first-come-first-served basis&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;div class="speciality"&gt;&lt;strong&gt;Offer:&lt;/strong&gt; &lt;br&gt;Asian-influenced dishes&lt;/div&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent_html>
 	<createdDate>2025-06-11T09:22:06.455Z</createdDate>
 	<createdDate_dt>2025-06-11T09:22:06.455Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:23:06.344Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:23:06.344Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:25:58.442Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:25:58.442Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<createdDate>2025-06-11T02:46:19.000Z</createdDate>
 	<createdDate_dt>2025-06-11T02:46:19.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:22:00.182Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:22:00.182Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:25:55.913Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:25:55.913Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
