@@ -118,7 +118,7 @@ ${navItems?size}
                     <#list navItems as navItem>
                         <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                         <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                        ${navItem.url}
+                        ${navItem.navLabel}
                         <#--<a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="">${navItem.label}</a>-->
                     </#list>
                     
