@@ -15,6 +15,7 @@
 	<placeChildreninNav_b>false</placeChildreninNav_b>
 	<components_o item-list="true">	<item inline="true">	<key>8aabd859-4d24-2bd9-6f4c-a4027a430aa9</key>
 	<value>Carousel</value>
+	<disableFlattening>false</disableFlattening>
 <component id="8aabd859-4d24-2bd9-6f4c-a4027a430aa9">
 	<content-type>/component/rd-carousel</content-type>
 	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
@@ -33,7 +34,6 @@
 	<lastModifiedDate>2025-06-11T09:18:36.341Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-11T09:18:36.341Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>3fa2275d-59da-5b36-bfe1-dc35f8b22012</key>
 	<value>Row</value>
 <component id="3fa2275d-59da-5b36-bfe1-dc35f8b22012">
@@ -63,20 +63,22 @@
 	<bodyContent_html>&lt;p&gt;A causal and convivial open-air break, our outdoor terrace is an energising escape set high above the buzz of Tong Chong Street.&lt;/p&gt;</bodyContent_html>
 	<createdDate>2025-06-11T09:19:20.082Z</createdDate>
 	<createdDate_dt>2025-06-11T09:19:20.082Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:19:20.082Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:19:20.082Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:20:34.690Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:20:34.690Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<createdDate>2025-06-11T09:19:14.203Z</createdDate>
 	<createdDate_dt>2025-06-11T09:19:14.203Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:19:14.203Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:19:14.203Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:20:28.125Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:20:28.125Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<createdDate>2025-06-11T02:46:19.000Z</createdDate>
 	<createdDate_dt>2025-06-11T02:46:19.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:18:33.972Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:18:33.972Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:20:25.142Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:20:25.142Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
