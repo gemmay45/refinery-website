@@ -160,6 +160,7 @@ Virtual Tour                                            </a>
                     </#if>
                     
                     <#if contentModel.submenu_o?? && contentModel.submenu_o.item??>
+                    ddd
                         <@crafter.forEach contentModel.submenu_o; linkItem, index>
         					<#if linkItem.component??>
         						<#assign item = linkItem.component />
