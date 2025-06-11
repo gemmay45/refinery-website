@@ -112,7 +112,7 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 1, "")/>
+                    <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 2, "")/>
                     ${navTree}
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
