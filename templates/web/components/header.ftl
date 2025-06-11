@@ -112,13 +112,13 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign navTree = siteItemService.getSiteTree("/site/website/main-dining/index.xml", 1)/>
+                    <#assign navTree = siteItemService.getSiteTree("/site/website/main-dining", 1)/>
                     <#assign navItems = navTree.childItems />
-
+${navItems?size}
                     <#list navItems as navItem>
                         <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                         <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
-                        ${storeUrl}
+                        ${navItem.url}
                         <#--<a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="">${navItem.label}</a>-->
                     </#list>
                     
