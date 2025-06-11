@@ -114,6 +114,7 @@ Virtual Tour                                            </a>
                     
                     <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 2, "")/>
                     <#assign navItems = navTree.subItems/>
+                    ${navItems?size}
                     <#list navItems as navItem>
                         <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                         <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
