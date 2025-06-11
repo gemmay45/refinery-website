@@ -123,7 +123,7 @@ Virtual Tour                                            </a>
                             <#assign hasSubItems = ((navItem.subItems)?size > 0) />
                             <#assign navSubitems = navItem.subItems/>
                                 <div class="masthead__nav__section__title">${siteItem.navLabel}</div>
-                                    <#if hasSubItems>
+                                <#--    <#if hasSubItems>
                                         <div class="masthead__nav__section__subitems">
                                             <div class="masthead__nav__section__subitems__wrapper">
                                                 <a href="${storeUrl?replace("site/website/","")?replace("/index.xml", "")}" target="" class="masthead__nav__section__subitems__item">${siteItem.navLabel}</a>
@@ -135,6 +135,7 @@ Virtual Tour                                            </a>
                                             </div>
                                         </div>
                                     </#if>
+                                -->
                                 </div>
                             </#list>
                         </nav>
