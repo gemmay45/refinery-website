@@ -117,6 +117,7 @@ Virtual Tour                                            </a>
                     <#list navItems as navItem>
                         <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
                         <#assign siteItem = siteItemService.getSiteItem(storeUrl) />
+                        ${storeUrl}
                     </#list>
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
