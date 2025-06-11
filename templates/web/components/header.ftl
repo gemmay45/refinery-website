@@ -1,6 +1,4 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
-<#import "/templates/web/navigation/nav-functions.ftl" as navFunctions>
-<#import "/templates/web/navigation/main/nav-macros.ftl" as mainNavMacros>
 
     <!-- Google Tag Manager (noscript) -->
     <noscript>
@@ -114,9 +112,7 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign navTree = siteItemService.getSiteTree(navTreeUrl, levels + 1, includeByNameRegex, excludeByNameRegex, nodeXPathAndExpectedValuePairs)>
-                    
-                    <#assign navTree = mainNavMacros.renderNavigation(navTreeUrl, 1, "", "", {"*/placeInNav": "true"}) />
+                    <#assign navTree = siteItemService.getSiteTree("/site/website/main-dining/index.xml", 1, "", "", {"*/placeInNav": "true"})>
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
                         <nav id="9EC4BB095C494140A8B1DA8C68CACC36" class="navbar navbar-expand-lg navbar-submenu active">
