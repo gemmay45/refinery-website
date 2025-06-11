@@ -179,7 +179,7 @@ Virtual Tour                                            </a>
                                     class="dropdown-item" $index=linkItem?index>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">
-                                            ${linkItem.link.url}
+                                            ${linkItem.link.item.url}
                                         </font>
                                     </font>
                                 </@crafter.a>
