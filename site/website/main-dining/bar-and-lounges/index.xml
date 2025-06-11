@@ -13,11 +13,31 @@
 	<orderDefault_f>6000</orderDefault_f>
 	<file-name>index.xml</file-name>
 	<folder-name>bar-and-lounges</folder-name>
-	<components_o item-list="true"/>
+	<components_o item-list="true">	<item inline="true">	<key>8ac60811-3153-f031-dbbe-747371ed75c2</key>
+	<value>Carousel</value>
+<component id="8ac60811-3153-f031-dbbe-747371ed75c2">
+	<content-type>/component/rd-carousel</content-type>
+	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8ac6</objectGroupId>
+	<objectId>8ac60811-3153-f031-dbbe-747371ed75c2</objectId>
+	<imageItems_o item-list="true">	<item>	<title_s/>
+	<image_s/>
+	</item></imageItems_o>
+	<file-name>8ac60811-3153-f031-dbbe-747371ed75c2.xml</file-name>
+	<folder-name/>
+	<internal-name>Carousel</internal-name>
+	<createdDate>2025-06-11T09:00:40.535Z</createdDate>
+	<createdDate_dt>2025-06-11T09:00:40.535Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T09:00:40.535Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:00:40.535Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
 	<createdDate>2025-06-11T02:38:26.321Z</createdDate>
 	<createdDate_dt>2025-06-11T02:38:26.321Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T08:07:50.638Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T08:07:50.638Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:00:34.196Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:00:34.196Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
