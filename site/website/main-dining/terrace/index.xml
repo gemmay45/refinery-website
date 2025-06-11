@@ -13,11 +13,31 @@
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>7000</orderDefault_f>
 	<placeChildreninNav_b>false</placeChildreninNav_b>
-	<components_o item-list="true"/>
+	<components_o item-list="true">	<item inline="true">	<key>8aabd859-4d24-2bd9-6f4c-a4027a430aa9</key>
+	<value>Carousel</value>
+<component id="8aabd859-4d24-2bd9-6f4c-a4027a430aa9">
+	<content-type>/component/rd-carousel</content-type>
+	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8aab</objectGroupId>
+	<objectId>8aabd859-4d24-2bd9-6f4c-a4027a430aa9</objectId>
+	<imageItems_o item-list="true">	<item>	<title_s>Terrace</title_s>
+	<image_s/>
+	</item></imageItems_o>
+	<internal-name>Carousel</internal-name>
+	<file-name>8aabd859-4d24-2bd9-6f4c-a4027a430aa9.xml</file-name>
+	<folder-name/>
+	<createdDate>2025-06-11T09:17:24.103Z</createdDate>
+	<createdDate_dt>2025-06-11T09:17:24.103Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T09:17:24.103Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:17:24.103Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
 	<createdDate>2025-06-11T02:46:19.000Z</createdDate>
 	<createdDate_dt>2025-06-11T02:46:19.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T08:07:36.348Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T08:07:36.348Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:17:17.365Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:17:17.365Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
