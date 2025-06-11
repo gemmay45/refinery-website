@@ -112,7 +112,7 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign navTree = siteItemService.getSiteTree("/site/website/main-dining", 2)/>
+                    <#assign navTree = siteItemService.getSiteTree("/site/website/main-dining", 1)/>
                     <#assign navItems = navTree.childItems />
 ${navItems?size}
                     <#list navItems as navItem>
