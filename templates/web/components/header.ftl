@@ -112,7 +112,7 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
-                    <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining/index.xml", 2, "")/>
+                    <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 2, "")/>
                     <#assign navItems = navTree.subItems/>
                     ${navTree}
                     ${navItems?size}
