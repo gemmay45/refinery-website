@@ -114,6 +114,8 @@ Virtual Tour                                            </a>
 
                     </nav>
                     
+                    <#assign navTree = siteItemService.getSiteTree(navTreeUrl, levels + 1, includeByNameRegex, excludeByNameRegex, nodeXPathAndExpectedValuePairs)>
+                    
                     <#assign navTree = mainNavMacros.renderNavigation(navTreeUrl, 1, "", "", {"*/placeInNav": "true"}) />
                     
                     <#if contentModel.placeChildreninNav_b?? && contentModel.placeChildreninNav_b>
