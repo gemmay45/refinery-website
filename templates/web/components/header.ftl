@@ -112,6 +112,9 @@ Virtual Tour                                            </a>
 
                     </nav>
                    <#-- start --> 
+                   <#assign navTree = navTreeBuilder.getNavTree("/site/website/main-dining", 2, "")/>
+                    <#assign navItems = navTree.subItems/>
+
                     <div class="masthead__nav">
             <#list navItems as navItem>
                 <#assign storeUrl = urlTransformationService.transform('renderUrlToStoreUrl', navItem.url)>
