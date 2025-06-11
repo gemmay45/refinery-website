@@ -15,6 +15,7 @@
 	<folder-name>bar-and-lounges</folder-name>
 	<components_o item-list="true">	<item inline="true">	<key>8ac60811-3153-f031-dbbe-747371ed75c2</key>
 	<value>Carousel</value>
+	<disableFlattening>false</disableFlattening>
 <component id="8ac60811-3153-f031-dbbe-747371ed75c2">
 	<content-type>/component/rd-carousel</content-type>
 	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
@@ -37,7 +38,6 @@
 	<lastModifiedDate>2025-06-11T09:01:47.122Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-11T09:01:47.122Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>44a3f523-b5dc-2b1d-1492-1b9294517e28</key>
 	<value>Row</value>
 <component id="44a3f523-b5dc-2b1d-1492-1b9294517e28">
@@ -76,11 +76,40 @@
 	<lastModifiedDate>2025-06-11T09:03:20.972Z</lastModifiedDate>
 	<lastModifiedDate_dt>2025-06-11T09:03:20.972Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>5cbac718-4d64-7e5e-9900-2076e74d104a</key>
+	<value>Horizontal Card</value>
+<component id="5cbac718-4d64-7e5e-9900-2076e74d104a">
+	<content-type>/component/rf-horizontal-card</content-type>
+	<display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5cba</objectGroupId>
+	<objectId>5cbac718-4d64-7e5e-9900-2076e74d104a</objectId>
+	<imageItems_o item-list="true">	<item>	<image_s/>
+	</item></imageItems_o>
+	<cTALinkItems_o item-list="true">	<item>	<title_s/>
+	</item></cTALinkItems_o>
+	<file-name>5cbac718-4d64-7e5e-9900-2076e74d104a.xml</file-name>
+	<folder-name/>
+	<internal-name>Horizontal Card</internal-name>
+	<title_s>BAR &amp; LOUNGES</title_s>
+	<subtitle_s/>
+	<cTALabel_s/>
+	<bodyContent_html>&lt;p&gt;&lt;strong&gt;Opening Hours:&lt;/strong&gt; &lt;br&gt;Monday to Saturday &lt;br&gt;(except Public Holidays) &lt;br&gt;&lt;strong&gt;Breakfast:&lt;/strong&gt; 7am to 11am &lt;br&gt;&lt;strong&gt;All Day Menu:&lt;/strong&gt;&amp;nbsp;noon to 10:30pm &lt;br&gt;&lt;strong&gt;Happy Hour:&lt;/strong&gt; 5pm to 8pm &lt;br&gt;&lt;strong&gt;Evening Tapas:&lt;/strong&gt; 5pm to 10:30pm &lt;br&gt;- &lt;br&gt;&lt;strong&gt; &lt;em&gt;On a first-come-first-served basis&lt;/em&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class="speciality"&gt;&lt;strong&gt;Offer:&lt;/strong&gt; &lt;br&gt;Asian-influenced dishes&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-11T09:04:41.006Z</createdDate>
+	<createdDate_dt>2025-06-11T09:04:41.006Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T09:04:41.006Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:04:41.006Z</lastModifiedDate_dt>
+</component>
 	</item></components_o>
 	<createdDate>2025-06-11T02:38:26.321Z</createdDate>
 	<createdDate_dt>2025-06-11T02:38:26.321Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:01:44.762Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:01:44.762Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T09:04:31.875Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T09:04:31.875Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
