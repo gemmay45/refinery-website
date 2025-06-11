@@ -10,11 +10,11 @@
 	<folder-name>main-dining</folder-name>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>2000</orderDefault_f>
-	<internal-name>1 Main Dining</internal-name>
+	<internal-name>1. Main Dining</internal-name>
 	<navLabel>MAIN DINING</navLabel>
 	<redirect-url>/main-dining</redirect-url>
 	<createdDate>2025-06-10T08:35:29.766Z</createdDate>
 	<createdDate_dt>2025-06-10T08:35:29.766Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T01:50:38.725Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T01:50:38.725Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-11T01:55:46.367Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T01:55:46.367Z</lastModifiedDate_dt>
 </page>
