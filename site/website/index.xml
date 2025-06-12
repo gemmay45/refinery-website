@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/rf-homepage</content-type>
-	<display-template>/templates/web/pages/rf-homepage.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<file-name>index.xml</file-name>
-	<navLabel>Home</navLabel>
-	<internal-name>Home</internal-name>
-	<orderDefault_f>-1</orderDefault_f>
-	<objectGroupId>8d7f</objectGroupId>
-	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-	<folder-name/>
-	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
-	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-12T03:25:52.564Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-12T03:25:52.564Z</lastModifiedDate_dt>
-	<placeInNav>false</placeInNav>
-	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
-	<value>Row</value>
-	<disableFlattening>false</disableFlattening>
-<component id="0bab49fc-8e57-5302-96bc-c4fe5b0945db">
+  <content-type>/page/rf-homepage</content-type>
+  <display-template>/templates/web/pages/rf-homepage.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <file-name>index.xml</file-name>
+  <navLabel>Home</navLabel>
+  <internal-name>Home</internal-name>
+  <orderDefault_f>-1</orderDefault_f>
+  <objectGroupId>8d7f</objectGroupId>
+  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+  <folder-name/>
+  <createdDate>2017-01-31T16:18:14.000Z</createdDate>
+  <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
+  <lastModifiedDate>2025-06-12T03:26:12.550Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T03:26:12.550Z</lastModifiedDate_dt>
+  <placeInNav>false</placeInNav>
+  <components_o item-list="true">
+    <item inline="true">
+      <key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
+      <value>Row</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="0bab49fc-8e57-5302-96bc-c4fe5b0945db">
         <content-type>/component/rf-row-wrapper</content-type>
         <display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
         <no-template-required/>
@@ -118,47 +120,12 @@
           </item>
         </components_o>
       </component>
-	</item>	<item inline="true">	<key>bc7f653a-045f-4dfe-aafb-989e9cc9eccb</key>
-	<value>New RF-row-wrapper</value>
-<component id="bc7f653a-045f-4dfe-aafb-989e9cc9eccb">
-	<content-type>/component/rf-row-wrapper</content-type>
-	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New RF-row-wrapper</internal-name>
-	<file-name>bc7f653a-045f-4dfe-aafb-989e9cc9eccb.xml</file-name>
-	<createdDate_dt>2025-06-12T03:25:55.107Z</createdDate_dt>
-	<lastModifiedDate_dt>2025-06-12T03:25:55.107Z</lastModifiedDate_dt>
-	<objectId>bc7f653a-045f-4dfe-aafb-989e9cc9eccb</objectId>
-	<components_o item-list="true">	<item inline="true">	<key>23c80136-94c4-4371-bdb0-c3f85d34e53b</key>
-	<value>New RF-media-gallery</value>
-<component id="23c80136-94c4-4371-bdb0-c3f85d34e53b">
-	<content-type>/component/rf-media-gallery</content-type>
-	<display-template>/templates/web/components/rf-media-gallery.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New RF-media-gallery</internal-name>
-	<file-name>23c80136-94c4-4371-bdb0-c3f85d34e53b.xml</file-name>
-	<createdDate_dt>2025-06-12T03:25:59.980Z</createdDate_dt>
-	<lastModifiedDate_dt>2025-06-12T03:25:59.980Z</lastModifiedDate_dt>
-	<objectId>23c80136-94c4-4371-bdb0-c3f85d34e53b</objectId>
-	<imageItems_o item-list="true">	<item>	<thumbnail_s>/static-assets/images/placeholder.png</thumbnail_s>
-	</item></imageItems_o>
-	<folder-name/>
-	<createdDate>2025-06-12T03:25:59.980Z</createdDate>
-	<lastModifiedDate>2025-06-12T03:25:59.980Z</lastModifiedDate>
-</component>
-	<disableFlattening>false</disableFlattening>
-	</item></components_o>
-	<folder-name/>
-	<createdDate>2025-06-12T03:25:55.107Z</createdDate>
-	<lastModifiedDate>2025-06-12T03:25:55.107Z</lastModifiedDate>
-</component>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item inline="true">	<key>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</key>
-	<value>Card Group</value>
-	<disableFlattening>false</disableFlattening>
-<component id="a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb">
+    </item>
+    <item inline="true">
+      <key>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</key>
+      <value>Card Group</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb">
         <content-type>/component/rf-card-group</content-type>
         <display-template>/templates/web/components/rf-card-group.ftl</display-template>
         <no-template-required/>
@@ -199,11 +166,14 @@
         <lastModifiedDate>2025-06-06T02:09:15.443Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-06T02:09:15.443Z</lastModifiedDate_dt>
       </component>
-	</item></components_o>
-	<topFluidComponents_o item-list="true">	<item inline="true">	<key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
-	<value>Hero</value>
-	<disableFlattening>false</disableFlattening>
-<component id="b996bd82-7b12-0baa-1e07-55f207ce4976">
+    </item>
+  </components_o>
+  <topFluidComponents_o item-list="true">
+    <item inline="true">
+      <key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
+      <value>Hero</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="b996bd82-7b12-0baa-1e07-55f207ce4976">
         <content-type>/component/rf-image-full-width</content-type>
         <display-template>/templates/web/components/rf-image-full-width.ftl</display-template>
         <no-template-required/>
@@ -222,11 +192,14 @@
         <lastModifiedDate>2025-06-05T08:59:15.062Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-05T08:59:15.062Z</lastModifiedDate_dt>
       </component>
-	</item></topFluidComponents_o>
-	<bottomFluidComponents_o item-list="true">	<item inline="true">	<key>871bffca-4ccc-739a-8ca1-a96308411c7f</key>
-	<value>Join the Club</value>
-	<disableFlattening>false</disableFlattening>
-<component id="871bffca-4ccc-739a-8ca1-a96308411c7f">
+    </item>
+  </topFluidComponents_o>
+  <bottomFluidComponents_o item-list="true">
+    <item inline="true">
+      <key>871bffca-4ccc-739a-8ca1-a96308411c7f</key>
+      <value>Join the Club</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="871bffca-4ccc-739a-8ca1-a96308411c7f">
         <content-type>/component/rf-join-the-club</content-type>
         <display-template>/templates/web/components/rf-join-the-club.ftl</display-template>
         <no-template-required/>
@@ -263,5 +236,6 @@
           </item>
         </link_o>
       </component>
-	</item></bottomFluidComponents_o>
+    </item>
+  </bottomFluidComponents_o>
 </page>
