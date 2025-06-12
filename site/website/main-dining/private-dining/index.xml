@@ -64,14 +64,15 @@
 	<bodyContent_html>&lt;p&gt;Made for intimate gatherings and discreet events, our Private Dining Room is an exclusive banquet space away from the main restaurant's bustle. Bespoke menus are tailored to occasions, a built-in professional presentation system is easily accessible.&lt;/p&gt;</bodyContent_html>
 	<createdDate>2025-06-11T06:28:38.405Z</createdDate>
 	<createdDate_dt>2025-06-11T06:28:38.405Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T06:28:38.405Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T06:28:38.405Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T00:19:16.307Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:19:16.307Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<createdDate>2025-06-11T06:28:30.498Z</createdDate>
 	<createdDate_dt>2025-06-11T06:28:30.498Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T06:28:30.498Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T06:28:30.498Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T00:19:11.872Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:19:11.872Z</lastModifiedDate_dt>
 </component>
 	</item>	<item inline="true">	<key>3a0ebbc5-a4ed-7306-e634-3b850a010477</key>
 	<value>Horizontal Card</value>
@@ -115,8 +116,8 @@
 	</item></components_o>
 	<createdDate>2025-06-11T01:45:40.724Z</createdDate>
 	<createdDate_dt>2025-06-11T01:45:40.724Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T08:07:15.780Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T08:07:15.780Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T00:19:06.558Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:19:06.558Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
