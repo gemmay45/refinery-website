@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:25:09.155Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:25:09.155Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T03:25:14.597Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T03:25:14.597Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -33,8 +33,8 @@
         <internal-name>Row</internal-name>
         <createdDate>2025-06-05T09:06:43.512Z</createdDate>
         <createdDate_dt>2025-06-05T09:06:43.512Z</createdDate_dt>
-        <lastModifiedDate>2025-06-12T03:25:09.155Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-12T03:25:09.155Z</lastModifiedDate_dt>
+        <lastModifiedDate>2025-06-12T03:25:14.597Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-12T03:25:14.597Z</lastModifiedDate_dt>
         <components_o item-list="true">
           <item inline="true">
             <key>1a743bbb-716e-0f75-ddf2-749deeb2905e</key>
@@ -94,23 +94,7 @@
               <lastModifiedDate_dt>2025-06-06T00:55:52.831Z</lastModifiedDate_dt>
             </component>
           </item>
-          <item inline="true">
-            <key>c488964b-213c-436c-a364-53cafabffd1d</key>
-            <value><![CDATA[New RF-text-block]]></value>
-            <component id="c488964b-213c-436c-a364-53cafabffd1d">
-              <content-type>/component/rf-text-block</content-type>
-              <display-template>/templates/web/components/rf-text-block.ftl</display-template>
-              <internal-name><![CDATA[New RF-text-block]]></internal-name>
-              <file-name>c488964b-213c-436c-a364-53cafabffd1d.xml</file-name>
-              <merge-strategy>inherit-levels</merge-strategy>
-              <createdDate_dt>2025-06-12T03:25:09.155Z</createdDate_dt>
-              <lastModifiedDate_dt>2025-06-12T03:25:09.155Z</lastModifiedDate_dt>
-              <objectId>c488964b-213c-436c-a364-53cafabffd1d</objectId>
-              <title_s><![CDATA[[Title Text]]]></title_s>
-              <subtitle_s><![CDATA[[Subtitle Text]]]></subtitle_s>
-              <bodyContent_html><![CDATA[[Body Content]]]></bodyContent_html>
-            </component>
-          </item>
+
           <item inline="true">
             <key>abe2e956-96a3-cc6e-547a-b1a1a8430f55</key>
             <value>Text</value>
