@@ -14,8 +14,8 @@
 	<orderDefault_f>8000</orderDefault_f>
 	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
 	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-	<lastModifiedDate>2025-06-12T02:23:29.922Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-12T02:23:29.922Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T02:23:46.887Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T02:23:46.887Z</lastModifiedDate_dt>
 	<components_o item-list="true">	<item inline="true">	<key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
 	<value>Carousel</value>
 	<disableFlattening>false</disableFlattening>
@@ -88,26 +88,6 @@
         <lastModifiedDate>2025-06-06T09:07:32.810Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-06T09:07:32.810Z</lastModifiedDate_dt>
       </component>
-	</item>	<item inline="true">	<key>afb908d9-0099-46b9-a946-21b615b11bb5</key>
-	<value>New RD-carousel</value>
-<component id="afb908d9-0099-46b9-a946-21b615b11bb5">
-	<content-type>/component/rd-carousel</content-type>
-	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New RD-carousel</internal-name>
-	<file-name>afb908d9-0099-46b9-a946-21b615b11bb5.xml</file-name>
-	<createdDate_dt>2025-06-12T02:23:33.914Z</createdDate_dt>
-	<lastModifiedDate_dt>2025-06-12T02:23:33.914Z</lastModifiedDate_dt>
-	<objectId>afb908d9-0099-46b9-a946-21b615b11bb5</objectId>
-	<imageItems_o item-list="true">	<item>	<title_s no-default="true"/>
-	<image_s no-default="true"/>
-	</item></imageItems_o>
-	<folder-name/>
-	<createdDate>2025-06-12T02:23:33.914Z</createdDate>
-	<lastModifiedDate>2025-06-12T02:23:33.914Z</lastModifiedDate>
-</component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>1da53724-6777-8229-7017-8482d5f9c45c</key>
 	<value>Horizontal Card</value>
 	<disableFlattening>false</disableFlattening>
