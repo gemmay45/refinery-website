@@ -6,12 +6,12 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>4f496b11</objectGroupId>
 	<objectId>4f496b11-cf6e-4ce4-b127-6e51d56305c8</objectId>
-	<internal-name>Private Dining (Copy 1)</internal-name>
-	<navLabel>PRIVATE DINING</navLabel>
+	<internal-name>Terrace</internal-name>
+	<navLabel>Terrace</navLabel>
 	<file-name>index.xml</file-name>
-	<folder-name>private-dining-copy-1</folder-name>
+	<folder-name>terrace</folder-name>
 	<placeInNav>true</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>8000</orderDefault_f>
 	<placeChildreninNav_b>false</placeChildreninNav_b>
 	<components_o item-list="true">	<item inline="true">	<key>6aa1bc61-fb67-3cbe-6e3e-d9aa9d0d4f22</key>
 	<value>Carousel</value>
@@ -115,8 +115,8 @@
 	</item></components_o>
 	<createdDate>2025-06-11T01:45:40.724Z</createdDate>
 	<createdDate_dt>2025-06-11T01:45:40.724Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T08:07:15.780Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T08:07:15.780Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T00:04:39.090Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:04:39.090Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
