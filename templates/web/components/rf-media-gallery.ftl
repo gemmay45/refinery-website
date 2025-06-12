@@ -5,7 +5,8 @@
         <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
             <@crafter.renderRepeatGroup $field="imageItems_o" 
             $containerTag="div"
-            $containerAttributes={"class" : "col mt-5", "style": "margin-top:0 !important" };
+            $itemTag="div"
+            $itemAttributes={"class" : "col mt-5", "style": "margin-top:0 !important" };
             imageItem, index>
                 <#if imageItem.thumbnail_s?hasContent>
                     <@crafter.img $field="imageItems_o.thumbnail_s" src="${imageItem.thumbnail_s}" $index=index class="img-fluid lazyload" alt="${imageItem.thumbnail_s_alt!}" />
