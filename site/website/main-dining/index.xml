@@ -14,8 +14,8 @@
   <orderDefault_f>8000</orderDefault_f>
   <createdDate>2025-06-06T08:32:31.094Z</createdDate>
   <createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:52:35.021Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:52:35.021Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T05:54:10.656Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T05:54:10.656Z</lastModifiedDate_dt>
   <components_o item-list="true">
     <item inline="true">
       <key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
@@ -92,6 +92,35 @@
         <createdDate_dt>2025-06-06T09:07:32.810Z</createdDate_dt>
         <lastModifiedDate>2025-06-12T03:52:35.021Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-12T03:52:35.021Z</lastModifiedDate_dt>
+      </component>
+    </item>
+    <item inline="true">
+      <key>b96269b1-f1ff-4694-9ded-6dbee2df2ae9</key>
+      <value><![CDATA[New RF-horizontal-card]]></value>
+      <component id="b96269b1-f1ff-4694-9ded-6dbee2df2ae9">
+        <content-type>/component/rf-horizontal-card</content-type>
+        <display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
+        <internal-name><![CDATA[New RF-horizontal-card]]></internal-name>
+        <file-name>b96269b1-f1ff-4694-9ded-6dbee2df2ae9.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2025-06-12T05:54:10.655Z</createdDate_dt>
+        <lastModifiedDate_dt>2025-06-12T05:54:10.655Z</lastModifiedDate_dt>
+        <objectId>b96269b1-f1ff-4694-9ded-6dbee2df2ae9</objectId>
+        <title_s><![CDATA[[Title Text]]]></title_s>
+        <subtitle_s><![CDATA[[Subtitle Text]]]></subtitle_s>
+        <bodyContent_html><![CDATA[[Body Content]]]></bodyContent_html>
+        <imageItems_o item-list="true">
+          <item>
+            <image_s>/static-assets/images/placeholder.png</image_s>
+          </item>
+        </imageItems_o>
+        <cTALabel_s/>
+        <cTALinkItems_o item-list="true">
+          <item>
+            <title_s/>
+            <link/>
+          </item>
+        </cTALinkItems_o>
       </component>
     </item>
     <item inline="true">
