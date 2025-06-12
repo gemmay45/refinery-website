@@ -3,18 +3,32 @@
 <div class="dining-intro d-md-flex flex-md-row justify-content-md-start align-items-md-stretch d-lg-flex flex-lg-row justify-content-lg-start align-items-lg-stretch">
     <div class="slider-wrapper">
         <div data-sliders="inpage" class="swiper-container">
-            <div class="swiper-wrapper">
+            <#--<div class="swiper-wrapper">-->
                 <#if contentModel.imageItems_o?? &&contentModel.imageItems_o.item??>
-                    <#list contentModel.imageItems_o.item as imageItem>
+                    <@crafter.renderRepeatGroup $field="imageItems_o" 
+                        $containerTag="div"
+                        $containerAttributes={"class" : "swiper-wrapper" }
+                        $itemTag="div"
+                        $itemAttributes={"class" : "swiper-slide"};
+                        imageItem, index>
+                        <#if imageItem.image_s?hasContent>
+                            <div data-ratio="38x26" class="img-box">
+                                <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=index alt="" class="swiper-lazy" />
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+            			</#if>          
+             </@crafter.renderRepeatGroup>
+
+                    <#--<#list contentModel.imageItems_o.item as imageItem>
                         <@crafter.div class="swiper-slide" $index=imageItem?index style="">
                                 <div data-ratio="38x26" class="img-box">
                                     <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />
                                     <div class="swiper-lazy-preloader"></div>
                                 </div>
                         </@crafter.div>
-                     </#list>
+                     </#list>-->
                 </#if>
-            </div>
+            <#--</div>-->
             <div class="swiper-pagination"></div>
             <div class="carousel-nav-button button-prev">
                 <span class="icon sp-arrow-prev"></span>
