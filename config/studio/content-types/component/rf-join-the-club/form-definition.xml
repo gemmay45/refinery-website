@@ -98,7 +98,7 @@
 					<id>title_s</id>
 					<iceId></iceId>
 					<title>Title</title>
-					<description></description>
+					<description>[Title Text]</description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
@@ -147,7 +147,7 @@
 					<iceId></iceId>
 					<title>Body Content</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>[Body Content]</defaultValue>
 					<help></help>
 					<properties>
 						<property>
