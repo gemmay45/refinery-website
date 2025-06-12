@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/rf-dining</content-type>
-	<display-template>/templates/web/pages/rf-dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>ad82</objectGroupId>
-	<objectId>ad828409-7492-3e4e-fd71-e1f4024092cf</objectId>
-	<internal-name>Main Dining</internal-name>
-	<navLabel>Dining</navLabel>
-	<file-name>index.xml</file-name>
-	<folder-name>main-dining</folder-name>
-	<placeInNav>true</placeInNav>
-	<orderDefault_f>8000</orderDefault_f>
-	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
-	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-	<lastModifiedDate>2025-06-12T02:23:46.887Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-12T02:23:46.887Z</lastModifiedDate_dt>
-	<components_o item-list="true">	<item inline="true">	<key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
-	<value>Carousel</value>
-	<disableFlattening>false</disableFlattening>
-<component id="c3ef4875-acd2-2c29-c719-99ef93feba74">
+  <content-type>/page/rf-dining</content-type>
+  <display-template>/templates/web/pages/rf-dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>ad82</objectGroupId>
+  <objectId>ad828409-7492-3e4e-fd71-e1f4024092cf</objectId>
+  <internal-name>Main Dining</internal-name>
+  <navLabel>Dining</navLabel>
+  <file-name>index.xml</file-name>
+  <folder-name>main-dining</folder-name>
+  <placeInNav>true</placeInNav>
+  <orderDefault_f>8000</orderDefault_f>
+  <createdDate>2025-06-06T08:32:31.094Z</createdDate>
+  <createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
+  <lastModifiedDate>2025-06-12T02:25:59.159Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T02:25:59.159Z</lastModifiedDate_dt>
+  <components_o item-list="true">
+    <item inline="true">
+      <key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
+      <value>Carousel</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="c3ef4875-acd2-2c29-c719-99ef93feba74">
         <content-type>/component/rd-carousel</content-type>
         <display-template>/templates/web/components/rf-carousel.ftl</display-template>
         <no-template-required/>
@@ -46,10 +48,12 @@
         <lastModifiedDate>2025-06-10T01:19:07.614Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-10T01:19:07.614Z</lastModifiedDate_dt>
       </component>
-	</item>	<item inline="true">	<key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
-	<value>Row</value>
-	<disableFlattening>false</disableFlattening>
-<component id="b74651bb-590f-4174-9b88-ef041c75b54f">
+    </item>
+    <item inline="true">
+      <key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
+      <value>Row</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="b74651bb-590f-4174-9b88-ef041c75b54f">
         <content-type>/component/rf-row-wrapper</content-type>
         <display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
         <no-template-required/>
@@ -60,6 +64,23 @@
         <folder-name/>
         <internal-name>Row</internal-name>
         <components_o item-list="true">
+          <item inline="true">
+            <key>e8f8ab3d-58e7-4580-96f2-d20c12ce0c77</key>
+            <value><![CDATA[New RF-text-block]]></value>
+            <component id="e8f8ab3d-58e7-4580-96f2-d20c12ce0c77">
+              <content-type>/component/rf-text-block</content-type>
+              <display-template>/templates/web/components/rf-text-block.ftl</display-template>
+              <internal-name><![CDATA[New RF-text-block]]></internal-name>
+              <file-name>e8f8ab3d-58e7-4580-96f2-d20c12ce0c77.xml</file-name>
+              <merge-strategy>inherit-levels</merge-strategy>
+              <createdDate_dt>2025-06-12T02:25:59.158Z</createdDate_dt>
+              <lastModifiedDate_dt>2025-06-12T02:25:59.158Z</lastModifiedDate_dt>
+              <objectId>e8f8ab3d-58e7-4580-96f2-d20c12ce0c77</objectId>
+              <title_s/>
+              <subtitle_s/>
+              <bodyContent_html/>
+            </component>
+          </item>
           <item inline="true">
             <key>56057f4e-42e4-7ba7-106d-3f051b7259ce</key>
             <value>Text Block</value>
@@ -85,13 +106,15 @@
         </components_o>
         <createdDate>2025-06-06T09:07:32.810Z</createdDate>
         <createdDate_dt>2025-06-06T09:07:32.810Z</createdDate_dt>
-        <lastModifiedDate>2025-06-06T09:07:32.810Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-06T09:07:32.810Z</lastModifiedDate_dt>
+        <lastModifiedDate>2025-06-12T02:25:59.159Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-12T02:25:59.159Z</lastModifiedDate_dt>
       </component>
-	</item>	<item inline="true">	<key>1da53724-6777-8229-7017-8482d5f9c45c</key>
-	<value>Horizontal Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="1da53724-6777-8229-7017-8482d5f9c45c">
+    </item>
+    <item inline="true">
+      <key>1da53724-6777-8229-7017-8482d5f9c45c</key>
+      <value>Horizontal Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="1da53724-6777-8229-7017-8482d5f9c45c">
         <content-type>/component/rf-horizontal-card</content-type>
         <display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
         <no-template-required/>
@@ -166,7 +189,8 @@
         <lastModifiedDate_dt>2025-06-10T00:52:17.020Z</lastModifiedDate_dt>
         <cTALabel_s>VIEW MENU</cTALabel_s>
       </component>
-	</item></components_o>
-	<placeChildreninNav_b>true</placeChildreninNav_b>
-	<submenu_o item-list="true"/>
+    </item>
+  </components_o>
+  <placeChildreninNav_b>true</placeChildreninNav_b>
+  <submenu_o item-list="true"/>
 </page>
