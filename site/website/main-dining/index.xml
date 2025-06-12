@@ -14,8 +14,8 @@
   <orderDefault_f>8000</orderDefault_f>
   <createdDate>2025-06-06T08:32:31.094Z</createdDate>
   <createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:52:18.585Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:52:18.585Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T03:52:35.021Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T03:52:35.021Z</lastModifiedDate_dt>
   <components_o item-list="true">
     <item inline="true">
       <key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
@@ -87,30 +87,11 @@
             </component>
             <disableFlattening>false</disableFlattening>
           </item>
-          <item inline="true">
-            <key>e9877535-cfa1-4b24-a9fd-bec1d5139301</key>
-            <value><![CDATA[New RF-media-gallery]]></value>
-            <component id="e9877535-cfa1-4b24-a9fd-bec1d5139301">
-              <content-type>/component/rf-media-gallery</content-type>
-              <display-template>/templates/web/components/rf-media-gallery.ftl</display-template>
-              <internal-name><![CDATA[New RF-media-gallery]]></internal-name>
-              <file-name>e9877535-cfa1-4b24-a9fd-bec1d5139301.xml</file-name>
-              <merge-strategy>inherit-levels</merge-strategy>
-              <createdDate_dt>2025-06-12T03:52:18.585Z</createdDate_dt>
-              <lastModifiedDate_dt>2025-06-12T03:52:18.585Z</lastModifiedDate_dt>
-              <objectId>e9877535-cfa1-4b24-a9fd-bec1d5139301</objectId>
-              <imageItems_o item-list="true">
-                <item>
-                  <thumbnail_s>/static-assets/images/placeholder.png</thumbnail_s>
-                </item>
-              </imageItems_o>
-            </component>
-          </item>
         </components_o>
         <createdDate>2025-06-06T09:07:32.810Z</createdDate>
         <createdDate_dt>2025-06-06T09:07:32.810Z</createdDate_dt>
-        <lastModifiedDate>2025-06-12T03:52:18.585Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-12T03:52:18.585Z</lastModifiedDate_dt>
+        <lastModifiedDate>2025-06-12T03:52:35.021Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-12T03:52:35.021Z</lastModifiedDate_dt>
       </component>
     </item>
     <item inline="true">
