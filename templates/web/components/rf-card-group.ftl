@@ -2,7 +2,7 @@
 
 <#--<div class="row cards without-shadow d-sm-flex mb-5">-->
     <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
-        <@crafter.renderRepeatGroup $field="cardItems_o" 
+        <#--<@crafter.renderRepeatGroup $field="cardItems_o" 
             $containerTag="div"
             $containerAttributes={"class" : "row cards without-shadow d-sm-flex mb-5" }
             $itemTag="div"
@@ -22,8 +22,8 @@
                     </div>
                 </div>       
          </@crafter.renderRepeatGroup>
-
-        <#--
+        -->
+        
         <#list contentModel.cardItems_o.item as cardItem>
             <@crafter.div class="col-12 col-md-6 d-sm-flex mb-4" $field="cardItems_o" $index=cardItem?index>
                     <div class="card" id=${cardItem.title_s?lower_case?replace(" ","-")}>
@@ -41,6 +41,6 @@
                     </div>
             </@crafter.div>
         </#list>
-        -->
+        
     </#if>
 <#--</div>-->
