@@ -16,6 +16,7 @@
                                 <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=index alt="" class="swiper-lazy" />
                                 <div class="swiper-lazy-preloader"></div>
                             </div>
+                            xxx
             			</#if>          
              </@crafter.renderRepeatGroup>
 
