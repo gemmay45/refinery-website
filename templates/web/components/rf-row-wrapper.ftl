@@ -4,7 +4,7 @@
     <#if contentModel.components_o?? && contentModel.components_o.item??>
          <#--<@crafter.div class="" $model=ContentModel $field="components_o">-->
          <@crafter.forEach contentModel.components_o; listItem, index>
-             <@crafter.div $field="components_o" $index=index>
+             <@crafter.div class="section" $field="components_o" $index=index>
                 <@renderComponent component=listItem/>
              </@crafter.div>
          </@crafter.forEach>
