@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:26:12.550Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:26:12.550Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T03:27:01.419Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T03:27:01.419Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -195,6 +195,23 @@
     </item>
   </topFluidComponents_o>
   <bottomFluidComponents_o item-list="true">
+    <item inline="true">
+      <key>6a68c2a8-3eba-435e-9ecd-a7aca9a41cf5</key>
+      <value><![CDATA[New RF-join-the-club]]></value>
+      <component id="6a68c2a8-3eba-435e-9ecd-a7aca9a41cf5">
+        <content-type>/component/rf-join-the-club</content-type>
+        <display-template>/templates/web/components/rf-join-the-club.ftl</display-template>
+        <internal-name><![CDATA[New RF-join-the-club]]></internal-name>
+        <file-name>6a68c2a8-3eba-435e-9ecd-a7aca9a41cf5.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2025-06-12T03:27:01.418Z</createdDate_dt>
+        <lastModifiedDate_dt>2025-06-12T03:27:01.418Z</lastModifiedDate_dt>
+        <objectId>6a68c2a8-3eba-435e-9ecd-a7aca9a41cf5</objectId>
+        <title_s/>
+        <bodyContent_html/>
+        <link_o/>
+      </component>
+    </item>
     <item inline="true">
       <key>871bffca-4ccc-739a-8ca1-a96308411c7f</key>
       <value>Join the Club</value>
