@@ -14,8 +14,8 @@
   <orderDefault_f>8000</orderDefault_f>
   <createdDate>2025-06-06T08:32:31.094Z</createdDate>
   <createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T02:29:02.624Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T02:29:02.624Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T03:32:27.318Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T03:32:27.318Z</lastModifiedDate_dt>
   <components_o item-list="true">
     <item inline="true">
       <key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
@@ -92,6 +92,35 @@
         <createdDate_dt>2025-06-06T09:07:32.810Z</createdDate_dt>
         <lastModifiedDate>2025-06-12T02:29:02.624Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-12T02:29:02.624Z</lastModifiedDate_dt>
+      </component>
+    </item>
+    <item inline="true">
+      <key>a8ac0f69-5b3d-4c75-94d7-540f650045ee</key>
+      <value><![CDATA[New RF-horizontal-card]]></value>
+      <component id="a8ac0f69-5b3d-4c75-94d7-540f650045ee">
+        <content-type>/component/rf-horizontal-card</content-type>
+        <display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
+        <internal-name><![CDATA[New RF-horizontal-card]]></internal-name>
+        <file-name>a8ac0f69-5b3d-4c75-94d7-540f650045ee.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2025-06-12T03:32:27.318Z</createdDate_dt>
+        <lastModifiedDate_dt>2025-06-12T03:32:27.318Z</lastModifiedDate_dt>
+        <objectId>a8ac0f69-5b3d-4c75-94d7-540f650045ee</objectId>
+        <title_s/>
+        <subtitle_s/>
+        <bodyContent_html/>
+        <imageItems_o item-list="true">
+          <item>
+            <image_s/>
+          </item>
+        </imageItems_o>
+        <cTALabel_s/>
+        <cTALinkItems_o item-list="true">
+          <item>
+            <title_s/>
+            <link/>
+          </item>
+        </cTALinkItems_o>
       </component>
     </item>
     <item inline="true">
