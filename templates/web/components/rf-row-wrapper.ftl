@@ -10,6 +10,10 @@
                  </@crafter.section>
              </@crafter.forEach>
              </@crafter.div>
+         <#else>
+             <@crafter.forEach contentModel.components_o; listItem, index>
+                <@renderComponent component=listItem/>
+             </@crafter.forEach>
          </#if>
      <#else>
          <@crafter.div class="craftercms-empty-collection" $model=ContentModel $field="components_o"></@crafter.div>
