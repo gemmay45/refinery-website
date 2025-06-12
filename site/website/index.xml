@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:25:14.597Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:25:14.597Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T03:25:22.885Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T03:25:22.885Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -119,6 +119,21 @@
             </component>
           </item>
         </components_o>
+      </component>
+    </item>
+    <item inline="true">
+      <key>bc7f653a-045f-4dfe-aafb-989e9cc9eccb</key>
+      <value><![CDATA[New RF-row-wrapper]]></value>
+      <component id="bc7f653a-045f-4dfe-aafb-989e9cc9eccb">
+        <content-type>/component/rf-row-wrapper</content-type>
+        <display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
+        <internal-name><![CDATA[New RF-row-wrapper]]></internal-name>
+        <file-name>bc7f653a-045f-4dfe-aafb-989e9cc9eccb.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2025-06-12T03:25:22.884Z</createdDate_dt>
+        <lastModifiedDate_dt>2025-06-12T03:25:22.884Z</lastModifiedDate_dt>
+        <objectId>bc7f653a-045f-4dfe-aafb-989e9cc9eccb</objectId>
+        <components_o/>
       </component>
     </item>
     <item inline="true">
