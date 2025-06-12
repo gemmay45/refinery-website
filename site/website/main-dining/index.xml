@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/rf-dining</content-type>
-  <display-template>/templates/web/pages/rf-dining.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>ad82</objectGroupId>
-  <objectId>ad828409-7492-3e4e-fd71-e1f4024092cf</objectId>
-  <internal-name>Main Dining</internal-name>
-  <navLabel>Dining</navLabel>
-  <file-name>index.xml</file-name>
-  <folder-name>main-dining</folder-name>
-  <placeInNav>true</placeInNav>
-  <orderDefault_f>8000</orderDefault_f>
-  <createdDate>2025-06-06T08:32:31.094Z</createdDate>
-  <createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:47:57.192Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:47:57.192Z</lastModifiedDate_dt>
-  <components_o item-list="true">
-    <item inline="true">
-      <key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
-      <value>Carousel</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="c3ef4875-acd2-2c29-c719-99ef93feba74">
+	<content-type>/page/rf-dining</content-type>
+	<display-template>/templates/web/pages/rf-dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ad82</objectGroupId>
+	<objectId>ad828409-7492-3e4e-fd71-e1f4024092cf</objectId>
+	<internal-name>Main Dining</internal-name>
+	<navLabel>Dining</navLabel>
+	<file-name>index.xml</file-name>
+	<folder-name>main-dining</folder-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>8000</orderDefault_f>
+	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
+	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
+	<lastModifiedDate>2025-06-12T03:48:12.135Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T03:48:12.135Z</lastModifiedDate_dt>
+	<components_o item-list="true">	<item inline="true">	<key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
+	<value>Carousel</value>
+	<disableFlattening>false</disableFlattening>
+<component id="c3ef4875-acd2-2c29-c719-99ef93feba74">
         <content-type>/component/rd-carousel</content-type>
         <display-template>/templates/web/components/rf-carousel.ftl</display-template>
         <no-template-required/>
@@ -48,12 +46,10 @@
         <lastModifiedDate>2025-06-10T01:19:07.614Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-10T01:19:07.614Z</lastModifiedDate_dt>
       </component>
-    </item>
-    <item inline="true">
-      <key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
-      <value>Row</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="b74651bb-590f-4174-9b88-ef041c75b54f">
+	</item>	<item inline="true">	<key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
+	<value>Row</value>
+	<disableFlattening>false</disableFlattening>
+<component id="b74651bb-590f-4174-9b88-ef041c75b54f">
         <content-type>/component/rf-row-wrapper</content-type>
         <display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
         <no-template-required/>
@@ -93,28 +89,32 @@
         <lastModifiedDate>2025-06-12T02:29:02.624Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-12T02:29:02.624Z</lastModifiedDate_dt>
       </component>
-    </item>
-    <item inline="true">
-      <key>f3504b0f-13e4-4a11-bdd7-338db510867a</key>
-      <value><![CDATA[New RF-HC]]></value>
-      <component id="f3504b0f-13e4-4a11-bdd7-338db510867a">
-        <content-type>/component/rf-hc</content-type>
-        <display-template>/templates/web/rf-hc.ftl</display-template>
-        <internal-name><![CDATA[New RF-HC]]></internal-name>
-        <file-name>f3504b0f-13e4-4a11-bdd7-338db510867a.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2025-06-12T03:47:57.191Z</createdDate_dt>
-        <lastModifiedDate_dt>2025-06-12T03:47:57.191Z</lastModifiedDate_dt>
-        <objectId>f3504b0f-13e4-4a11-bdd7-338db510867a</objectId>
-        <title_s><![CDATA[[Tiltle Text]]]></title_s>
-        <bodyContent_html><![CDATA[[Body Content]]]></bodyContent_html>
-      </component>
-    </item>
-    <item inline="true">
-      <key>1da53724-6777-8229-7017-8482d5f9c45c</key>
-      <value>Horizontal Card</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="1da53724-6777-8229-7017-8482d5f9c45c">
+	</item>	<item inline="true">	<key>f3504b0f-13e4-4a11-bdd7-338db510867a</key>
+	<value>New RF-HC</value>
+<component id="f3504b0f-13e4-4a11-bdd7-338db510867a">
+	<content-type>/component/rf-hc</content-type>
+	<display-template>/templates/web/rf-hc.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New RF-HC</internal-name>
+	<file-name>f3504b0f-13e4-4a11-bdd7-338db510867a.xml</file-name>
+	<createdDate_dt>2025-06-12T03:48:15.467Z</createdDate_dt>
+	<lastModifiedDate_dt>2025-06-12T03:48:15.467Z</lastModifiedDate_dt>
+	<objectId>f3504b0f-13e4-4a11-bdd7-338db510867a</objectId>
+	<title_s>[Tiltle Text]</title_s>
+	<bodyContent_html>&lt;p&gt;[Body Content]&lt;/p&gt;</bodyContent_html>
+	<textRG_o item-list="true">	<item>	<text_s>[Text]</text_s>
+	<image_s>/static-assets/images/placeholder.png</image_s>
+	</item></textRG_o>
+	<folder-name/>
+	<createdDate>2025-06-12T03:48:15.467Z</createdDate>
+	<lastModifiedDate>2025-06-12T03:48:15.467Z</lastModifiedDate>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>1da53724-6777-8229-7017-8482d5f9c45c</key>
+	<value>Horizontal Card</value>
+	<disableFlattening>false</disableFlattening>
+<component id="1da53724-6777-8229-7017-8482d5f9c45c">
         <content-type>/component/rf-horizontal-card</content-type>
         <display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
         <no-template-required/>
@@ -189,8 +189,7 @@
         <lastModifiedDate_dt>2025-06-10T00:52:17.020Z</lastModifiedDate_dt>
         <cTALabel_s>VIEW MENU</cTALabel_s>
       </component>
-    </item>
-  </components_o>
-  <placeChildreninNav_b>true</placeChildreninNav_b>
-  <submenu_o item-list="true"/>
+	</item></components_o>
+	<placeChildreninNav_b>true</placeChildreninNav_b>
+	<submenu_o item-list="true"/>
 </page>
