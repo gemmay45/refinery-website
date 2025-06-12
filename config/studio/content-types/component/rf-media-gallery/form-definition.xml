@@ -120,7 +120,7 @@
 					<iceId></iceId>
 					<title>Thumbnail</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>/static-assets/images/placeholder.png</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -166,9 +166,6 @@
 							<type>boolean</type>
 						</constraint>
 					</constraints>
-					<additionalFields>
-						<id>thumbnail_s_alt</id>
-					</additionalFields>
 				</field>
 					</fields>
 				</field>
