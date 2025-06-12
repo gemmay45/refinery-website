@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T02:39:35.094Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T02:39:35.094Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T02:39:44.425Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T02:39:44.425Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -121,27 +121,6 @@
       </component>
     </item>
 
-    <item inline="true">
-      <key>7b741eb0-5189-420e-9f60-77affda3ff0b</key>
-      <value><![CDATA[New RF-card-group]]></value>
-      <component id="7b741eb0-5189-420e-9f60-77affda3ff0b">
-        <content-type>/component/rf-card-group</content-type>
-        <display-template>/templates/web/components/rf-card-group.ftl</display-template>
-        <internal-name><![CDATA[New RF-card-group]]></internal-name>
-        <file-name>7b741eb0-5189-420e-9f60-77affda3ff0b.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2025-06-12T02:39:35.094Z</createdDate_dt>
-        <lastModifiedDate_dt>2025-06-12T02:39:35.094Z</lastModifiedDate_dt>
-        <objectId>7b741eb0-5189-420e-9f60-77affda3ff0b</objectId>
-        <cardItems_o item-list="true">
-          <item>
-            <title_s/>
-            <summary_t/>
-            <image_s/>
-          </item>
-        </cardItems_o>
-      </component>
-    </item>
     <item inline="true">
       <key>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</key>
       <value>Card Group</value>
