@@ -6,6 +6,5 @@
 <#if contentModel.textRG_o?? && contentModel.textRG_o.item??>
 <#list contentModel.textRG_o.item as textItem>
                                          ${textItem.text_s}
-
-</#if>
 </#list>
+</#if>
