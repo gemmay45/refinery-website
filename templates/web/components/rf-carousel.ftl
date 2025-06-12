@@ -16,6 +16,7 @@
                         <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=index alt="" class="swiper-lazy" />
                         <div class="swiper-lazy-preloader"></div>
                     </div>
+                    xxx
 
                 <#--<#if imageItem.thumbnail_s?hasContent>
                     <@crafter.img $field="imageItems_o.thumbnail_s" src="${imageItem.thumbnail_s}" $index=index class="img-fluid lazyload" alt="${imageItem.thumbnail_s_alt!}" />
