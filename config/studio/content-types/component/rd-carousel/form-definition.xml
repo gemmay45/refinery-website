@@ -168,7 +168,7 @@
 					<iceId></iceId>
 					<title>Image</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>/static-assets/images/placeholder.png</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -214,9 +214,6 @@
 							<type>boolean</type>
 						</constraint>
 					</constraints>
-					<additionalFields>
-						<id>image_s_alt</id>
-					</additionalFields>
 				</field>
 					</fields>
 				</field>
