@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:25:22.885Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:25:22.885Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T03:25:28.683Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T03:25:28.683Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -131,9 +131,25 @@
         <file-name>bc7f653a-045f-4dfe-aafb-989e9cc9eccb.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2025-06-12T03:25:22.884Z</createdDate_dt>
-        <lastModifiedDate_dt>2025-06-12T03:25:22.884Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2025-06-12T03:25:28.683Z</lastModifiedDate_dt>
         <objectId>bc7f653a-045f-4dfe-aafb-989e9cc9eccb</objectId>
-        <components_o/>
+        <components_o>
+          <item inline="true">
+            <key>23c80136-94c4-4371-bdb0-c3f85d34e53b</key>
+            <value><![CDATA[New RF-media-gallery]]></value>
+            <component id="23c80136-94c4-4371-bdb0-c3f85d34e53b">
+              <content-type>/component/rf-media-gallery</content-type>
+              <display-template>/templates/web/components/rf-media-gallery.ftl</display-template>
+              <internal-name><![CDATA[New RF-media-gallery]]></internal-name>
+              <file-name>23c80136-94c4-4371-bdb0-c3f85d34e53b.xml</file-name>
+              <merge-strategy>inherit-levels</merge-strategy>
+              <createdDate_dt>2025-06-12T03:25:28.683Z</createdDate_dt>
+              <lastModifiedDate_dt>2025-06-12T03:25:28.683Z</lastModifiedDate_dt>
+              <objectId>23c80136-94c4-4371-bdb0-c3f85d34e53b</objectId>
+              <imageItems_o/>
+            </component>
+          </item>
+        </components_o>
       </component>
     </item>
     <item inline="true">
