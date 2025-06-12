@@ -6,5 +6,6 @@
 <#if contentModel.textRG_o?? && contentModel.textRG_o.item??>
 <#list contentModel.textRG_o.item as textItem>
                                          ${textItem.text_s}
+                                         ${textItem.image_s}
 </#list>
 </#if>
