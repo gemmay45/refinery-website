@@ -89,8 +89,7 @@
 	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-078.webp</image_s>
 	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-084.webp</image_s>
 	</item></imageItems_o>
-	<cTALinkItems_o item-list="true">	<item>	<title_s>A la carte Menu</title_s>
-	</item>	<item>	<title_s>All Day Menu</title_s>
+	<cTALinkItems_o item-list="true">	<item>	<title_s>All Day Menu</title_s>
 	</item>	<item>	<title_s>Snack Menu</title_s>
 	</item>	<item>	<title_s>Master Wine List</title_s>
 	</item>	<item>	<title_s>Drink List</title_s>
@@ -108,14 +107,14 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent_html>
 	<createdDate>2025-06-11T06:30:24.260Z</createdDate>
 	<createdDate_dt>2025-06-11T06:30:24.260Z</createdDate_dt>
-	<lastModifiedDate>2025-06-12T00:06:17.656Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-12T00:06:17.656Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T00:54:50.231Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:54:50.231Z</lastModifiedDate_dt>
 </component>
 	</item></components_o>
 	<createdDate>2025-06-11T01:45:40.724Z</createdDate>
 	<createdDate_dt>2025-06-11T01:45:40.724Z</createdDate_dt>
-	<lastModifiedDate>2025-06-12T00:22:28.170Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-12T00:22:28.170Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T00:54:49.953Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:54:49.953Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
