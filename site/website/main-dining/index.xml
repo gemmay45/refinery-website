@@ -14,8 +14,8 @@
   <orderDefault_f>8000</orderDefault_f>
   <createdDate>2025-06-06T08:32:31.094Z</createdDate>
   <createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:45:10.032Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:45:10.032Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T03:45:13.662Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T03:45:13.662Z</lastModifiedDate_dt>
   <components_o item-list="true">
     <item inline="true">
       <key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
@@ -92,6 +92,22 @@
         <createdDate_dt>2025-06-06T09:07:32.810Z</createdDate_dt>
         <lastModifiedDate>2025-06-12T02:29:02.624Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-12T02:29:02.624Z</lastModifiedDate_dt>
+      </component>
+    </item>
+    <item inline="true">
+      <key>05628193-b60f-445c-99df-3bc3de3adce1</key>
+      <value><![CDATA[New RF-HC]]></value>
+      <component id="05628193-b60f-445c-99df-3bc3de3adce1">
+        <content-type>/component/rf-hc</content-type>
+        <display-template>/templates/web/rf-hc.ftl</display-template>
+        <internal-name><![CDATA[New RF-HC]]></internal-name>
+        <file-name>05628193-b60f-445c-99df-3bc3de3adce1.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2025-06-12T03:45:13.662Z</createdDate_dt>
+        <lastModifiedDate_dt>2025-06-12T03:45:13.662Z</lastModifiedDate_dt>
+        <objectId>05628193-b60f-445c-99df-3bc3de3adce1</objectId>
+        <title_s><![CDATA[[Tiltle Text]]]></title_s>
+        <bodyContent_html><![CDATA[[Body Content]]]></bodyContent_html>
       </component>
     </item>
     <item inline="true">
