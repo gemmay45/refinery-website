@@ -18,16 +18,7 @@
                             </div>
                             xxx
             			</#if>          
-             </@crafter.renderRepeatGroup>
-
-                    <#--<#list contentModel.imageItems_o.item as imageItem>
-                        <@crafter.div class="swiper-slide" $index=imageItem?index style="">
-                                <div data-ratio="38x26" class="img-box">
-                                    <@crafter.img src="${imageItem.image_s}" $field="imageItems_o.image_s" $index=imageItem?index alt="" class="swiper-lazy" />
-                                    <div class="swiper-lazy-preloader"></div>
-                                </div>
-                        </@crafter.div>
-                     </#list>-->
+                    </@crafter.renderRepeatGroup>
                 </#if>
             <#--</div>-->
             <div class="swiper-pagination"></div>
