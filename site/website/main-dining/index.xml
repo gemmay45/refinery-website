@@ -1,50 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/rf-dining</content-type>
-	<display-template>/templates/web/pages/rf-dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>ad82</objectGroupId>
-	<objectId>ad828409-7492-3e4e-fd71-e1f4024092cf</objectId>
-	<internal-name>Main Dining</internal-name>
-	<navLabel>Dining</navLabel>
-	<file-name>index.xml</file-name>
-	<folder-name>main-dining</folder-name>
-	<placeInNav>true</placeInNav>
-	<orderDefault_f>8000</orderDefault_f>
-	<createdDate>2025-06-06T08:32:31.094Z</createdDate>
-	<createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
-	<lastModifiedDate>2025-06-10T03:32:52.396Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-10T03:32:52.396Z</lastModifiedDate_dt>
-	<components_o item-list="true">	<item inline="true">	<key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
-	<value>Carousel</value>
-	<disableFlattening>false</disableFlattening>
-<component id="c3ef4875-acd2-2c29-c719-99ef93feba74">
-	<content-type>/component/rd-carousel</content-type>
-	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>c3ef</objectGroupId>
-	<objectId>c3ef4875-acd2-2c29-c719-99ef93feba74</objectId>
-	<imageItems_o item-list="true">	<item>	<title_s>MAIN DINING</title_s>
-	<image_s>/static-assets/images/refinery/main-dining-hero.webp</image_s>
-	<image_s_alt/>
-	</item>	<item>	<title_s>SEMI-PRIVATE DINING</title_s>
-	<image_s>/static-assets/images/refinery/semi-private-dining_retouched-update_7-aug.webp</image_s>
-	<image_s_alt/>
-	</item></imageItems_o>
-	<file-name>c3ef4875-acd2-2c29-c719-99ef93feba74.xml</file-name>
-	<folder-name/>
-	<internal-name>Carousel</internal-name>
-	<createdDate>2025-06-10T01:19:07.614Z</createdDate>
-	<createdDate_dt>2025-06-10T01:19:07.614Z</createdDate_dt>
-	<lastModifiedDate>2025-06-10T01:19:07.614Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-10T01:19:07.614Z</lastModifiedDate_dt>
-</component>
-	</item>	<item inline="true">	<key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
-	<value>Row</value>
-	<disableFlattening>false</disableFlattening>
-<component id="b74651bb-590f-4174-9b88-ef041c75b54f">
+  <content-type>/page/rf-dining</content-type>
+  <display-template>/templates/web/pages/rf-dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>ad82</objectGroupId>
+  <objectId>ad828409-7492-3e4e-fd71-e1f4024092cf</objectId>
+  <internal-name>Main Dining</internal-name>
+  <navLabel>Dining</navLabel>
+  <file-name>index.xml</file-name>
+  <folder-name>main-dining</folder-name>
+  <placeInNav>true</placeInNav>
+  <orderDefault_f>8000</orderDefault_f>
+  <createdDate>2025-06-06T08:32:31.094Z</createdDate>
+  <createdDate_dt>2025-06-06T08:32:31.094Z</createdDate_dt>
+  <lastModifiedDate>2025-06-12T02:18:53.367Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T02:18:53.367Z</lastModifiedDate_dt>
+  <components_o item-list="true">
+    <item inline="true">
+      <key>c3ef4875-acd2-2c29-c719-99ef93feba74</key>
+      <value>Carousel</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="c3ef4875-acd2-2c29-c719-99ef93feba74">
+        <content-type>/component/rd-carousel</content-type>
+        <display-template>/templates/web/components/rf-carousel.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <objectGroupId>c3ef</objectGroupId>
+        <objectId>c3ef4875-acd2-2c29-c719-99ef93feba74</objectId>
+        <imageItems_o item-list="true">
+          <item>
+            <title_s>MAIN DINING</title_s>
+            <image_s>/static-assets/images/refinery/main-dining-hero.webp</image_s>
+            <image_s_alt/>
+          </item>
+          <item>
+            <title_s>SEMI-PRIVATE DINING</title_s>
+            <image_s>/static-assets/images/refinery/semi-private-dining_retouched-update_7-aug.webp</image_s>
+            <image_s_alt/>
+          </item>
+        </imageItems_o>
+        <file-name>c3ef4875-acd2-2c29-c719-99ef93feba74.xml</file-name>
+        <folder-name/>
+        <internal-name>Carousel</internal-name>
+        <createdDate>2025-06-10T01:19:07.614Z</createdDate>
+        <createdDate_dt>2025-06-10T01:19:07.614Z</createdDate_dt>
+        <lastModifiedDate>2025-06-10T01:19:07.614Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-10T01:19:07.614Z</lastModifiedDate_dt>
+      </component>
+    </item>
+    <item inline="true">
+      <key>71486916-bc2a-4c3f-a9d1-2435eba1ca90</key>
+      <value><![CDATA[New RD-carousel]]></value>
+      <component id="71486916-bc2a-4c3f-a9d1-2435eba1ca90">
+        <content-type>/component/rd-carousel</content-type>
+        <display-template>/templates/web/components/rf-carousel.ftl</display-template>
+        <internal-name><![CDATA[New RD-carousel]]></internal-name>
+        <file-name>71486916-bc2a-4c3f-a9d1-2435eba1ca90.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2025-06-12T02:18:53.367Z</createdDate_dt>
+        <lastModifiedDate_dt>2025-06-12T02:18:53.367Z</lastModifiedDate_dt>
+        <objectId>71486916-bc2a-4c3f-a9d1-2435eba1ca90</objectId>
+        <imageItems_o item-list="true">
+          <item>
+            <title_s/>
+            <image_s/>
+          </item>
+        </imageItems_o>
+      </component>
+    </item>
+    <item inline="true">
+      <key>b74651bb-590f-4174-9b88-ef041c75b54f</key>
+      <value>Row</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="b74651bb-590f-4174-9b88-ef041c75b54f">
         <content-type>/component/rf-row-wrapper</content-type>
         <display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
         <no-template-required/>
@@ -83,52 +112,87 @@
         <lastModifiedDate>2025-06-06T09:07:32.810Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-06T09:07:32.810Z</lastModifiedDate_dt>
       </component>
-	</item>	<item inline="true">	<key>1da53724-6777-8229-7017-8482d5f9c45c</key>
-	<value>Horizontal Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="1da53724-6777-8229-7017-8482d5f9c45c">
-	<content-type>/component/rf-horizontal-card</content-type>
-	<display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>1da5</objectGroupId>
-	<objectId>1da53724-6777-8229-7017-8482d5f9c45c</objectId>
-	<imageItems_o item-list="true">	<item>	<image_s>/static-assets/images/refinery/therefinery0509-001.webp</image_s>
-	<image_s_alt/>
-	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-007.webp</image_s>
-	<image_s_alt/>
-	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-040.webp</image_s>
-	<image_s_alt/>
-	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-057.webp</image_s>
-	<image_s_alt/>
-	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-050.webp</image_s>
-	<image_s_alt/>
-	</item></imageItems_o>
-	<cTALinkItems_o item-list="true">	<item>	<title_s>A la carte Menu</title_s>
-	</item>	<item>	<title_s>Dim Sum</title_s>
-	</item>	<item>	<title_s>Tasting Menu</title_s>
-	</item>	<item>	<title_s>Breakfast Meeting Packages</title_s>
-	</item>	<item>	<title_s>Half Day Meeting Packages</title_s>
-	</item>	<item>	<title_s>Banquet Set Lunch</title_s>
-	</item>	<item>	<title_s>Banquet Set Dinner</title_s>
-	</item>	<item>	<title_s>Office Catering</title_s>
-	</item>	<item>	<title_s>Master Wine list</title_s>
-	</item>	<item>	<title_s>Takeaway Menu</title_s>
-	</item></cTALinkItems_o>
-	<internal-name>Horizontal Card</internal-name>
-	<title_s>Main Dining</title_s>
-	<subtitle_s/>
-	<file-name>1da53724-6777-8229-7017-8482d5f9c45c.xml</file-name>
-	<folder-name/>
-	<bodyContent_html>&lt;p&gt;- &lt;br&gt;&lt;strong&gt;Opening Hours:&lt;/strong&gt; &lt;br&gt;Monday to Saturday &lt;br&gt;(except Public Holidays) &lt;br&gt;&lt;strong&gt;Lunch:&lt;/strong&gt; noon to 3pm &lt;br&gt;&lt;strong&gt;Dinner:&lt;/strong&gt; 6pm to 10:30pm &lt;br&gt;- &lt;br&gt;&lt;strong&gt;&lt;em&gt;Reservations are highly recommended&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+    </item>
+    <item inline="true">
+      <key>1da53724-6777-8229-7017-8482d5f9c45c</key>
+      <value>Horizontal Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="1da53724-6777-8229-7017-8482d5f9c45c">
+        <content-type>/component/rf-horizontal-card</content-type>
+        <display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <objectGroupId>1da5</objectGroupId>
+        <objectId>1da53724-6777-8229-7017-8482d5f9c45c</objectId>
+        <imageItems_o item-list="true">
+          <item>
+            <image_s>/static-assets/images/refinery/therefinery0509-001.webp</image_s>
+            <image_s_alt/>
+          </item>
+          <item>
+            <image_s>/static-assets/images/refinery/therefinery0509-007.webp</image_s>
+            <image_s_alt/>
+          </item>
+          <item>
+            <image_s>/static-assets/images/refinery/therefinery0509-040.webp</image_s>
+            <image_s_alt/>
+          </item>
+          <item>
+            <image_s>/static-assets/images/refinery/therefinery0509-057.webp</image_s>
+            <image_s_alt/>
+          </item>
+          <item>
+            <image_s>/static-assets/images/refinery/therefinery0509-050.webp</image_s>
+            <image_s_alt/>
+          </item>
+        </imageItems_o>
+        <cTALinkItems_o item-list="true">
+          <item>
+            <title_s>A la carte Menu</title_s>
+          </item>
+          <item>
+            <title_s>Dim Sum</title_s>
+          </item>
+          <item>
+            <title_s>Tasting Menu</title_s>
+          </item>
+          <item>
+            <title_s>Breakfast Meeting Packages</title_s>
+          </item>
+          <item>
+            <title_s>Half Day Meeting Packages</title_s>
+          </item>
+          <item>
+            <title_s>Banquet Set Lunch</title_s>
+          </item>
+          <item>
+            <title_s>Banquet Set Dinner</title_s>
+          </item>
+          <item>
+            <title_s>Office Catering</title_s>
+          </item>
+          <item>
+            <title_s>Master Wine list</title_s>
+          </item>
+          <item>
+            <title_s>Takeaway Menu</title_s>
+          </item>
+        </cTALinkItems_o>
+        <internal-name>Horizontal Card</internal-name>
+        <title_s>Main Dining</title_s>
+        <subtitle_s/>
+        <file-name>1da53724-6777-8229-7017-8482d5f9c45c.xml</file-name>
+        <folder-name/>
+        <bodyContent_html>&lt;p&gt;- &lt;br&gt;&lt;strong&gt;Opening Hours:&lt;/strong&gt; &lt;br&gt;Monday to Saturday &lt;br&gt;(except Public Holidays) &lt;br&gt;&lt;strong&gt;Lunch:&lt;/strong&gt; noon to 3pm &lt;br&gt;&lt;strong&gt;Dinner:&lt;/strong&gt; 6pm to 10:30pm &lt;br&gt;- &lt;br&gt;&lt;strong&gt;&lt;em&gt;Reservations are highly recommended&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;div class="speciality"&gt;&lt;strong&gt;Offer:&lt;/strong&gt; &lt;br&gt;Contemporary Chinese cuisine&lt;/div&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent_html>
-	<createdDate>2025-06-09T06:46:55.312Z</createdDate>
-	<createdDate_dt>2025-06-09T06:46:55.312Z</createdDate_dt>
-	<lastModifiedDate>2025-06-10T00:52:17.020Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-10T00:52:17.020Z</lastModifiedDate_dt>
-	<cTALabel_s>VIEW MENU</cTALabel_s>
-</component>
-	</item></components_o>
-	<placeChildreninNav_b>true</placeChildreninNav_b>
+        <createdDate>2025-06-09T06:46:55.312Z</createdDate>
+        <createdDate_dt>2025-06-09T06:46:55.312Z</createdDate_dt>
+        <lastModifiedDate>2025-06-10T00:52:17.020Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-10T00:52:17.020Z</lastModifiedDate_dt>
+        <cTALabel_s>VIEW MENU</cTALabel_s>
+      </component>
+    </item>
+  </components_o>
+  <placeChildreninNav_b>true</placeChildreninNav_b>
 </page>
