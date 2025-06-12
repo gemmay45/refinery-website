@@ -7,7 +7,7 @@
             $containerTag="div"
             $containerAttributes={"class" : "col", "style": "margin-top:0 !important" }
             $itemTag="div"; imageItem, index>
-                <@crafter.img $field="imageItems_o.image_s" src="${imageItem.image_s}" $index=index class="img-fluid lazyload" alt="${item.image_s_alt!}" />
+                <@crafter.img $field="imageItems_o.image_s" src="${imageItem.image_s}" $index=index class="img-fluid lazyload" alt="${imageItem.image_s_alt!}" />
     			            
             <#--<#list contentModel.imageItems_o.item as imageItem>
                 <@crafter.div class="col mt-5" style="margin-top:0 !important" $field="imageItems_o" $index=imageItem?index>
