@@ -49,6 +49,7 @@
 	<internal-name>Row</internal-name>
 	<components_o item-list="true">	<item inline="true">	<key>2c731509-16ad-9990-403b-3956a50fbddd</key>
 	<value>Text Block</value>
+	<disableFlattening>false</disableFlattening>
 <component id="2c731509-16ad-9990-403b-3956a50fbddd">
 	<content-type>/component/rf-text-block</content-type>
 	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
@@ -61,18 +62,17 @@
 	<subtitle_s/>
 	<file-name>2c731509-16ad-9990-403b-3956a50fbddd.xml</file-name>
 	<folder-name/>
-	<bodyContent_html>&lt;p&gt;A causal and convivial open-air break, our outdoor terrace is an energising escape set high above the buzz of Tong Chong Street.&lt;/p&gt;</bodyContent_html>
+	<bodyContent_html>&lt;p&gt;Made for intimate gatherings and discreet events, our Private Dining Room is an exclusive banquet space away from the main restaurant's bustle. Bespoke menus are tailored to occasions, a built-in professional presentation system is easily accessible.&lt;/p&gt;</bodyContent_html>
 	<createdDate>2025-06-11T06:28:38.405Z</createdDate>
 	<createdDate_dt>2025-06-11T06:28:38.405Z</createdDate_dt>
-	<lastModifiedDate>2025-06-12T00:10:51.333Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-12T00:10:51.333Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T00:19:38.450Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:19:38.450Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<createdDate>2025-06-11T06:28:30.498Z</createdDate>
 	<createdDate_dt>2025-06-11T06:28:30.498Z</createdDate_dt>
-	<lastModifiedDate>2025-06-12T00:10:48.200Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-12T00:10:48.200Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T00:19:35.722Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:19:35.722Z</lastModifiedDate_dt>
 </component>
 	</item>	<item inline="true">	<key>3a0ebbc5-a4ed-7306-e634-3b850a010477</key>
 	<value>Horizontal Card</value>
@@ -114,8 +114,8 @@
 	</item></components_o>
 	<createdDate>2025-06-11T01:45:40.724Z</createdDate>
 	<createdDate_dt>2025-06-11T01:45:40.724Z</createdDate_dt>
-	<lastModifiedDate>2025-06-12T00:10:44.887Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-12T00:10:44.887Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-12T00:19:33.028Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:19:33.028Z</lastModifiedDate_dt>
 	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
 	<value>Dining Submenu</value>
 	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
