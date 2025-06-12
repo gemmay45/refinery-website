@@ -3,13 +3,15 @@
 
 <#macro renderSectionItems secItem>
      <#if secItem.components_o?? && secItem.components_o.item??>
-         <@crafter.div class="" $model=ContentModel $field="components_o">
-         <@crafter.forEach secItem.components_o; listItem, index>
-             <@crafter.section class="section" $field="components_o" $index=index>
-                <@renderComponent component=listItem/>
-             </@crafter.section>
-         </@crafter.forEach>
-         </@crafter.div>
+         <div class="container">
+             <@crafter.div class="" $model=ContentModel $field="components_o">
+             <@crafter.forEach secItem.components_o; listItem, index>
+                 <@crafter.section class="section" $field="components_o" $index=index>
+                    <@renderComponent component=listItem/>
+                 </@crafter.section>
+             </@crafter.forEach>
+             </@crafter.div>
+        </div>
      <#else>
          <@crafter.div class="craftercms-empty-collection" $model=ContentModel $field="components_o"></@crafter.div>
      </#if>
