@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:27:43.396Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:27:43.396Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T04:06:26.417Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T04:06:26.417Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -88,11 +88,14 @@
                   <thumbnail_s>/static-assets/images/refinery/home-3.webp</thumbnail_s>
                   <thumbnail_s_alt/>
                 </item>
+                <item>
+                  <thumbnail_s><![CDATA[/static-assets/images/placeholder.png]]></thumbnail_s>
+                </item>
               </imageItems_o>
               <createdDate>2025-06-05T10:13:58.156Z</createdDate>
               <createdDate_dt>2025-06-05T10:13:58.156Z</createdDate_dt>
-              <lastModifiedDate>2025-06-06T00:55:52.831Z</lastModifiedDate>
-              <lastModifiedDate_dt>2025-06-06T00:55:52.831Z</lastModifiedDate_dt>
+              <lastModifiedDate>2025-06-12T04:06:26.417Z</lastModifiedDate>
+              <lastModifiedDate_dt>2025-06-12T04:06:26.417Z</lastModifiedDate_dt>
             </component>
           </item>
 
