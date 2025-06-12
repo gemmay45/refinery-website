@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T03:27:01.419Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T03:27:01.419Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T03:27:20.083Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T03:27:20.083Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -33,8 +33,8 @@
         <internal-name>Row</internal-name>
         <createdDate>2025-06-05T09:06:43.512Z</createdDate>
         <createdDate_dt>2025-06-05T09:06:43.512Z</createdDate_dt>
-        <lastModifiedDate>2025-06-12T03:25:14.597Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-12T03:25:14.597Z</lastModifiedDate_dt>
+        <lastModifiedDate>2025-06-12T03:27:20.083Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-12T03:27:20.083Z</lastModifiedDate_dt>
         <components_o item-list="true">
           <item inline="true">
             <key>1a743bbb-716e-0f75-ddf2-749deeb2905e</key>
@@ -57,6 +57,23 @@
               <createdDate_dt>2025-06-05T09:19:44.314Z</createdDate_dt>
               <lastModifiedDate>2025-06-05T09:19:44.314Z</lastModifiedDate>
               <lastModifiedDate_dt>2025-06-05T09:19:44.314Z</lastModifiedDate_dt>
+            </component>
+          </item>
+          <item inline="true">
+            <key>4d0773ea-b980-4daa-90a9-fd09eebf8cad</key>
+            <value><![CDATA[New RF-text-block]]></value>
+            <component id="4d0773ea-b980-4daa-90a9-fd09eebf8cad">
+              <content-type>/component/rf-text-block</content-type>
+              <display-template>/templates/web/components/rf-text-block.ftl</display-template>
+              <internal-name><![CDATA[New RF-text-block]]></internal-name>
+              <file-name>4d0773ea-b980-4daa-90a9-fd09eebf8cad.xml</file-name>
+              <merge-strategy>inherit-levels</merge-strategy>
+              <createdDate_dt>2025-06-12T03:27:20.083Z</createdDate_dt>
+              <lastModifiedDate_dt>2025-06-12T03:27:20.083Z</lastModifiedDate_dt>
+              <objectId>4d0773ea-b980-4daa-90a9-fd09eebf8cad</objectId>
+              <title_s><![CDATA[[Title Text]]]></title_s>
+              <subtitle_s><![CDATA[[Subtitle Text]]]></subtitle_s>
+              <bodyContent_html><![CDATA[[Body Content]]]></bodyContent_html>
             </component>
           </item>
           <item inline="true">
