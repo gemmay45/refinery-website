@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-12T05:27:55.550Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-12T05:27:55.550Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-12T05:28:05.275Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-12T05:28:05.275Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -156,19 +156,14 @@
             <image_s>/static-assets/images/refinery/ssxt0762.webp</image_s>
             <image_s_alt/>
           </item>
-          <item>
-            <title_s><![CDATA[[Title Text]]]></title_s>
-            <summary_t><![CDATA[[Summary]]]></summary_t>
-            <image_s><![CDATA[/static-assets/images/placeholder.png]]></image_s>
-          </item>
         </cardItems_o>
         <internal-name>Card Group</internal-name>
         <file-name>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb.xml</file-name>
         <folder-name/>
         <createdDate>2025-06-06T02:09:15.443Z</createdDate>
         <createdDate_dt>2025-06-06T02:09:15.443Z</createdDate_dt>
-        <lastModifiedDate>2025-06-12T05:27:55.550Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-12T05:27:55.550Z</lastModifiedDate_dt>
+        <lastModifiedDate>2025-06-12T05:28:05.275Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-12T05:28:05.275Z</lastModifiedDate_dt>
       </component>
     </item>
   </components_o>
