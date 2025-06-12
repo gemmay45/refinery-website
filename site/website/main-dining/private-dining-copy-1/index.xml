@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/rf-dining</content-type>
+	<display-template>/templates/web/pages/rf-dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4f496b11</objectGroupId>
+	<objectId>4f496b11-cf6e-4ce4-b127-6e51d56305c8</objectId>
+	<internal-name>Private Dining (Copy 1)</internal-name>
+	<navLabel>PRIVATE DINING</navLabel>
+	<file-name>index.xml</file-name>
+	<folder-name>private-dining-copy-1</folder-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>0.0</orderDefault_f>
+	<placeChildreninNav_b>false</placeChildreninNav_b>
+	<components_o item-list="true">	<item inline="true">	<key>6aa1bc61-fb67-3cbe-6e3e-d9aa9d0d4f22</key>
+	<value>Carousel</value>
+	<disableFlattening>false</disableFlattening>
+<component id="6aa1bc61-fb67-3cbe-6e3e-d9aa9d0d4f22">
+	<content-type>/component/rd-carousel</content-type>
+	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6aa1</objectGroupId>
+	<objectId>6aa1bc61-fb67-3cbe-6e3e-d9aa9d0d4f22</objectId>
+	<imageItems_o item-list="true">	<item>	<title_s>PRIVATE DINING</title_s>
+	<image_s>/static-assets/images/refinery/hero-refinery-room-2s.webp</image_s>
+	</item></imageItems_o>
+	<file-name>6aa1bc61-fb67-3cbe-6e3e-d9aa9d0d4f22.xml</file-name>
+	<folder-name/>
+	<internal-name>Carousel</internal-name>
+	<createdDate>2025-06-12T00:04:38.439Z</createdDate>
+	<createdDate_dt>2025-06-12T00:04:38.439Z</createdDate_dt>
+	<lastModifiedDate>2025-06-12T00:04:38.439Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-12T00:04:38.439Z</lastModifiedDate_dt>
+</component>
+	</item>	<item inline="true">	<key>24e00c6c-79db-a38d-48f5-f3678de5d316</key>
+	<value>Row</value>
+	<disableFlattening>false</disableFlattening>
+<component id="24e00c6c-79db-a38d-48f5-f3678de5d316">
+	<content-type>/component/rf-row-wrapper</content-type>
+	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>24e0</objectGroupId>
+	<objectId>24e00c6c-79db-a38d-48f5-f3678de5d316</objectId>
+	<file-name>24e00c6c-79db-a38d-48f5-f3678de5d316.xml</file-name>
+	<folder-name/>
+	<internal-name>Row</internal-name>
+	<components_o item-list="true">	<item inline="true">	<key>2c731509-16ad-9990-403b-3956a50fbddd</key>
+	<value>Text Block</value>
+<component id="2c731509-16ad-9990-403b-3956a50fbddd">
+	<content-type>/component/rf-text-block</content-type>
+	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2c73</objectGroupId>
+	<objectId>2c731509-16ad-9990-403b-3956a50fbddd</objectId>
+	<internal-name>Text Block</internal-name>
+	<title_s>PRIVATE DINING</title_s>
+	<subtitle_s/>
+	<file-name>2c731509-16ad-9990-403b-3956a50fbddd.xml</file-name>
+	<folder-name/>
+	<bodyContent_html>&lt;p&gt;Made for intimate gatherings and discreet events, our Private Dining Room is an exclusive banquet space away from the main restaurant's bustle. Bespoke menus are tailored to occasions, a built-in professional presentation system is easily accessible.&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-11T06:28:38.405Z</createdDate>
+	<createdDate_dt>2025-06-11T06:28:38.405Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T06:28:38.405Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T06:28:38.405Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
+	<createdDate>2025-06-11T06:28:30.498Z</createdDate>
+	<createdDate_dt>2025-06-11T06:28:30.498Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T06:28:30.498Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T06:28:30.498Z</lastModifiedDate_dt>
+</component>
+	</item>	<item inline="true">	<key>3a0ebbc5-a4ed-7306-e634-3b850a010477</key>
+	<value>Horizontal Card</value>
+	<disableFlattening>false</disableFlattening>
+<component id="3a0ebbc5-a4ed-7306-e634-3b850a010477">
+	<content-type>/component/rf-horizontal-card</content-type>
+	<display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3a0e</objectGroupId>
+	<objectId>3a0ebbc5-a4ed-7306-e634-3b850a010477</objectId>
+	<imageItems_o item-list="true">	<item>	<image_s>/static-assets/images/refinery/therefinery0509-016.webp</image_s>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-055.webp</image_s>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-070.webp</image_s>
+	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-047.webp</image_s>
+	</item></imageItems_o>
+	<cTALinkItems_o item-list="true">	<item>	<title_s>A la carte Menu</title_s>
+	</item>	<item>	<title_s>Dim Sum</title_s>
+	</item>	<item>	<title_s>Tasting Menu</title_s>
+	</item>	<item>	<title_s>Breakfast Meeting Packages</title_s>
+	</item>	<item>	<title_s>Half Day Meeting Packages</title_s>
+	</item>	<item>	<title_s>Banquet Set Lunch</title_s>
+	</item>	<item>	<title_s>Banquet Set Dinner</title_s>
+	</item>	<item>	<title_s>Office Catering</title_s>
+	</item>	<item>	<title_s>Master Wine List</title_s>
+	</item></cTALinkItems_o>
+	<file-name>3a0ebbc5-a4ed-7306-e634-3b850a010477.xml</file-name>
+	<folder-name/>
+	<internal-name>Horizontal Card</internal-name>
+	<title_s>Private Dining</title_s>
+	<subtitle_s/>
+	<cTALabel_s>VIEW MENU</cTALabel_s>
+	<bodyContent_html>&lt;p&gt;- &lt;br&gt;&lt;strong&gt;Opening Hours:&lt;/strong&gt; &lt;br&gt;Monday to Saturday &lt;br&gt;(except Public Holidays) &lt;br&gt;&lt;strong&gt;Breakfast:&lt;/strong&gt; 7am to 11am &lt;br&gt;&lt;strong&gt;Lunch:&lt;/strong&gt; noon to 3pm &lt;br&gt;&lt;strong&gt;Dinner:&lt;/strong&gt; 6pm to 10:30pm &lt;br&gt;&lt;strong&gt;Meetings upon request &lt;/strong&gt;&lt;br&gt;- &lt;br&gt;&lt;strong&gt; &lt;em&gt;Reservations are highly recommended&lt;/em&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;div class="speciality"&gt;&lt;strong&gt;Offer:&lt;/strong&gt; &lt;br&gt;Contemporary Chinese cuisine&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent_html>
+	<createdDate>2025-06-11T06:30:24.260Z</createdDate>
+	<createdDate_dt>2025-06-11T06:30:24.260Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T06:31:33.201Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T06:31:33.201Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
+	<createdDate>2025-06-11T01:45:40.724Z</createdDate>
+	<createdDate_dt>2025-06-11T01:45:40.724Z</createdDate_dt>
+	<lastModifiedDate>2025-06-11T08:07:15.780Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-11T08:07:15.780Z</lastModifiedDate_dt>
+	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
+	<value>Dining Submenu</value>
+	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></submenu_o>
+</page>
