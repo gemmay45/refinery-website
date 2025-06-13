@@ -3,7 +3,6 @@
 <#--<div class="row cards without-shadow d-sm-flex mb-5">-->
     <#if contentModel.cardItems_o?? &&contentModel.cardItems_o.item??>
         <@crafter.div>
-        <h2>xxxx</h2>
         <@crafter.renderRepeatGroup $field="cardItems_o" 
             $containerTag="div"
             $containerAttributes={"class" : "row cards without-shadow d-sm-flex mb-5" }
