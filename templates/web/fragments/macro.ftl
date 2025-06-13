@@ -24,7 +24,7 @@
             <@crafter.div class="" $model=ContentModel $field="topFluidComponents_o">
             <@crafter.forEach secItem.topFluidComponents_o; listItem, index>
                 <@crafter.section class="section" $field="topFluidComponents_o" $index=index>
-                    <@renderComponent component=listItem/>
+                    <@renderComponent component=listItem additionalModel=({ 'itemIndex': index }) />
                 </@crafter.section>
             </@crafter.forEach>
             </@crafter.div>
