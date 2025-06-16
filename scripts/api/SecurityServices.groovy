@@ -18,12 +18,12 @@ package scripts.api
 
 import scripts.api.ServiceFactory
 
-import groovy.util.logging.Log
+//import groovy.util.logging.Log
 
 /**
  * security services
  */
-@Log
+//@Log
 class SecurityServices {
 
 	/**
