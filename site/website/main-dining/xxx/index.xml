@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/rf-dining</content-type>
-	<display-template>/templates/web/pages/rf-dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>2e42</objectGroupId>
-	<objectId>2e42f15d-910d-e14b-1b85-5f3e8eace763</objectId>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<internal-name>xxx</internal-name>
-	<navLabel>xxx</navLabel>
-	<placeChildreninNav_b>false</placeChildreninNav_b>
-	<file-name>index.xml</file-name>
-	<folder-name>xxx</folder-name>
-	<components_o item-list="true"/>
-	<submenu_o item-list="true"/>
-	<createdDate>2025-06-16T06:48:44.627Z</createdDate>
-	<createdDate_dt>2025-06-16T06:48:44.627Z</createdDate_dt>
-	<lastModifiedDate>2025-06-16T09:08:04.153Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-16T09:08:04.153Z</lastModifiedDate_dt>
+  <content-type>/page/rf-dining</content-type>
+  <display-template>/templates/web/pages/rf-dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>2e42</objectGroupId>
+  <objectId>2e42f15d-910d-e14b-1b85-5f3e8eace763</objectId>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <internal-name>xxx</internal-name>
+  <navLabel>xxx</navLabel>
+  <placeChildreninNav_b>false</placeChildreninNav_b>
+  <file-name>index.xml</file-name>
+  <folder-name>xxx</folder-name>
+  <components_o item-list="true">
+    <item inline="true">
+      <key>28a6a5ba-960c-41b3-9ec8-93080af68017</key>
+      <value><![CDATA[New RF-horizontal-card]]></value>
+      <component id="28a6a5ba-960c-41b3-9ec8-93080af68017">
+        <content-type>/component/rf-horizontal-card</content-type>
+        <display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
+        <internal-name><![CDATA[New RF-horizontal-card]]></internal-name>
+        <file-name>28a6a5ba-960c-41b3-9ec8-93080af68017.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2025-06-16T09:08:12.283Z</createdDate_dt>
+        <lastModifiedDate_dt>2025-06-16T09:08:12.283Z</lastModifiedDate_dt>
+        <objectId>28a6a5ba-960c-41b3-9ec8-93080af68017</objectId>
+        <title_s><![CDATA[[Title Text]]]></title_s>
+        <subtitle_s><![CDATA[[Subtitle Text]]]></subtitle_s>
+        <bodyContent_html><![CDATA[[Body Content]]]></bodyContent_html>
+        <imageItems_o item-list="true">
+          <item>
+            <image_s>/static-assets/images/placeholder.png</image_s>
+          </item>
+        </imageItems_o>
+        <cTALabel_s/>
+        <cTALinkItems_o item-list="true">
+          <item>
+            <title_s/>
+            <link/>
+          </item>
+        </cTALinkItems_o>
+      </component>
+    </item>
+  </components_o>
+  <submenu_o item-list="true"/>
+  <createdDate>2025-06-16T06:48:44.627Z</createdDate>
+  <createdDate_dt>2025-06-16T06:48:44.627Z</createdDate_dt>
+  <lastModifiedDate>2025-06-16T09:08:12.284Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-16T09:08:12.284Z</lastModifiedDate_dt>
 </page>
