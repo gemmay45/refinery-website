@@ -1,6 +1,9 @@
 //import org.apache.commons.text.StringEscapeUtils
 //import org.slf4j.LoggerFactory
 import scripts.api.SecurityServices
+
+def currentUser = SecurityServices.getCurrentUser(context)
+
 /*
 import scripts.libs.EnvironmentOverrides
 
