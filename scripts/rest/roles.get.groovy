@@ -1,1 +1,1 @@
-/studio/api/2/users/me
+def roles = /studio/api/2/users/me/sites/refinery-website/roles
