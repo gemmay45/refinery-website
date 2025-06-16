@@ -12,8 +12,9 @@
           fetch('/studio/api/2/users/me/sites/refinery-website/roles')
             .then(response => response.json())
             .then(data => {
+            console.log(data);
               // Update the page with the data
-              document.getElementById('content-area').innerHTML = data.roles;
+              document.getElementById('content-area').innerHTML = data;
             });
         </script>
         
