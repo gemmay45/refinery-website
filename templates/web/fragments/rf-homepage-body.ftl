@@ -41,5 +41,6 @@
             });
         </script>        
         
+        ${currentUser}
 </div>
 <@macro.renderFooterItems contentModel />
