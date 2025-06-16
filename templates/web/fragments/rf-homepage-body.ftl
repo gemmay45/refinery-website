@@ -12,7 +12,7 @@
             fetch('/studio/api/2/users/me', {
               method: 'GET',
                 headers: {
-                'Authorization': 'Bearer eyJhbGciOiJQQkVTMi1IUzUxMitBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwiY3R5IjoiSldUIiwicDJjIjo2NTUzNiwicDJzIjoiNXY4Qmo1NTFSbFFjSE1OdiJ9.Q05hJYGkHUwcjnqdKfLoVx-tmlWbw6ij6mNUHTQQyv2VKiRd9bDJTSS3ALi92jI9lPsbS_eW2ueNqDq91Ev1AWYkblR8GE2T.Zkpf8kpnsdQGTgGLGyOmnQ.I7xvNibFPWcI4kuYHIxzCiEqrnixiUTP0kMfJzDF5pkgIL3Q3aXahr2n2DTRYmuXOX2K5eBIF7lSMisWNwP2FCLJb_sJRjMV5Od5fphSlYYLacCfopG3XL7xcjna72jRnX05vgn7GsgrxP0QwcrE6ImesB_x9BNd7EjIP5N48XUqELBMN3T9mPk2ks9jOSmcDCSpmObOY3mKa8PiSeoJPAOy9yZAfftG7fwDGijPrhW2Y0Gq2pAxwAYoCbPwjalKSz7Mbq29ub__RDF5I6q9vVB8vL0UeSOJZnjoTU_6Q-gsjVgJ1Gyy3w1HxA9FbYm2BjIlyp5M_wFBU-xnUQFRrQ.BpY72Etvksb9sX1ucSJjXd6GSUdiEya9YYdC-2ui25g'
+                'Authorization': 'Bearer ya29.a0AeDClZAMtZVkL_nwC8cESvvuBg9PDieD1HP-aUCtDeFMZps5G0pg4ce-MqpfOYUZY5B1Ygd8yyJ8Zdd7OvxPSzIwmJfrbZUTksFTYn4bJywC31rxAJ61NDEpOpp-ZPCfM5E0mEj3JnJlhU2ZkLumHIrxtk92piS-XiRt5TqRaCgYKAeESARMSFQHGX2MiibufJfoRWf82bjQ9P__mew0175'
                 }
             })
             .then(response => response.json())
