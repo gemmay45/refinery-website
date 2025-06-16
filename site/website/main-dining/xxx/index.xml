@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/rf-dining</content-type>
+	<display-template>/templates/web/pages/rf-dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2e42</objectGroupId>
+	<objectId>2e42f15d-910d-e14b-1b85-5f3e8eace763</objectId>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<internal-name>xxx</internal-name>
+	<navLabel>xxx</navLabel>
+	<placeChildreninNav_b>false</placeChildreninNav_b>
+	<file-name>index.xml</file-name>
+	<folder-name>xxx</folder-name>
+	<components_o item-list="true"/>
+	<submenu_o item-list="true"/>
+	<createdDate>2025-06-16T06:48:44.627Z</createdDate>
+	<createdDate_dt>2025-06-16T06:48:44.627Z</createdDate_dt>
+	<lastModifiedDate>2025-06-16T06:48:44.627Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-16T06:48:44.627Z</lastModifiedDate_dt>
+</page>
