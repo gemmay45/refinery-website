@@ -39,6 +39,7 @@ class SecurityServices {
 	 * get user profile
 	 * @param username
 	 */
+	/*
 	static getUserProfile(context, username) {
 		def securityServicesImpl = ServiceFactory.getSecurityServices(context)
 		return securityServicesImpl.getUserProfile(username)
@@ -53,5 +54,5 @@ class SecurityServices {
 		def securityServicesImpl = ServiceFactory.getSecurityServices(context)
 		return securityServicesImpl.getUserRoles(site)
 	}
-
+    */
 }
