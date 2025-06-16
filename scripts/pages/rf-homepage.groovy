@@ -3,7 +3,7 @@
 import scripts.api.SecurityServices
 
 def context = SecurityServices.createContext(applicationContext, request)
-def currentUser = SecurityServices.getCurrentUser(context)
+/*def currentUser = SecurityServices.getCurrentUser(context)*/
 
 /*
 import scripts.libs.EnvironmentOverrides
