@@ -81,11 +81,11 @@ class ServiceFactory {
 	 *
 	 * @param context site context
 	 * @return SecurityServices
-
+	 */
 	static getSecurityServices(context) {
 		return new SpringSecurityServices(context)
 	}
-	 */
+
 	/**
 	 * return the implementation for site services
 	 *
