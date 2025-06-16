@@ -121,9 +121,9 @@ class ServiceFactory {
 	 *
 	 * @param context site context
 	 * @return User Services
-
+	 */
 	static getUserServices(context) {
 		return new SpringUserServices(context)
 	}
-	 */
+
 }
