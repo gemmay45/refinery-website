@@ -12,7 +12,7 @@
             fetch('/studio/api/2/users/me', {
               method: 'GET',
                 headers: {
-                'Authorization': 'Bearer ya29.a0AeDClZAMtZVkL_nwC8cESvvuBg9PDieD1HP-aUCtDeFMZps5G0pg4ce-MqpfOYUZY5B1Ygd8yyJ8Zdd7OvxPSzIwmJfrbZUTksFTYn4bJywC31rxAJ61NDEpOpp-ZPCfM5E0mEj3JnJlhU2ZkLumHIrxtk92piS-XiRt5TqRaCgYKAeESARMSFQHGX2MiibufJfoRWf82bjQ9P__mew0175'
+                'Authorization': 'Basic ya29.a0AeDClZAMtZVkL_nwC8cESvvuBg9PDieD1HP-aUCtDeFMZps5G0pg4ce-MqpfOYUZY5B1Ygd8yyJ8Zdd7OvxPSzIwmJfrbZUTksFTYn4bJywC31rxAJ61NDEpOpp-ZPCfM5E0mEj3JnJlhU2ZkLumHIrxtk92piS-XiRt5TqRaCgYKAeESARMSFQHGX2MiibufJfoRWf82bjQ9P__mew0175'
                 }
             })
             .then(response => response.json())
