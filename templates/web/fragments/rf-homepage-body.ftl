@@ -13,7 +13,7 @@
             .then(response => response.json())
             .then(data => {
               // Update the page with the data
-              document.getElementById('content-area').innerHTML = data;
+              document.getElementById('content-area').innerHTML = data.roles;
             });
         </script>
         
