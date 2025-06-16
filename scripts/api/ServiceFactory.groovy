@@ -24,8 +24,8 @@ import scripts.api.impl.deployment.SpringDeploymentServices
 import scripts.api.impl.security.SpringSecurityServices
 import scripts.api.impl.site.SpringSiteServices
 import scripts.api.impl.dependency.SpringDependencyServices
-*/
 import scripts.api.impl.user.SpringUserServices
+*/
 
 /**
  * Class is a factory used by the API wrappers to find their implementation
