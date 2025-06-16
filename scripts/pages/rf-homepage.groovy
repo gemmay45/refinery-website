@@ -3,6 +3,7 @@ import org.slf4j.LoggerFactory
 import scripts.api.SecurityServices
 import scripts.libs.EnvironmentOverrides
 
+/*
 import static org.craftercms.studio.api.v2.utils.StudioConfiguration.SECURITY_PASSWORD_REQUIREMENTS_MINIMUM_COMPLEXITY
 
 def logger = LoggerFactory.getLogger(this.class)
@@ -49,3 +50,4 @@ model.authenticationType =  authenticatedUser?
 model.cookieDomain = StringEscapeUtils.escapeXml10(request.getServerName())
 model.passwordRequirementsMinComplexity = passwordRequirementsMinComplexity;
 model.envConfig = EnvironmentOverrides.getMinimalValuesForSite(applicationContext, request)
+*/
