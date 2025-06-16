@@ -66,5 +66,9 @@
         <group name="site_reviewer">
             <role>reviewer</role>
         </group>
+            <group name="restart_admin">
+            <role>restart_admin</role>
+        </group>
+
     </groups>
 </role-mappings>
