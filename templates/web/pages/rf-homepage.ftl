@@ -16,6 +16,10 @@
         
         <#include "/templates/web/fragments/rf-homepage-body.ftl"/>
         
+        <#if modePreview>
+        preview
+        </#if>
+        
     <@crafter.body_bottom/>
 </body>
 </html>
