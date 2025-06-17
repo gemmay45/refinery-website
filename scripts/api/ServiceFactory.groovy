@@ -91,11 +91,11 @@ class ServiceFactory {
 	 *
 	 * @param context site context
 	 * @return SiteServices
-
+	 */
 	static getSiteServices(context) {
 		return new SpringSiteServices(context)
 	}
-	 */
+
 
 	/**
 	 * return the implementation for deps services
