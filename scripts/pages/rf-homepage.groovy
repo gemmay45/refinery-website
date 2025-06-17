@@ -7,6 +7,7 @@ import scripts.api.SecurityServices
 
 import scripts.api.impl.security.SpringSecurityServices
 import scripts.api.impl.user.SpringUserServices
+import scripts.api.SecurityServices
 
 //String username = securityService.getCurrentUser();
 
