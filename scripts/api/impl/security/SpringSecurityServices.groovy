@@ -30,8 +30,8 @@ class SpringSecurityServices {
     }
 
     def getCurrentUser(user) {
-    //    def springBackedService = this.context.applicationContext.get("cstudioSecurityService")
-    //    return springBackedService.getCurrentUser()
+        def springBackedService = this.context.applicationContext.get("cstudioSecurityService")
+        return springBackedService.getCurrentUser()
     return null
     }
 
