@@ -5,15 +5,16 @@
 //def context = SecurityServices.createContext(applicationContext, request)
 //def currentUser = SecurityServices.getCurrentUser(context)
 
-//import scripts.api.impl.security.SpringSecurityServices
-//import scripts.api.impl.user.SpringUserServices
+import scripts.api.impl.security.SpringSecurityServices
+import scripts.api.impl.user.SpringUserServices
 
 //String username = securityService.getCurrentUser();
 
 //import org.craftercms.sites.editorial.ProfileUtils
 
-import org.craftercms.sites.editorial.ProfileUtils
+//import org.craftercms.sites.editorial.ProfileUtils
 
+/*
 def segment = ProfileUtils.getSegment(profile, siteItemService)
 
 def roles = ProfileUtils.getRoles(profile, siteItemService)
@@ -22,6 +23,10 @@ if (roles != null)
 {
 templateModel.roles = roles.size()
 }
+*/
+
+def context = SecurityServices.createContext(applicationContext, request)
+
 
 /*
 import scripts.libs.EnvironmentOverrides
