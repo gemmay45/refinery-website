@@ -5,6 +5,9 @@
 //def context = SecurityServices.createContext(applicationContext, request)
 //def currentUser = SecurityServices.getCurrentUser(context)
 
+import scripts.api.impl.security.SpringSecurityServices
+import scripts.api.impl.user.SpringUserServices
+
 String username = securityService.getCurrentUser();
 
 /*
