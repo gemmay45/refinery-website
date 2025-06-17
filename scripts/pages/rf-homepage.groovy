@@ -10,7 +10,11 @@
 
 //String username = securityService.getCurrentUser();
 
-getRoles
+//import org.craftercms.sites.editorial.ProfileUtils
+
+//def segment = ProfileUtils.getSegment(profile, siteItemService)
+
+def roles = profile.getRoles()
 
 /*
 import scripts.libs.EnvironmentOverrides
