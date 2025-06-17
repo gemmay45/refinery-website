@@ -16,7 +16,7 @@ import org.craftercms.sites.editorial.ProfileUtils
 
 def segment = ProfileUtils.getSegment(profile, siteItemService)
 
-//def roles = profile.getRoles()
+def roles = ProfileUtils.getRoles()
 
 /*
 import scripts.libs.EnvironmentOverrides
