@@ -16,6 +16,8 @@
         
         <#include "/templates/web/fragments/rf-homepage-body.ftl"/>
         
+        ${username}
+        
     <@crafter.body_bottom/>
 </body>
 </html>
