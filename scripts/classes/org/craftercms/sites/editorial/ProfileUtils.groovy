@@ -34,4 +34,12 @@ class ProfileUtils {
     return null
   }
 
+  static def getRoles(profile, siteItemService) {
+    if (profile) {
+        def roles = profile.getRoles()
+        return roles
+    }
+
+    return null
+  }
 }
