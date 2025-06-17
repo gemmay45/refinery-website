@@ -18,7 +18,10 @@ def segment = ProfileUtils.getSegment(profile, siteItemService)
 
 def roles = ProfileUtils.getRoles(profile, siteItemService)
 
+if (roles != null)
+{
 templateModel.roles = roles.size()
+}
 
 /*
 import scripts.libs.EnvironmentOverrides
