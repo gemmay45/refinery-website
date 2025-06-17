@@ -18,6 +18,8 @@ def segment = ProfileUtils.getSegment(profile, siteItemService)
 
 def roles = ProfileUtils.getRoles(profile, siteItemService)
 
+templateModel.roles = roles
+
 /*
 import scripts.libs.EnvironmentOverrides
 
