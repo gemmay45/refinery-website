@@ -10,6 +10,8 @@
 
 //String username = securityService.getCurrentUser();
 
+getRoles
+
 /*
 import scripts.libs.EnvironmentOverrides
 
