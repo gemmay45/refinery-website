@@ -26,7 +26,7 @@ templateModel.roles = roles.size()
 }
 */
 
-//def context = SecurityServices.createContext(applicationContext, request)
+def context = SecurityServices.createContext(applicationContext, request)
 //def currentUser = SecurityServices.getCurrentUser(context)
 
 /*
