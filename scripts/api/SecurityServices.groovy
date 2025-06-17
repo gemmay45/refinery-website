@@ -48,7 +48,7 @@ class SecurityServices {
         
 	static getCurrentUser(context) {  
 		def securityServicesImpl = ServiceFactory.getSecurityServices(context)
-		return securityServicesImpl.getCurrentUser()
+		//return securityServicesImpl.getCurrentUser()
 	}
 
 	static getUserRoles(context, site) {
