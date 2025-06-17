@@ -13,7 +13,7 @@
 </head>
 <body class="is-preload">
     <@crafter.body_top/>
-        
+        ${currentUser}
         <#include "/templates/web/fragments/rf-homepage-body.ftl"/>
         
     <@crafter.body_bottom/>
