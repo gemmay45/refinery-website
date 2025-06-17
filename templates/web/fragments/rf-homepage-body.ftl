@@ -5,6 +5,7 @@
 <div id="content">
 <@macro.renderHomepageSectionItems contentModel />
         
+        ${roles}
 <div id="content-area-2">
           </div>
         <script>
