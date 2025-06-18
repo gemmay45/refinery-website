@@ -4,7 +4,7 @@ import scripts.libs.Cookies
 
 def cookies = request.getCookies()
 
-
+def username = request.getSession().getValue("username");
 
 //import scripts.libs.EnvironmentOverrides
 
@@ -29,3 +29,4 @@ if (cookies != null) {
 }
 
 templateModel.ucookie = results
+templateModel.username = username
