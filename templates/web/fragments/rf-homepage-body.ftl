@@ -5,11 +5,12 @@
 <div id="content">
 <@macro.renderHomepageSectionItems contentModel />
         
-        ss${ucookie?size}dd
+
         
 <div id="content-area-2">
           </div>
         <script>
+                alert(${ucookie})
           // JavaScript code to make AJAX call
             fetch('/studio/api/2/users/gemma', {
               method: 'GET',
