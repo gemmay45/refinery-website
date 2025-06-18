@@ -40,7 +40,5 @@
               document.getElementById('content-area').innerHTML = data;
             });
         </script>        
-        
-        ${contentModel.currentUser}
 </div>
 <@macro.renderFooterItems contentModel />
