@@ -7,7 +7,7 @@
         
 
         <script>
-        alert(${ucookie})
+        alert("${ucookie}")
         </script>
         
 <div id="content-area-2">
