@@ -16,4 +16,4 @@ def cookies = request.getCookies()
 
 //def ucookie = Cookies.getCookieValue("username", request)
 
-templateModel.ucookie = cookies
+templateModel.ucookie = cookies.length
