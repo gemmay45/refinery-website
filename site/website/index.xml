@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/rf-homepage</content-type>
-	<display-template>/templates/web/pages/rf-homepage.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<file-name>index.xml</file-name>
-	<navLabel>Home</navLabel>
-	<internal-name>Home</internal-name>
-	<orderDefault_f>-1</orderDefault_f>
-	<objectGroupId>8d7f</objectGroupId>
-	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-	<folder-name/>
-	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
-	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-18T03:51:04.420Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-18T03:51:04.420Z</lastModifiedDate_dt>
-	<placeInNav>false</placeInNav>
-	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
-	<value>Row</value>
-	<disableFlattening>false</disableFlattening>
-<component id="0bab49fc-8e57-5302-96bc-c4fe5b0945db">
+  <content-type>/page/rf-homepage</content-type>
+  <display-template>/templates/web/pages/rf-homepage.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <file-name>index.xml</file-name>
+  <navLabel>Home</navLabel>
+  <internal-name>Home</internal-name>
+  <orderDefault_f>-1</orderDefault_f>
+  <objectGroupId>8d7f</objectGroupId>
+  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+  <folder-name/>
+  <createdDate>2017-01-31T16:18:14.000Z</createdDate>
+  <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
+  <lastModifiedDate>2025-06-18T03:51:35.106Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-18T03:51:35.106Z</lastModifiedDate_dt>
+  <placeInNav>false</placeInNav>
+  <components_o item-list="true">
+    <item inline="true">
+      <key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
+      <value>Row</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="0bab49fc-8e57-5302-96bc-c4fe5b0945db">
         <content-type>/component/rf-row-wrapper</content-type>
         <display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
         <no-template-required/>
@@ -39,23 +41,23 @@
             <value>Text</value>
             <disableFlattening>false</disableFlattening>
             <component id="1a743bbb-716e-0f75-ddf2-749deeb2905e">
-	<content-type>/component/rf-text-block</content-type>
-	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>1a74</objectGroupId>
-	<objectId>1a743bbb-716e-0f75-ddf2-749deeb2905e</objectId>
-	<file-name>1a743bbb-716e-0f75-ddf2-749deeb2905e.xml</file-name>
-	<folder-name/>
-	<internal-name>Text</internal-name>
-	<title_s>ABOUT THE CLUB</title_s>
-	<subtitle_s>AN EXCLUSIVE HUB FOR EXTRAORDINARY MINDSSS</subtitle_s>
-	<bodyContent_html>&lt;p&gt;The Refinery is a contemporary Members' Club set in the heart of Taikoo Place, a cultured retreat appealing to Hong Kong's remarkable community of modern professionals. Ours is a place where great minds meet &amp;ndash; where forward-thinkers gather and conversations flow.&lt;/p&gt;</bodyContent_html>
-	<createdDate>2025-06-05T09:19:44.314Z</createdDate>
-	<createdDate_dt>2025-06-05T09:19:44.314Z</createdDate_dt>
-	<lastModifiedDate>2025-06-18T03:51:04.694Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-18T03:51:04.694Z</lastModifiedDate_dt>
-</component>
+              <content-type>/component/rf-text-block</content-type>
+              <display-template>/templates/web/components/rf-text-block.ftl</display-template>
+              <no-template-required/>
+              <merge-strategy>inherit-levels</merge-strategy>
+              <objectGroupId>1a74</objectGroupId>
+              <objectId>1a743bbb-716e-0f75-ddf2-749deeb2905e</objectId>
+              <file-name>1a743bbb-716e-0f75-ddf2-749deeb2905e.xml</file-name>
+              <folder-name/>
+              <internal-name>Text</internal-name>
+              <title_s>ABOUT THE CLUB</title_s>
+              <subtitle_s>AN EXCLUSIVE HUB FOR EXTRAORDINARY MINDSSS</subtitle_s>
+              <bodyContent_html>&lt;p&gt;The Refinery is a contemporary Members' Club set in the heart of Taikoo Place, a cultured retreat appealing to Hong Kong's remarkable community of modern professionals. Ours is a place where great minds meet &amp;ndash; where forward-thinkers gather and conversations flow.&lt;/p&gt;</bodyContent_html>
+              <createdDate>2025-06-05T09:19:44.314Z</createdDate>
+              <createdDate_dt>2025-06-05T09:19:44.314Z</createdDate_dt>
+              <lastModifiedDate>2025-06-18T03:51:04.694Z</lastModifiedDate>
+              <lastModifiedDate_dt>2025-06-18T03:51:04.694Z</lastModifiedDate_dt>
+            </component>
           </item>
           <item inline="true">
             <key>6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30</key>
@@ -117,10 +119,12 @@
           </item>
         </components_o>
       </component>
-	</item>	<item inline="true">	<key>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</key>
-	<value>Card Group</value>
-	<disableFlattening>false</disableFlattening>
-<component id="a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb">
+    </item>
+    <item inline="true">
+      <key>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</key>
+      <value>Card Group</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb">
         <content-type>/component/rf-card-group</content-type>
         <display-template>/templates/web/components/rf-card-group.ftl</display-template>
         <no-template-required/>
@@ -142,7 +146,7 @@
           </item>
           <item>
             <title_s>TERRACE</title_s>
-            <summary_t>Escape onto the terrace for an alfresco sanctuary overlooking bustling Tong Chong Street. Strike up a chat with your fellow Members and enjoy an assortment of food &amp; drinks while surrounded by the city's spirited sense of commerce.</summary_t>
+            <summary_t><![CDATA[]]></summary_t>
             <image_s>/static-assets/images/refinery/the-refinery-terrance.webp</image_s>
             <image_s_alt/>
           </item>
@@ -158,14 +162,17 @@
         <folder-name/>
         <createdDate>2025-06-06T02:09:15.443Z</createdDate>
         <createdDate_dt>2025-06-06T02:09:15.443Z</createdDate_dt>
-        <lastModifiedDate>2025-06-12T05:28:05.275Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-12T05:28:05.275Z</lastModifiedDate_dt>
+        <lastModifiedDate>2025-06-18T03:51:35.106Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-18T03:51:35.106Z</lastModifiedDate_dt>
       </component>
-	</item></components_o>
-	<topFluidComponents_o item-list="true">	<item inline="true">	<key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
-	<value>Hero</value>
-	<disableFlattening>false</disableFlattening>
-<component id="b996bd82-7b12-0baa-1e07-55f207ce4976">
+    </item>
+  </components_o>
+  <topFluidComponents_o item-list="true">
+    <item inline="true">
+      <key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
+      <value>Hero</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="b996bd82-7b12-0baa-1e07-55f207ce4976">
         <content-type>/component/rf-image-full-width</content-type>
         <display-template>/templates/web/components/rf-image-full-width.ftl</display-template>
         <no-template-required/>
@@ -184,11 +191,14 @@
         <lastModifiedDate>2025-06-18T00:18:46.641Z</lastModifiedDate>
         <lastModifiedDate_dt>2025-06-18T00:18:46.641Z</lastModifiedDate_dt>
       </component>
-	</item></topFluidComponents_o>
-	<bottomFluidComponents_o item-list="true">	<item inline="true">	<key>871bffca-4ccc-739a-8ca1-a96308411c7f</key>
-	<value>Join the Club</value>
-	<disableFlattening>false</disableFlattening>
-<component id="871bffca-4ccc-739a-8ca1-a96308411c7f">
+    </item>
+  </topFluidComponents_o>
+  <bottomFluidComponents_o item-list="true">
+    <item inline="true">
+      <key>871bffca-4ccc-739a-8ca1-a96308411c7f</key>
+      <value>Join the Club</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="871bffca-4ccc-739a-8ca1-a96308411c7f">
         <content-type>/component/rf-join-the-club</content-type>
         <display-template>/templates/web/components/rf-join-the-club.ftl</display-template>
         <no-template-required/>
@@ -225,5 +235,6 @@
           </item>
         </link_o>
       </component>
-	</item></bottomFluidComponents_o>
+    </item>
+  </bottomFluidComponents_o>
 </page>
