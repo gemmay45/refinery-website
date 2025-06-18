@@ -1,12 +1,10 @@
-package scripts.api
-
-import scripts.libs.Cookies
+import org.apache.commons.text.StringEscapeUtils
 import scripts.libs.EnvironmentOverrides
 import scripts.api.SecurityServices
 
-def cookies = request.getCookies()
-def session = request.getSession(true)
-//def username = request.getSession().getValue("username");
+//def cookies = request.getCookies()
+
+def username = request.getSession().getValue("username");
 
 //import scripts.libs.EnvironmentOverrides
 
@@ -18,6 +16,7 @@ def session = request.getSession(true)
 
 //def ucookie = Cookies.getCookieValue("username", request)
 
+/*
 results = []
 result = [:]
 
@@ -31,4 +30,4 @@ if (cookies != null) {
 }
 
 templateModel.ucookie = results
-templateModel.username = username
+templateModel.username = username*/
