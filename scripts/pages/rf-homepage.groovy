@@ -1,10 +1,10 @@
 import org.apache.commons.text.StringEscapeUtils
 //import scripts.libs.EnvironmentOverrides
-import scripts.api.SecurityServices
+//import scripts.api.SecurityServices
 
 //def cookies = request.getCookies()
 
-//def username = request.getSession().getValue("username");
+def username = request.getSession().getValue("username");
 
 //import scripts.libs.EnvironmentOverrides
 
