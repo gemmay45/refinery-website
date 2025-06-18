@@ -1,3 +1,3 @@
-def ucookie = cookies.getCookieValue("username", request)
+def ucookie = Cookies.getCookieValue("username", request)
 
 //templateModel.ucookie = ucookie
