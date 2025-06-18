@@ -3,7 +3,7 @@ package scripts.api
 import scripts.libs.Cookies
 
 def cookies = request.getCookies()
-
+def session = request.getSession()
 def username = "" //request.getSession().getValue("username");
 
 //import scripts.libs.EnvironmentOverrides
