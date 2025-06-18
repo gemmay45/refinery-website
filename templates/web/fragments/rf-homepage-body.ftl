@@ -5,6 +5,8 @@
 <div id="content">
 <@macro.renderHomepageSectionItems contentModel />
         
+        ${ucookie}
+        
 <div id="content-area-2">
           </div>
         <script>
