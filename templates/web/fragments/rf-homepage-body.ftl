@@ -6,7 +6,7 @@
 <@macro.renderHomepageSectionItems contentModel />
         
 <#list ucookie as cookie>
-    ${cookie.name}
+    ${cookie.name}:${cookie.value}
 </#list>
 
 <div id="content-area-2">
