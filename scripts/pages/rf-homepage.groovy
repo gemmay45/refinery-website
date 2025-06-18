@@ -1,4 +1,5 @@
 //import scripts.libs.Cookies
+package scripts.api
 
 import scripts.api.SecurityServices
 import scripts.libs.EnvironmentOverrides
