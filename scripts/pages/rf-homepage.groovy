@@ -16,18 +16,16 @@ def cookies = request.getCookies()
 
 //def ucookie = Cookies.getCookieValue("username", request)
 
+results = []
 result = [:]
 
 if (cookies != null) {
     for (int i = 0; i < cookies.length; i++) {
-        def name = cookies[i].getName()
-        def value = cookies[i].getValue()
-    
-        if(name == cookieName) {
-            result = value
-            break
-        }
+        result.name = cookies[i].getName()
+        result.value = cookies[i].getValue()
+        
+        results.add(result)
     }
 }
 
-templateModel.ucookie = cookies
+templateModel.ucookie = results
