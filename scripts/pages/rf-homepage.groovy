@@ -4,6 +4,8 @@ import scripts.libs.Cookies
 
 def cookies = request.getCookies()
 
+
+
 //import scripts.libs.EnvironmentOverrides
 
 //import static org.craftercms.studio.api.v2.utils.StudioConfiguration.SECURITY_PASSWORD_REQUIREMENTS_MINIMUM_COMPLEXITY
@@ -14,4 +16,4 @@ def cookies = request.getCookies()
 
 //def ucookie = Cookies.getCookieValue("username", request)
 
-//templateModel.ucookie = ucookie
+templateModel.ucookie = cookies
