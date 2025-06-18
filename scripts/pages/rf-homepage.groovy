@@ -1,7 +1,9 @@
-package scripts.api
+import scripts.api.SecurityServices
+import scripts.libs.EnvironmentOverrides
 
-import scripts.libs.Cookies
+def context = SecurityServices.createContext(applicationContext, request)
 
-def ucookie = Cookies.getCookieValue("username", request)
 
-templateModel.ucookie = ucookie
+//def ucookie = Cookies.getCookieValue("username", request)
+
+//templateModel.ucookie = ucookie
