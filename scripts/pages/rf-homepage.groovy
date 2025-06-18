@@ -2,6 +2,8 @@ package scripts.api
 
 import scripts.libs.Cookies
 
+def cookies = request.getCookies()
+
 //import scripts.libs.EnvironmentOverrides
 
 //import static org.craftercms.studio.api.v2.utils.StudioConfiguration.SECURITY_PASSWORD_REQUIREMENTS_MINIMUM_COMPLEXITY
