@@ -1,5 +1,6 @@
-//import scripts.libs.Cookies
-//package scripts.api
+package scripts.api
+
+import scripts.libs.Cookies
 
 import scripts.api
 //import scripts.libs.EnvironmentOverrides
