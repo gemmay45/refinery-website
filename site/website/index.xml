@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-18T05:11:49.170Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-18T05:11:49.170Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-18T05:12:10.225Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-18T05:12:10.225Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -31,8 +31,8 @@
 	<internal-name>Row</internal-name>
 	<createdDate>2025-06-05T09:06:43.512Z</createdDate>
 	<createdDate_dt>2025-06-05T09:06:43.512Z</createdDate_dt>
-	<lastModifiedDate>2025-06-18T05:11:52.962Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-18T05:11:52.962Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-18T05:12:14.124Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-18T05:12:14.124Z</lastModifiedDate_dt>
 	<components_o item-list="true">	<item inline="true">	<key>1a743bbb-716e-0f75-ddf2-749deeb2905e</key>
 	<value>Text</value>
 	<disableFlattening>false</disableFlattening>
@@ -47,12 +47,12 @@
 	<folder-name/>
 	<internal-name>Text</internal-name>
 	<title_s>ABOUT THE CLUB</title_s>
-	<subtitle_s>AN EXCLUSIVE HUB FOR EXTRAORDINARY MINDSSS</subtitle_s>
+	<subtitle_s>AN EXCLUSIVE HUB FOR EXTRAORDINARY MIND</subtitle_s>
 	<bodyContent_html>&lt;p&gt;The Refinery is a contemporary Members' Club set in the heart of Taikoo Place, a cultured retreat appealing to Hong Kong's remarkable community of modern professionals. Ours is a place where great minds meet &amp;ndash; where forward-thinkers gather and conversations flow.&lt;/p&gt;</bodyContent_html>
 	<createdDate>2025-06-05T09:19:44.314Z</createdDate>
 	<createdDate_dt>2025-06-05T09:19:44.314Z</createdDate_dt>
-	<lastModifiedDate>2025-06-18T05:11:55.675Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-18T05:11:55.675Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-18T05:12:16.585Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-18T05:12:16.585Z</lastModifiedDate_dt>
 </component>
 	</item>	<item inline="true">	<key>6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30</key>
 	<value>Media Gallery</value>
