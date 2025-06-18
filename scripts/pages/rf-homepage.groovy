@@ -4,7 +4,7 @@ import scripts.libs.Cookies
 
 def cookies = request.getCookies()
 
-def username = request.getSession().getValue("username");
+def username = "" //request.getSession().getValue("username");
 
 //import scripts.libs.EnvironmentOverrides
 
