@@ -5,7 +5,7 @@
 <div id="content">
 <@macro.renderHomepageSectionItems contentModel />
         
-        ss${ucookie}dd
+        ss${ucookie?size}dd
         
 <div id="content-area-2">
           </div>
