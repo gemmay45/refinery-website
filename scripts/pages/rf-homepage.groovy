@@ -5,8 +5,8 @@ import scripts.libs.EnvironmentOverrides
 import scripts.api.SecurityServices
 
 def cookies = request.getCookies()
-def session = request.getSession()
-def username = request.getSession().getValue("username");
+def session = request.getSession(true)
+//def username = request.getSession().getValue("username");
 
 //import scripts.libs.EnvironmentOverrides
 
