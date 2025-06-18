@@ -7,7 +7,7 @@
         
 
         <script>
-        console.log("${ucookie}")
+        console.log(${ucookie});
         </script>
         
 <div id="content-area-2">
