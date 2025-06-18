@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-18T03:51:56.291Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-18T03:51:56.291Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-18T03:52:14.473Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-18T03:52:14.473Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -136,7 +136,7 @@
 	<image_s>/static-assets/images/refinery/therefinery0509-087.webp</image_s>
 	<image_s_alt/>
 	</item>	<item>	<title_s>TERRACE</title_s>
-	<summary_t no-default="true"/>
+	<summary_t>Escape onto the terrace for an alfresco sanctuary overlooking bustling Tong Chong Street. Strike up a chat with your fellow Members and enjoy an assortment of food &amp; drinks while surrounded by the city's spirited sense of commerce.</summary_t>
 	<image_s>/static-assets/images/refinery/the-refinery-terrance.webp</image_s>
 	<image_s_alt/>
 	</item>	<item>	<title_s>FITNESS CENTRE</title_s>
@@ -149,8 +149,8 @@
 	<folder-name/>
 	<createdDate>2025-06-06T02:09:15.443Z</createdDate>
 	<createdDate_dt>2025-06-06T02:09:15.443Z</createdDate_dt>
-	<lastModifiedDate>2025-06-18T03:51:56.553Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-18T03:51:56.553Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-18T03:52:14.722Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-18T03:52:14.722Z</lastModifiedDate_dt>
 </component>
 	</item></components_o>
 	<topFluidComponents_o item-list="true">	<item inline="true">	<key>b996bd82-7b12-0baa-1e07-55f207ce4976</key>
