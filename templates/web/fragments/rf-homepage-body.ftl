@@ -5,7 +5,9 @@
 <div id="content">
 <@macro.renderHomepageSectionItems contentModel />
         
-        
+<#list articles as article>
+</#list>
+
 <div id="content-area-2">
           </div>
         <script>
