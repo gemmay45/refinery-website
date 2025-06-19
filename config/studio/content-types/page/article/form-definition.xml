@@ -725,9 +725,9 @@
 				</field>
 				<field>
 					<type>date-time</type>
-					<id>date_dt</id>
+					<id>date2_dt</id>
 					<iceId></iceId>
-					<title>Date</title>
+					<title>Date2</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -791,7 +791,7 @@
 						</constraint>
 					</constraints>
 					<additionalFields>
-						<id>date_dt_tz</id>
+						<id>date2_dt_tz</id>
 					</additionalFields>
 				</field>
 				<field>
