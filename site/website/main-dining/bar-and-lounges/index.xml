@@ -92,35 +92,7 @@
         <lastModifiedDate_dt>2025-06-11T09:03:20.972Z</lastModifiedDate_dt>
       </component>
     </item>
-    <item inline="true">
-      <key>10e7539c-0750-4d92-bab0-669f399f16bc</key>
-      <value><![CDATA[New RF-horizontal-card]]></value>
-      <component id="10e7539c-0750-4d92-bab0-669f399f16bc">
-        <content-type>/component/rf-horizontal-card</content-type>
-        <display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
-        <internal-name><![CDATA[New RF-horizontal-card]]></internal-name>
-        <file-name>10e7539c-0750-4d92-bab0-669f399f16bc.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2025-06-19T00:35:34.780Z</createdDate_dt>
-        <lastModifiedDate_dt>2025-06-19T00:36:01.807Z</lastModifiedDate_dt>
-        <objectId>10e7539c-0750-4d92-bab0-669f399f16bc</objectId>
-        <title_s><![CDATA[[Title Text]]]></title_s>
-        <subtitle_s><![CDATA[[Subtitle Text]]]></subtitle_s>
-        <bodyContent_html><![CDATA[[Body Content]]]></bodyContent_html>
-        <imageItems_o item-list="true">
-          <item>
-            <image_s><![CDATA[/static-assets/images/book-woman-pic.jpg]]></image_s>
-          </item>
-        </imageItems_o>
-        <cTALabel_s/>
-        <cTALinkItems_o item-list="true">
-          <item>
-            <title_s/>
-            <link/>
-          </item>
-        </cTALinkItems_o>
-      </component>
-    </item>
+
     <item inline="true">
       <key>5cbac718-4d64-7e5e-9900-2076e74d104a</key>
       <value>Horizontal Card</value>
@@ -189,8 +161,8 @@
   </components_o>
   <createdDate>2025-06-11T02:38:26.321Z</createdDate>
   <createdDate_dt>2025-06-11T02:38:26.321Z</createdDate_dt>
-  <lastModifiedDate>2025-06-19T00:36:01.807Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-19T00:36:01.807Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-19T00:36:16.833Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-19T00:36:16.833Z</lastModifiedDate_dt>
   <submenu_o item-list="true">
     <item>
       <key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
