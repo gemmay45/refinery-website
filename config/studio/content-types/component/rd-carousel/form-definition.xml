@@ -203,7 +203,7 @@
 						</property>
 						<property>
 							<name>altTextRequired</name>
-							<value>true</value>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 					</properties>
