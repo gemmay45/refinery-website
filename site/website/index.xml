@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-19T00:30:58.046Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-19T00:30:58.046Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-19T01:42:25.377Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-19T01:42:25.377Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -62,35 +62,27 @@
             <value>Media Gallery</value>
             <disableFlattening>false</disableFlattening>
             <component id="6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30">
-              <content-type>/component/rf-media-gallery</content-type>
-              <display-template>/templates/web/components/rf-media-gallery.ftl</display-template>
-              <no-template-required/>
-              <merge-strategy>inherit-levels</merge-strategy>
-              <objectGroupId>6a43</objectGroupId>
-              <objectId>6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30</objectId>
-              <internal-name>Media Gallery</internal-name>
-              <file-name>6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30.xml</file-name>
-              <folder-name/>
-              <imageItems_o item-list="true">
-                <item>
-                  <thumbnail_s>/static-assets/images/refinery/home-1.webp</thumbnail_s>
-                  <thumbnail_s_alt/>
-                </item>
-                <item>
-                  <thumbnail_s>/static-assets/images/refinery/home-2.webp</thumbnail_s>
-                  <thumbnail_s_alt/>
-                </item>
-
-                <item>
-                  <thumbnail_s>/static-assets/images/refinery/home-3.webp</thumbnail_s>
-                  <thumbnail_s_alt/>
-                </item>
-              </imageItems_o>
-              <createdDate>2025-06-05T10:13:58.156Z</createdDate>
-              <createdDate_dt>2025-06-05T10:13:58.156Z</createdDate_dt>
-              <lastModifiedDate>2025-06-19T00:30:11.924Z</lastModifiedDate>
-              <lastModifiedDate_dt>2025-06-19T00:30:11.924Z</lastModifiedDate_dt>
-            </component>
+	<content-type>/component/rf-media-gallery</content-type>
+	<display-template>/templates/web/components/rf-media-gallery.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6a43</objectGroupId>
+	<objectId>6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30</objectId>
+	<internal-name>Media Gallery</internal-name>
+	<file-name>6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30.xml</file-name>
+	<folder-name/>
+	<imageItems_o item-list="true">	<item>	<thumbnail_s>/static-assets/images/refinery/home-1.webp</thumbnail_s>
+	<thumbnail_s_alt>Image 1</thumbnail_s_alt>
+	</item>	<item>	<thumbnail_s>/static-assets/images/refinery/home-2.webp</thumbnail_s>
+	<thumbnail_s_alt>Image 2</thumbnail_s_alt>
+	</item>	<item>	<thumbnail_s>/static-assets/images/refinery/home-3.webp</thumbnail_s>
+	<thumbnail_s_alt>Image 3</thumbnail_s_alt>
+	</item></imageItems_o>
+	<createdDate>2025-06-05T10:13:58.156Z</createdDate>
+	<createdDate_dt>2025-06-05T10:13:58.156Z</createdDate_dt>
+	<lastModifiedDate>2025-06-19T01:42:25.666Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-19T01:42:25.666Z</lastModifiedDate_dt>
+</component>
           </item>
 
           <item inline="true">
