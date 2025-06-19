@@ -1,129 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/rf-dining</content-type>
-	<display-template>/templates/web/pages/rf-dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>bc05</objectGroupId>
-	<objectId>bc053c36-3adb-69d4-4c93-55186efc93fb</objectId>
-	<internal-name>Bar &amp; Lounges</internal-name>
-	<navLabel>BAR &amp; LOUNGES</navLabel>
-	<placeChildreninNav_b>false</placeChildreninNav_b>
-	<placeInNav>true</placeInNav>
-	<orderDefault_f>6000</orderDefault_f>
-	<file-name>index.xml</file-name>
-	<folder-name>bar-and-lounges</folder-name>
-	<components_o item-list="true">	<item inline="true">	<key>8ac60811-3153-f031-dbbe-747371ed75c2</key>
-	<value>Carousel</value>
-	<disableFlattening>false</disableFlattening>
-<component id="8ac60811-3153-f031-dbbe-747371ed75c2">
-	<content-type>/component/rd-carousel</content-type>
-	<display-template>/templates/web/components/rf-carousel.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>8ac6</objectGroupId>
-	<objectId>8ac60811-3153-f031-dbbe-747371ed75c2</objectId>
-	<imageItems_o item-list="true">	<item>	<title_s>BAR</title_s>
-	<image_s>/static-assets/images/refinery/bar-and-lounge-hero.webp</image_s>
-	</item>	<item>	<title_s>LOUNGE</title_s>
-	<image_s>/static-assets/images/refinery/hero-bar.webp</image_s>
-	</item>	<item>	<title_s>LONG LOUNGE</title_s>
-	<image_s>/static-assets/images/refinery/hero-lounges.webp</image_s>
-	</item></imageItems_o>
-	<file-name>8ac60811-3153-f031-dbbe-747371ed75c2.xml</file-name>
-	<folder-name/>
-	<internal-name>Carousel</internal-name>
-	<createdDate>2025-06-11T09:00:40.535Z</createdDate>
-	<createdDate_dt>2025-06-11T09:00:40.535Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:01:47.122Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:01:47.122Z</lastModifiedDate_dt>
-</component>
-	</item>	<item inline="true">	<key>44a3f523-b5dc-2b1d-1492-1b9294517e28</key>
-	<value>Row</value>
-	<disableFlattening>false</disableFlattening>
-<component id="44a3f523-b5dc-2b1d-1492-1b9294517e28">
-	<content-type>/component/rf-row-wrapper</content-type>
-	<display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>44a3</objectGroupId>
-	<objectId>44a3f523-b5dc-2b1d-1492-1b9294517e28</objectId>
-	<file-name>44a3f523-b5dc-2b1d-1492-1b9294517e28.xml</file-name>
-	<folder-name/>
-	<internal-name>Row</internal-name>
-	<components_o item-list="true">	<item inline="true">	<key>f4903544-c4fc-4601-a086-d858f781e73a</key>
-	<value>BAR &amp;amp; LOUNGES</value>
-<component id="f4903544-c4fc-4601-a086-d858f781e73a">
-	<content-type>/component/rf-text-block</content-type>
-	<display-template>/templates/web/components/rf-text-block.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>f490</objectGroupId>
-	<objectId>f4903544-c4fc-4601-a086-d858f781e73a</objectId>
-	<file-name>f4903544-c4fc-4601-a086-d858f781e73a.xml</file-name>
-	<folder-name/>
-	<internal-name>BAR &amp; LOUNGES</internal-name>
-	<title_s>BAR &amp; LOUNGES</title_s>
-	<subtitle_s/>
-	<bodyContent_html>&lt;p&gt;A range of spaces to network and relax. Take a seat at the lobby bar, where skilled mixologists shake cocktails and pour local craft beers. Settle back in the main lounge, an open-space ideal for after-work drinks and our Asian all-day menu or catch-up on essential personal time in our long lounge, a mellow affair with tucked-away booths.&lt;/p&gt;</bodyContent_html>
-	<createdDate>2025-06-11T09:03:27.791Z</createdDate>
-	<createdDate_dt>2025-06-11T09:03:27.791Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:03:27.791Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:03:27.791Z</lastModifiedDate_dt>
-</component>
-	</item></components_o>
-	<createdDate>2025-06-11T09:03:20.972Z</createdDate>
-	<createdDate_dt>2025-06-11T09:03:20.972Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:03:20.972Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:03:20.972Z</lastModifiedDate_dt>
-</component>
-	</item>	<item inline="true">	<key>5cbac718-4d64-7e5e-9900-2076e74d104a</key>
-	<value>Horizontal Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="5cbac718-4d64-7e5e-9900-2076e74d104a">
-	<content-type>/component/rf-horizontal-card</content-type>
-	<display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>5cba</objectGroupId>
-	<objectId>5cbac718-4d64-7e5e-9900-2076e74d104a</objectId>
-	<imageItems_o item-list="true">	<item>	<image_s>/static-assets/images/refinery/therefinery0509-085.webp</image_s>
-	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-073.webp</image_s>
-	</item>	<item>	<image_s>/static-assets/images/refinery/01.gif</image_s>
-	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-087.webp</image_s>
-	</item>	<item>	<image_s>/static-assets/images/refinery/therefinery0509-093.webp</image_s>
-	</item></imageItems_o>
-	<cTALinkItems_o item-list="true">	<item>	<title_s>Breakfast Menu</title_s>
-	</item>	<item>	<title_s>All Day Menu</title_s>
-	</item>	<item>	<title_s>Tapas Menu</title_s>
-	</item>	<item>	<title_s>Master Wine List</title_s>
-	</item>	<item>	<title_s>Drinks List</title_s>
-	</item>	<item>	<title_s>Cocktail Packages</title_s>
-	</item></cTALinkItems_o>
-	<file-name>5cbac718-4d64-7e5e-9900-2076e74d104a.xml</file-name>
-	<folder-name/>
-	<internal-name>Horizontal Card</internal-name>
-	<title_s>BAR &amp; LOUNGES</title_s>
-	<subtitle_s/>
-	<cTALabel_s>VIEW MENU</cTALabel_s>
-	<bodyContent_html>&lt;p&gt;- &lt;br&gt;&lt;/p&gt;
+  <content-type>/page/rf-dining</content-type>
+  <display-template>/templates/web/pages/rf-dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>bc05</objectGroupId>
+  <objectId>bc053c36-3adb-69d4-4c93-55186efc93fb</objectId>
+  <internal-name>Bar &amp; Lounges</internal-name>
+  <navLabel>BAR &amp; LOUNGES</navLabel>
+  <placeChildreninNav_b>false</placeChildreninNav_b>
+  <placeInNav>true</placeInNav>
+  <orderDefault_f>6000</orderDefault_f>
+  <file-name>index.xml</file-name>
+  <folder-name>bar-and-lounges</folder-name>
+  <components_o item-list="true">
+    <item inline="true">
+      <key>8ac60811-3153-f031-dbbe-747371ed75c2</key>
+      <value>Carousel</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="8ac60811-3153-f031-dbbe-747371ed75c2">
+        <content-type>/component/rd-carousel</content-type>
+        <display-template>/templates/web/components/rf-carousel.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <objectGroupId>8ac6</objectGroupId>
+        <objectId>8ac60811-3153-f031-dbbe-747371ed75c2</objectId>
+        <imageItems_o item-list="true">
+          <item>
+            <title_s>BAR</title_s>
+            <image_s>/static-assets/images/refinery/bar-and-lounge-hero.webp</image_s>
+          </item>
+          <item>
+            <title_s>LOUNGE</title_s>
+            <image_s>/static-assets/images/refinery/hero-bar.webp</image_s>
+          </item>
+          <item>
+            <title_s>LONG LOUNGE</title_s>
+            <image_s>/static-assets/images/refinery/hero-lounges.webp</image_s>
+          </item>
+        </imageItems_o>
+        <file-name>8ac60811-3153-f031-dbbe-747371ed75c2.xml</file-name>
+        <folder-name/>
+        <internal-name>Carousel</internal-name>
+        <createdDate>2025-06-11T09:00:40.535Z</createdDate>
+        <createdDate_dt>2025-06-11T09:00:40.535Z</createdDate_dt>
+        <lastModifiedDate>2025-06-11T09:01:47.122Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-11T09:01:47.122Z</lastModifiedDate_dt>
+      </component>
+    </item>
+    <item inline="true">
+      <key>44a3f523-b5dc-2b1d-1492-1b9294517e28</key>
+      <value>Row</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="44a3f523-b5dc-2b1d-1492-1b9294517e28">
+        <content-type>/component/rf-row-wrapper</content-type>
+        <display-template>/templates/web/components/rf-row-wrapper.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <objectGroupId>44a3</objectGroupId>
+        <objectId>44a3f523-b5dc-2b1d-1492-1b9294517e28</objectId>
+        <file-name>44a3f523-b5dc-2b1d-1492-1b9294517e28.xml</file-name>
+        <folder-name/>
+        <internal-name>Row</internal-name>
+        <components_o item-list="true">
+          <item inline="true">
+            <key>f4903544-c4fc-4601-a086-d858f781e73a</key>
+            <value>BAR &amp;amp; LOUNGES</value>
+            <component id="f4903544-c4fc-4601-a086-d858f781e73a">
+              <content-type>/component/rf-text-block</content-type>
+              <display-template>/templates/web/components/rf-text-block.ftl</display-template>
+              <no-template-required/>
+              <merge-strategy>inherit-levels</merge-strategy>
+              <objectGroupId>f490</objectGroupId>
+              <objectId>f4903544-c4fc-4601-a086-d858f781e73a</objectId>
+              <file-name>f4903544-c4fc-4601-a086-d858f781e73a.xml</file-name>
+              <folder-name/>
+              <internal-name>BAR &amp; LOUNGES</internal-name>
+              <title_s>BAR &amp; LOUNGES</title_s>
+              <subtitle_s/>
+              <bodyContent_html>&lt;p&gt;A range of spaces to network and relax. Take a seat at the lobby bar, where skilled mixologists shake cocktails and pour local craft beers. Settle back in the main lounge, an open-space ideal for after-work drinks and our Asian all-day menu or catch-up on essential personal time in our long lounge, a mellow affair with tucked-away booths.&lt;/p&gt;</bodyContent_html>
+              <createdDate>2025-06-11T09:03:27.791Z</createdDate>
+              <createdDate_dt>2025-06-11T09:03:27.791Z</createdDate_dt>
+              <lastModifiedDate>2025-06-11T09:03:27.791Z</lastModifiedDate>
+              <lastModifiedDate_dt>2025-06-11T09:03:27.791Z</lastModifiedDate_dt>
+            </component>
+          </item>
+        </components_o>
+        <createdDate>2025-06-11T09:03:20.972Z</createdDate>
+        <createdDate_dt>2025-06-11T09:03:20.972Z</createdDate_dt>
+        <lastModifiedDate>2025-06-11T09:03:20.972Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-11T09:03:20.972Z</lastModifiedDate_dt>
+      </component>
+    </item>
+    <item inline="true">
+      <key>10e7539c-0750-4d92-bab0-669f399f16bc</key>
+      <value><![CDATA[New RF-horizontal-card]]></value>
+      <component id="10e7539c-0750-4d92-bab0-669f399f16bc">
+        <content-type>/component/rf-horizontal-card</content-type>
+        <display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
+        <internal-name><![CDATA[New RF-horizontal-card]]></internal-name>
+        <file-name>10e7539c-0750-4d92-bab0-669f399f16bc.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2025-06-19T00:35:34.780Z</createdDate_dt>
+        <lastModifiedDate_dt>2025-06-19T00:35:34.780Z</lastModifiedDate_dt>
+        <objectId>10e7539c-0750-4d92-bab0-669f399f16bc</objectId>
+        <title_s><![CDATA[[Title Text]]]></title_s>
+        <subtitle_s><![CDATA[[Subtitle Text]]]></subtitle_s>
+        <bodyContent_html><![CDATA[[Body Content]]]></bodyContent_html>
+        <imageItems_o item-list="true">
+          <item>
+            <image_s>/static-assets/images/placeholder.png</image_s>
+          </item>
+        </imageItems_o>
+        <cTALabel_s/>
+        <cTALinkItems_o item-list="true">
+          <item>
+            <title_s/>
+            <link/>
+          </item>
+        </cTALinkItems_o>
+      </component>
+    </item>
+    <item inline="true">
+      <key>5cbac718-4d64-7e5e-9900-2076e74d104a</key>
+      <value>Horizontal Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="5cbac718-4d64-7e5e-9900-2076e74d104a">
+        <content-type>/component/rf-horizontal-card</content-type>
+        <display-template>/templates/web/components/rf-horizontal-card.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <objectGroupId>5cba</objectGroupId>
+        <objectId>5cbac718-4d64-7e5e-9900-2076e74d104a</objectId>
+        <imageItems_o item-list="true">
+          <item>
+            <image_s>/static-assets/images/refinery/therefinery0509-085.webp</image_s>
+          </item>
+          <item>
+            <image_s>/static-assets/images/refinery/therefinery0509-073.webp</image_s>
+          </item>
+          <item>
+            <image_s>/static-assets/images/refinery/01.gif</image_s>
+          </item>
+          <item>
+            <image_s>/static-assets/images/refinery/therefinery0509-087.webp</image_s>
+          </item>
+          <item>
+            <image_s>/static-assets/images/refinery/therefinery0509-093.webp</image_s>
+          </item>
+        </imageItems_o>
+        <cTALinkItems_o item-list="true">
+          <item>
+            <title_s>Breakfast Menu</title_s>
+          </item>
+          <item>
+            <title_s>All Day Menu</title_s>
+          </item>
+          <item>
+            <title_s>Tapas Menu</title_s>
+          </item>
+          <item>
+            <title_s>Master Wine List</title_s>
+          </item>
+          <item>
+            <title_s>Drinks List</title_s>
+          </item>
+          <item>
+            <title_s>Cocktail Packages</title_s>
+          </item>
+        </cTALinkItems_o>
+        <file-name>5cbac718-4d64-7e5e-9900-2076e74d104a.xml</file-name>
+        <folder-name/>
+        <internal-name>Horizontal Card</internal-name>
+        <title_s>BAR &amp; LOUNGES</title_s>
+        <subtitle_s/>
+        <cTALabel_s>VIEW MENU</cTALabel_s>
+        <bodyContent_html>&lt;p&gt;- &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Opening Hours:&lt;/strong&gt; &lt;br&gt;Monday to Saturday &lt;br&gt;(except Public Holidays) &lt;br&gt;&lt;strong&gt;Breakfast:&lt;/strong&gt; 7am to 11am &lt;br&gt;&lt;strong&gt;All Day Menu:&lt;/strong&gt;&amp;nbsp;noon to 10:30pm &lt;br&gt;&lt;strong&gt;Happy Hour:&lt;/strong&gt; 5pm to 8pm &lt;br&gt;&lt;strong&gt;Evening Tapas:&lt;/strong&gt; 5pm to 10:30pm &lt;br&gt;- &lt;br&gt;&lt;strong&gt; &lt;em&gt;On a first-come-first-served basis&lt;/em&gt; &lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;div class="speciality"&gt;&lt;strong&gt;Offer:&lt;/strong&gt; &lt;br&gt;Asian-influenced dishes&lt;/div&gt;
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</bodyContent_html>
-	<createdDate>2025-06-11T09:04:41.006Z</createdDate>
-	<createdDate_dt>2025-06-11T09:04:41.006Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:09:40.667Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:09:40.667Z</lastModifiedDate_dt>
-</component>
-	</item></components_o>
-	<createdDate>2025-06-11T02:38:26.321Z</createdDate>
-	<createdDate_dt>2025-06-11T02:38:26.321Z</createdDate_dt>
-	<lastModifiedDate>2025-06-11T09:09:38.187Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-11T09:09:38.187Z</lastModifiedDate_dt>
-	<submenu_o item-list="true">	<item>	<key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
-	<value>Dining Submenu</value>
-	<include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></submenu_o>
+        <createdDate>2025-06-11T09:04:41.006Z</createdDate>
+        <createdDate_dt>2025-06-11T09:04:41.006Z</createdDate_dt>
+        <lastModifiedDate>2025-06-11T09:09:40.667Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-11T09:09:40.667Z</lastModifiedDate_dt>
+      </component>
+    </item>
+  </components_o>
+  <createdDate>2025-06-11T02:38:26.321Z</createdDate>
+  <createdDate_dt>2025-06-11T02:38:26.321Z</createdDate_dt>
+  <lastModifiedDate>2025-06-19T00:35:34.780Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-19T00:35:34.780Z</lastModifiedDate_dt>
+  <submenu_o item-list="true">
+    <item>
+      <key>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</key>
+      <value>Dining Submenu</value>
+      <include>/site/components/headers/904b02d4-a7fd-e4aa-eaa3-ba97da7231c7.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+  </submenu_o>
 </page>
