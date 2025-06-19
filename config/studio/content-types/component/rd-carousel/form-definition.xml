@@ -203,7 +203,7 @@
 						</property>
 						<property>
 							<name>altTextRequired</name>
-							<value></value>
+							<value>true</value>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -214,6 +214,9 @@
 							<type>boolean</type>
 						</constraint>
 					</constraints>
+					<additionalFields>
+						<id>image_s_alt</id>
+					</additionalFields>
 				</field>
 					</fields>
 				</field>
