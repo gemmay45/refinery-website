@@ -9,13 +9,13 @@
 	<items item-list="true">	<item>	<key>VIEW MENU</key>
 	<value>View Menu</value>
 	</item>	<item>	<key>VIEW MENU 2</key>
-	<value>View Menu</value>
+	<value>View Menu 2</value>
 	</item></items>
 	<internal-name>CTA Labels</internal-name>
 	<file-name>cta-labels.xml</file-name>
 	<folder-name/>
 	<createdDate>2025-06-10T00:13:17.576Z</createdDate>
 	<createdDate_dt>2025-06-10T00:13:17.576Z</createdDate_dt>
-	<lastModifiedDate>2025-06-19T03:45:57.298Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-19T03:45:57.298Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-19T03:46:32.717Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-19T03:46:32.717Z</lastModifiedDate_dt>
 </component>
