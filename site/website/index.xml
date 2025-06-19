@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2025-06-19T00:30:11.924Z</lastModifiedDate>
-  <lastModifiedDate_dt>2025-06-19T00:30:11.924Z</lastModifiedDate_dt>
+  <lastModifiedDate>2025-06-19T00:30:31.510Z</lastModifiedDate>
+  <lastModifiedDate_dt>2025-06-19T00:30:31.510Z</lastModifiedDate_dt>
   <placeInNav>false</placeInNav>
   <components_o item-list="true">
     <item inline="true">
@@ -134,15 +134,15 @@
         <objectId>a016a34d-b2e8-5cdc-ce5d-a866a9c9c7cb</objectId>
         <cardItems_o item-list="true">
           <item>
-            <title_s>MAIN DINING</title_s>
-            <summary_t no-default="true"/>
-            <image_s>/static-assets/images/refinery/ssxt0891.webp</image_s>
-            <image_s_alt/>
-          </item>
-          <item>
             <title_s>BAR &amp; LOUNGES</title_s>
             <summary_t>Pull up a stool or slip into a quiet booth, in one of our chic Bar &amp; Lounges. Choose from a selection of fine wines, seasonal craft beers and signature cocktails, paired with comforting Asian-influenced dishes served throughout the day.</summary_t>
             <image_s>/static-assets/images/refinery/therefinery0509-087.webp</image_s>
+            <image_s_alt/>
+          </item>
+          <item>
+            <title_s>MAIN DINING</title_s>
+            <summary_t no-default="true"/>
+            <image_s>/static-assets/images/refinery/ssxt0891.webp</image_s>
             <image_s_alt/>
           </item>
           <item>
@@ -163,8 +163,8 @@
         <folder-name/>
         <createdDate>2025-06-06T02:09:15.443Z</createdDate>
         <createdDate_dt>2025-06-06T02:09:15.443Z</createdDate_dt>
-        <lastModifiedDate>2025-06-18T03:53:46.758Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-18T03:53:46.758Z</lastModifiedDate_dt>
+        <lastModifiedDate>2025-06-19T00:30:31.510Z</lastModifiedDate>
+        <lastModifiedDate_dt>2025-06-19T00:30:31.510Z</lastModifiedDate_dt>
       </component>
     </item>
   </components_o>
