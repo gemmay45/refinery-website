@@ -742,7 +742,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>tax,categories,segments,components-left-rail</value>
+							<value>categories,segments,components-left-rail</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
