@@ -12,12 +12,18 @@
 	<value>Alt text for s_lounge TC</value>
 	</item>	<item>	<key>/static-assets/images/refinery/s_lounge_05.webp-cn</key>
 	<value>Alt text for s_lounge SC</value>
+	</item>	<item>	<key>/static-assets/images/refinery/home-1.webp</key>
+	<value>Alt text for home 1</value>
+	</item>	<item>	<key>/static-assets/images/refinery/home-1.webp-zh</key>
+	<value>Alt text for home 1 TC</value>
+	</item>	<item>	<key>/static-assets/images/refinery/home-1.webp-cn</key>
+	<value>Alt text for home 1 SC</value>
 	</item></items>
 	<file-name>alt-text.xml</file-name>
 	<folder-name/>
 	<internal-name>Alt Text</internal-name>
 	<createdDate>2025-06-20T05:33:30.995Z</createdDate>
 	<createdDate_dt>2025-06-20T05:33:30.995Z</createdDate_dt>
-	<lastModifiedDate>2025-06-20T05:34:54.537Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-20T05:34:54.537Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-20T05:36:15.989Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-20T05:36:15.989Z</lastModifiedDate_dt>
 </component>
