@@ -752,7 +752,7 @@
 						</property>
 						<property>
 							<name>disableFlattening</name>
-							<value></value>
+							<value>true</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -930,7 +930,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value></value>
+							<value>/site/taxonomy/categories.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
