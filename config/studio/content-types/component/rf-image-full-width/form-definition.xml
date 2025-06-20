@@ -200,6 +200,11 @@
 							<value></value>
 							<type>boolean</type>
 						</property>
+						<property>
+							<name>datasource</name>
+							<value>altText</value>
+							<type>datasource:item</type>
+						</property>
 					</properties>
 					<constraints>
 						<constraint>
