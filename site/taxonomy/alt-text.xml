@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9d83</objectGroupId>
+	<objectId>9d833bfa-d6b7-2739-fea4-aeaf05d4a214</objectId>
+	<items item-list="true">	<item>	<key>ss</key>
+	<value>ss</value>
+	</item></items>
+	<file-name>alt-text.xml</file-name>
+	<folder-name/>
+	<internal-name>Alt Text</internal-name>
+	<createdDate>2025-06-20T05:33:30.995Z</createdDate>
+	<createdDate_dt>2025-06-20T05:33:30.995Z</createdDate_dt>
+	<lastModifiedDate>2025-06-20T05:33:30.995Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-20T05:33:30.995Z</lastModifiedDate_dt>
+</component>
