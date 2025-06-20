@@ -269,6 +269,11 @@
 							<value></value>
 							<type>string</type>
 						</property>
+						<property>
+							<name>useMVS</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
 					</properties>
 					<constraints>
 						<constraint>
@@ -742,7 +747,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>categories,segments,components-left-rail</value>
+							<value>components-header</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -914,24 +919,6 @@
 							<name>enableSearchExisting</name>
 							<value>true</value>
 								<type>boolean</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>simpleTaxonomy</type>
-					<id>tax</id>
-					<title>Tax</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;Data Type&quot;,&quot;selected&quot;:false}]</value>
-								<type>dropdown</type>
-						</property>
-						<property>
-							<name>componentPath</name>
-							<value>/site/taxonomy/categories.xml</value>
-								<type>string</type>
 						</property>
 					</properties>
 				</datasource>
