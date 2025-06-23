@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-23T06:20:15.692Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-23T06:20:15.692Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-23T07:56:32.693Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-23T07:56:32.693Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -190,41 +190,35 @@
 	<value>Join the Club</value>
 	<disableFlattening>false</disableFlattening>
 <component id="871bffca-4ccc-739a-8ca1-a96308411c7f">
-        <content-type>/component/rf-join-the-club</content-type>
-        <display-template>/templates/web/components/rf-join-the-club.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <objectGroupId>871b</objectGroupId>
-        <objectId>871bffca-4ccc-739a-8ca1-a96308411c7f</objectId>
-        <internal-name>Join the Club</internal-name>
-        <title_s>JOIN THE CLUB</title_s>
-        <file-name>871bffca-4ccc-739a-8ca1-a96308411c7f.xml</file-name>
-        <folder-name/>
-        <createdDate>2025-06-06T03:59:19.263Z</createdDate>
-        <createdDate_dt>2025-06-06T03:59:19.263Z</createdDate_dt>
-        <lastModifiedDate>2025-06-06T07:44:09.333Z</lastModifiedDate>
-        <lastModifiedDate_dt>2025-06-06T07:44:09.333Z</lastModifiedDate_dt>
-        <bodyContent_html>&lt;p&gt;The Refinery offers its Members exclusive entry to our set of inimitable facilities. But membership here is about more than simple conveniences &amp;ndash; it grants access to an array of opportunities, to connections with fellow individuals and the stimulating chance to consort with prime movers through select events.&amp;nbsp;&lt;/p&gt;</bodyContent_html>
-        <link>
-          <item>
-            <url>https://www.google.com</url>
-            <linkText>JOIN US</linkText>
-            <linkTitle/>
-            <linkTarget/>
-            <taxKey/>
-            <taxValue/>
-          </item>
-        </link>
-        <link_o>
-          <item>
-            <url>https://www.google.com</url>
-            <linkText>JOIN US</linkText>
-            <linkTitle>JOIN US</linkTitle>
-            <linkTarget>_blank</linkTarget>
-            <taxKey/>
-            <taxValue/>
-          </item>
-        </link_o>
-      </component>
+	<content-type>/component/rf-join-the-club</content-type>
+	<display-template>/templates/web/components/rf-join-the-club.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>871b</objectGroupId>
+	<objectId>871bffca-4ccc-739a-8ca1-a96308411c7f</objectId>
+	<internal-name>Join the Club</internal-name>
+	<title_s>JOIN THE CLUB</title_s>
+	<file-name>871bffca-4ccc-739a-8ca1-a96308411c7f.xml</file-name>
+	<folder-name/>
+	<createdDate>2025-06-06T03:59:19.263Z</createdDate>
+	<createdDate_dt>2025-06-06T03:59:19.263Z</createdDate_dt>
+	<lastModifiedDate>2025-06-23T07:56:32.945Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-23T07:56:32.945Z</lastModifiedDate_dt>
+	<bodyContent_html>&lt;p&gt;The Refinery offers its Members exclusive entry to our set of inimitable facilities. But membership here is about more than simple conveniences &amp;ndash; it grants access to an array of opportunities, to connections with fellow individuals and the stimulating chance to consort with prime movers through select events.&amp;nbsp;&lt;/p&gt;</bodyContent_html>
+	<link>	<item>	<url>https://www.google.com</url>
+	<linkText>JOIN US</linkText>
+	<linkTitle/>
+	<linkTarget/>
+	<taxKey/>
+	<taxValue/>
+	</item></link>
+	<link_o>	<item>	<url>https://www.google.com</url>
+	<linkText>View Menu</linkText>
+	<linkTitle>JOIN US</linkTitle>
+	<linkTarget>_blank</linkTarget>
+	<taxKey>VIEW MENU</taxKey>
+	<taxValue>View Menu</taxValue>
+	</item></link_o>
+</component>
 	</item></bottomFluidComponents_o>
 </page>
