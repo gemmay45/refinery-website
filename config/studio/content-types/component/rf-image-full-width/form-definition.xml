@@ -332,7 +332,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>/site/taxonomy/alt-text.xml</value>
+							<value>/site/taxonomy/solid-icons.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
