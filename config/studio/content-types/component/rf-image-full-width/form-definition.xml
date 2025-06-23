@@ -276,7 +276,7 @@
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>altText</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
