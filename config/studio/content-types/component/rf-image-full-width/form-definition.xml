@@ -215,6 +215,8 @@
 					</constraints>
 					<additionalFields>
 						<id>mediaThumbnail_s_alt</id>
+						<id>mediaThumbnail_s_altKey</id>
+						<id>mediaThumbnail_s_altVal</id>
 					</additionalFields>
 				</field>
 				<field>
@@ -332,7 +334,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>/site/taxonomy/solid-icons.xml</value>
+							<value>/site/taxonomy/alt-text.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
