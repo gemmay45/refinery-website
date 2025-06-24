@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-24T00:11:00.392Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-24T00:11:00.392Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-24T00:43:24.193Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-24T00:43:24.193Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -175,14 +175,14 @@
 	<file-name>b996bd82-7b12-0baa-1e07-55f207ce4976.xml</file-name>
 	<folder-name/>
 	<mediaThumbnail_s>/static-assets/images/refinery/s_lounge_05.webp</mediaThumbnail_s>
-	<mediaThumbnail_s_alt>Align justify</mediaThumbnail_s_alt>
+	<mediaThumbnail_s_alt>Align centerx</mediaThumbnail_s_alt>
 	<internal-name>Hero</internal-name>
 	<mediaTitle_s>WELCOME TO THE CLUB</mediaTitle_s>
 	<mediaBody_html>&lt;p&gt;Elegance distilled to its purest form.&amp;nbsp;&lt;br&gt;A haven to relax, refuel and reconnect.&lt;/p&gt;</mediaBody_html>
 	<createdDate>2025-06-05T08:59:15.062Z</createdDate>
 	<createdDate_dt>2025-06-05T08:59:15.062Z</createdDate_dt>
-	<lastModifiedDate>2025-06-24T00:11:00.676Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-24T00:11:00.676Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-24T00:43:24.438Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-24T00:43:24.438Z</lastModifiedDate_dt>
 	<test_s>fa-air-freshener fas</test_s>
 </component>
 	</item></topFluidComponents_o>
