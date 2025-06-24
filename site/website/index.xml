@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-24T03:10:39.292Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-24T03:10:39.292Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-24T03:11:56.420Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-24T03:11:56.420Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -71,23 +71,23 @@
 	<internal-name>Media Gallery</internal-name>
 	<file-name>6a43cb08-0fa1-dcc3-c6a9-b8b9ebb60d30.xml</file-name>
 	<folder-name/>
-	<imageItems_o item-list="true">	<item>	<thumbnail_s>undefined</thumbnail_s>
+	<imageItems_o item-list="true">	<item>	<thumbnail_s>/static-assets/images/refinery/home-1.webp</thumbnail_s>
 	<thumbnail_s_alt>Alt text for s_lounge SC</thumbnail_s_alt>
 	<thumbnail_s_altKey>/static-assets/images/refinery/s_lounge_05.webp-cn</thumbnail_s_altKey>
 	<thumbnail_s_altVal>Alt text for s_lounge SC</thumbnail_s_altVal>
-	</item>	<item>	<thumbnail_s>undefined</thumbnail_s>
+	</item>	<item>	<thumbnail_s>/static-assets/images/refinery/home-2.webp</thumbnail_s>
 	<thumbnail_s_alt>Alt text for s_lounge TC</thumbnail_s_alt>
 	<thumbnail_s_altKey>/static-assets/images/refinery/s_lounge_05.webp-zh</thumbnail_s_altKey>
 	<thumbnail_s_altVal>Alt text for s_lounge TC</thumbnail_s_altVal>
-	</item>	<item>	<thumbnail_s>undefined</thumbnail_s>
+	</item>	<item>	<thumbnail_s>/static-assets/images/refinery/home-3.webp</thumbnail_s>
 	<thumbnail_s_alt>Alt text for home 1 SC</thumbnail_s_alt>
 	<thumbnail_s_altKey>/static-assets/images/refinery/home-1.webp-cn</thumbnail_s_altKey>
 	<thumbnail_s_altVal>Alt text for home 1 SC</thumbnail_s_altVal>
 	</item></imageItems_o>
 	<createdDate>2025-06-05T10:13:58.156Z</createdDate>
 	<createdDate_dt>2025-06-05T10:13:58.156Z</createdDate_dt>
-	<lastModifiedDate>2025-06-24T03:10:39.550Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-24T03:10:39.550Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-24T03:11:56.684Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-24T03:11:56.684Z</lastModifiedDate_dt>
 </component>
           </item>
 
