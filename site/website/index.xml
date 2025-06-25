@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-01-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2025-06-24T03:56:21.567Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-24T03:56:21.567Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-25T03:50:45.719Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-25T03:50:45.719Z</lastModifiedDate_dt>
 	<placeInNav>false</placeInNav>
 	<components_o item-list="true">	<item inline="true">	<key>0bab49fc-8e57-5302-96bc-c4fe5b0945db</key>
 	<value>Row</value>
@@ -174,17 +174,17 @@
 	<file-name>b996bd82-7b12-0baa-1e07-55f207ce4976.xml</file-name>
 	<folder-name/>
 	<mediaThumbnail_s>/static-assets/images/refinery/s_lounge_05.webp</mediaThumbnail_s>
-	<mediaThumbnail_s_alt>Alt text for home 1 SC</mediaThumbnail_s_alt>
+	<mediaThumbnail_s_alt>Alt text for s_lounge TC</mediaThumbnail_s_alt>
 	<internal-name>Hero</internal-name>
 	<mediaTitle_s>WELCOME TO THE CLUB</mediaTitle_s>
 	<mediaBody_html>&lt;p&gt;Elegance distilled to its purest form.&amp;nbsp;&lt;br&gt;A haven to relax, refuel and reconnect.&lt;/p&gt;</mediaBody_html>
 	<createdDate>2025-06-05T08:59:15.062Z</createdDate>
 	<createdDate_dt>2025-06-05T08:59:15.062Z</createdDate_dt>
-	<lastModifiedDate>2025-06-24T03:56:21.809Z</lastModifiedDate>
-	<lastModifiedDate_dt>2025-06-24T03:56:21.809Z</lastModifiedDate_dt>
+	<lastModifiedDate>2025-06-25T03:50:45.971Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-25T03:50:45.971Z</lastModifiedDate_dt>
 	<test_s>fa-air-freshener fas</test_s>
-	<mediaThumbnail_s_altKey>/static-assets/images/refinery/home-1.webp-cn</mediaThumbnail_s_altKey>
-	<mediaThumbnail_s_altVal>Alt text for home 1 SC</mediaThumbnail_s_altVal>
+	<mediaThumbnail_s_altKey>/static-assets/images/refinery/s_lounge_05.webp-zh</mediaThumbnail_s_altKey>
+	<mediaThumbnail_s_altVal>Alt text for s_lounge TC</mediaThumbnail_s_altVal>
 </component>
 	</item></topFluidComponents_o>
 	<bottomFluidComponents_o item-list="true">	<item inline="true">	<key>871bffca-4ccc-739a-8ca1-a96308411c7f</key>
