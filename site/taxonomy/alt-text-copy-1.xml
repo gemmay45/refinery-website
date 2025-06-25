@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4b721973</objectGroupId>
+	<objectId>4b721973-6791-42e0-943e-4a292b3e44f5</objectId>
+	<items item-list="true">	<item>	<key>/static-assets/images/refinery/s_lounge_05.webp</key>
+	<value>Alt text for s_lounge</value>
+	</item>	<item>	<key>/static-assets/images/refinery/s_lounge_05.webp-zh</key>
+	<value>Alt text for s_lounge TC</value>
+	</item>	<item>	<key>/static-assets/images/refinery/s_lounge_05.webp-cn</key>
+	<value>Alt text for s_lounge SC</value>
+	</item>	<item>	<key>/static-assets/images/refinery/home-1.webp</key>
+	<value>Alt text for home 1</value>
+	</item>	<item>	<key>/static-assets/images/refinery/home-1.webp-zh</key>
+	<value>Alt text for home 1 TC</value>
+	</item>	<item>	<key>/static-assets/images/refinery/home-1.webp-cn</key>
+	<value>Alt text for home 1 SC</value>
+	</item></items>
+	<file-name>alt-text-copy-1.xml</file-name>
+	<folder-name>taxonomy</folder-name>
+	<internal-name>Alt Text (Copy 1)</internal-name>
+	<createdDate>2025-06-25T07:49:26.724Z</createdDate>
+	<createdDate_dt>2025-06-25T07:49:26.724Z</createdDate_dt>
+	<lastModifiedDate>2025-06-25T07:49:26.724Z</lastModifiedDate>
+	<lastModifiedDate_dt>2025-06-25T07:49:26.724Z</lastModifiedDate_dt>
+</component>
